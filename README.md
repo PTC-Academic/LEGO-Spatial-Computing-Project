@@ -1,7 +1,9 @@
 # LEGO-Spatial-Computing-Project
 Explore the connection between the LEGO Spike Prime, Vuforia Spatial Toolbox, and Airtable  
-For the Mac version of this project, use the [SpatialToolbox-Mac-Interns Repository](https://github.com/PTC-Academic/SpatialToolbox-Mac-Interns)
-For the Windows version of this project, use the [SpatialToolbox-Windows-Interns Repository](https://github.com/PTC-Academic/SpatialToolbox-Windows-Interns)
+For the Mac version of this project, use the [SpatialToolbox-Mac-Interns Repository](https://github.com/PTC-Academic/SpatialToolbox-Mac-Interns)  
+
+For the Windows version of this project, use the [SpatialToolbox-Windows-Interns Repository](https://github.com/PTC-Academic/SpatialToolbox-Windows-Interns)  
+
 
 1. Introduction – brief introduction to project with helpful resources, project requirements, and a table of contents
 2. Downloads – all necessary software downloads outlined
