@@ -5,6 +5,7 @@ For the Mac version of this project, use the [SpatialToolbox-Mac-Interns Reposit
 
 For the Windows version of this project, use the [SpatialToolbox-Windows-Interns Repository](https://github.com/PTC-Academic/SpatialToolbox-Windows-Interns)  
 
+For the best experience with this project, open the PDF's linked below and download them. Using multiple monitors, if possible, is highly suggested.  
 
 1. [Introduction](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/1.%20Introduction.pdf) – A brief introduction to project with helpful resources, project requirements, and a table of contents
 2. [Downloads](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2.%20Downloads.pdf) – All necessary software downloads are outlined ahead of time
