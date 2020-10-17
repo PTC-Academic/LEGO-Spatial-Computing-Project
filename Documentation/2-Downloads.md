@@ -162,7 +162,8 @@ Python is an object-oriented programming language. It is used when connecting Vu
 * For Windows computers, choose the “Windows x86 executable installer” or “Windows x86- 64 executable installer” for 64-bit machines (Support for figuring out if a computer is 32 or 64 bits)
     * Open the installer and choose the “Customize installation” option
     * In the Optional Features page, leave all default options unchecked and click “Next”.
-    * In the Advanced Options page, set the file path for the download to ```C:/Users/[Your User Name]/AppData/Local/Programs/Python/Python37``` and click “Install"
+    * In the Advanced Options page, set the file path for the download to 
+    ```C:/Users/[Your User Name]/AppData/Local/Programs/Python/Python37``` and click “Install"
 
 ## LEGO Education SPIKE app
 The SPIKE app can be downloaded for free and is traditionally used as the controlling interface for the SPIKE Prime. In this project, it is used only for connecting the computer to the SPIKE Prime Hub since the Prime will be controlled with Vuforia Spatial Toolbox.
