@@ -30,9 +30,9 @@ Download the Vuforia Spatial Toolbox App through the App Store. Visit the
 Download section of the Vuforia Spatial Toolbox website to see a list of
 compatible devices. This app interacts with the spatial environment of Vuforia
 Spatial Toolbox via an iPhone/iPad.
-```
 
-```
+### ![Project Workflow Overview](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/2-toolbox-app.png)
+
 Troubleshooting note: iOS 14.0 may sometimes cause issues with connecting
 using the Vuforia Spatial Toolbox app. To fix this issue, follow these steps:
 ```
