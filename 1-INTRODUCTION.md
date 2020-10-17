@@ -1,16 +1,14 @@
-```
-Introduction
-```
-**Total time to complete**
-2 - 3 hours
+#Introduction
 
-Welcome to PTC’s LEGO Spatial Computing Project! These lessons will instruct
+##Total time to complete: 2 - 3 hours
+
+Welcome to PTC Academic’s LEGO Spatial Computing Project! These lessons will instruct
 users how to connect a LEGO Education SPIKE Prime set to Vuforia Spatial Toolbox,
 PTC’s latest solution for augmented reality and spatial computing. Vuforia Spatial
 Toolbox allows users to control and connect the physical world with digital
 interfaces through the Internet of Things, a mobile device, and a computer. There
 will be a full deep dive on Vuforia Spatial Toolbox later in the project, but please
-check out the product’s home page for a brief overview of it to start.
+check out the product’s (home page)[https://www.ptc.com/en/products/augmented-reality/vuforia-spatial-toolbox] for a brief overview of it to start.
 
 In addition to augmented reality, spatial computing, and the Internet of Things,
 students will familiarize themselves with JavaScript, engineering concepts like Fast
