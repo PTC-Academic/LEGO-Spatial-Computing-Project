@@ -19,8 +19,8 @@ This page will give detailed instructions for downloading the software necessary
 
 ## Vuforia Spatial Toolbox
 Vuforia Spatial Toolbox has two primary software components: 
-1. Vuforia Spatial Edge Server
-2. Vuforia Spatial Toolbox application. 
+1. Vuforia Spatial Edge Server (runs on a computer)
+2. Vuforia Spatial Toolbox App (run a AR-enabled device)
 
 Watch [Differentiating between the Vuforia Spatial Toolbox app and Vuforia Spatial Edge Server](https://www.youtube.com/watch?v=G5-06A-dxy4) for an explanation of these two components.
 
@@ -29,20 +29,13 @@ Visit the [Download section of the Vuforia Spatial Toolbox website](https://spat
 
 ### ![Project Workflow Overview](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/2-toolbox-app.png)
 
-### Troubleshooting note: iOS 14.0 may cause issues with the Vuforia Spatial Toolbox app. To fix this issue, follow these steps:
+### Troubleshooting: iOS 14.0 may cause issues with the Vuforia Spatial Toolbox app. To fix this issue, follow these steps:
 1. Go into the iPhone/iPad Settings
 2. Scroll down and click on “Toolbox”
 3. Toggle the switches for local network and cellular data on and off
 
 ## Vuforia Spatial Edge Server
-The Vuforia Spatial Edge Server provides a web interface for connecting and
-configuring the environment that is viewed in the Vuforia Spatial Toolbox app.
-This server can edit image targets and spatial tools, as well as manage the
-hardware interfaces that can be interacted with. The server needs to be
-running on a computer to connect the LEGO SPIKE Prime to the Vuforia
-Spatial Toolbox App. Mac and PC instructions for downloading the server
-from GitHub are listed below, as they have slightly different download
-methods.
+The Vuforia Spatial Edge Server provides a web interface for connecting and configuring the environment that is viewed in the Vuforia Spatial Toolbox app. This server can edit image targets and spatial tools, as well as manage the hardware interfaces that can be interacted with. The server needs to be running on a computer to connect the LEGO SPIKE Prime to the Vuforia Spatial Toolbox App. Mac and PC instructions for downloading the server from GitHub are listed below, as they have slightly different download methods.
 
 ## Git (Optional)
 Git is a distributed version control system which allows users to make changes to
@@ -52,16 +45,12 @@ required, as a zip file of the documents can be downloaded from GitHub, but it w
 speed up the download process.
 
 
-4. Use the link in the header of this section to go to the Getting Started page
-    for Git. Scroll through this page and find the instructions for downloading
-    Git.
-5. Download Git with all default settings
-6. Type where git if using Windows Command Prompt or whereis^ git if using
-    Mac Terminal. **_If an error is received saying that “git is not recognized as_**
-    **_an internal or external command, operable program or batch file” refer to_**
-    **_the instructions below_**
-       o To make sure Git is downloaded, follow these steps from Stack
-          Overflow:
+1. Navigate to the [Git Getting Started page for Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Scroll through this page and find the instructions for downloading
+    Git for your computer.
+2. Type <where git> if using Windows Command Prompt or <whereis git> if using
+    Mac Terminal. 
+### Troubleshooting: If you see the error “git is not recognized as an internal or external command, operable program or batch file”     
+Follow these steps from [Stack Overflow](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git):
 
 ```
 Modifying PATH on Windows 10:
