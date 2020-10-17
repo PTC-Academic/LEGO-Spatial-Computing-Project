@@ -129,23 +129,9 @@ GitHub is a website that provides hosting for code management and this is where 
 5. The _SpatialToolbox_ folder inside of the _SpatialToolbox-Mac-Interns_ folder will need to be moved to sit directly in the _Documents_ folder, regardless of download method. If this folder is not in the correct spot, the connection will not be properly established.
 
 
-## Visual Studio Code?
-Visual Studio is an integrated development environment for editing code
-
-1.^ Download Visual Studio from the link in the section title
-2. In the Visual Studio Installer, select the “Community Edition”
-3. **_Make sure to check the boxes for the_** “Desktop development with C++” **_and_**
-    “Node.js development” **_workloads when installing, as seen in the image_**
-    **_below_**
-4. In the pulldown bar at the bottom right-hand corner, select either “Install
-    while downloading” or “Download all, then install” and then click “Install”.
-    Download all, then install should be used if the internet connection that is
-    being used is slow.
-5.^ **_Troubleshooting note:_**^ The install can take a few minutes sometimes,
-    depending on internet speed, so do not be alarmed if it does not complete
-    the install immediately
-6. The computer will need to restart after the install. Save all current work and
-    restart the computer
+## Visual Studio Code
+Visual Studio Code is a simple, lightweight integrated development environment for editing all kinds of code
+* [Download Visual Studio Code](https://visualstudio.microsoft.com)
 
 ## Node.js 
 Node.js is an open source JavaScript environment that executes JavaScript code in Terminal or Command Prompt. This is necessary in order to run the Vuforia Spatial Edge Server.
@@ -153,7 +139,7 @@ Node.js is an open source JavaScript environment that executes JavaScript code i
 1. Download [Node.js](https://nodejs.org/en/) for either MacOS or Windows
 * For Windows, check the box that says “Automatically install the necessary tools. Note that this will also install Chocolatey. A script will pop-up in a new window after the new installation completes.”
 
-## Python 3.
+## Python 3
 Python is an object-oriented programming language. It is used when connecting Vuforia Spatial Toolbox to the SPIKE Prime Hub. No changes will need to be made in Python, but the software needs to be downloaded in order to run the _initialize.py_ file in the _vuforia-spatial-edge-server_ folder.
 
 1. Follow the link in this section title to go to the download page for Python 3.
