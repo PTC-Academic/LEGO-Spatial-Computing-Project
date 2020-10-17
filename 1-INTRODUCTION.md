@@ -1,6 +1,6 @@
-#Introduction
+# Introduction
 
-##Total time to complete: 2 - 3 hours
+## Total time to complete: 2 - 3 hours
 
 Welcome to PTC Academic’s LEGO Spatial Computing Project! These lessons will instruct
 users how to connect a LEGO Education SPIKE Prime set to Vuforia Spatial Toolbox,
