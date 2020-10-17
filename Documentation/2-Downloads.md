@@ -29,7 +29,7 @@ Visit the [Download section of the Vuforia Spatial Toolbox website](https://spat
 
 ### ![Project Workflow Overview](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/2-toolbox-app.png)
 
-### Troubleshooting: iOS 14.0 may cause issues with the Vuforia Spatial Toolbox app. To fix this issue, follow these steps:
+**Troubleshooting:** iOS 14.0 may cause issues with the Vuforia Spatial Toolbox app. To fix this issue, follow these steps:
 1. Go into the iPhone/iPad Settings
 2. Scroll down and click on “Toolbox”
 3. Toggle the switches for local network and cellular data on and off
@@ -49,22 +49,22 @@ speed up the download process.
     Git for your computer.
 2. Type ```where``` git if using Windows Command Prompt or ```whereis git``` if using
     Mac Terminal. 
-### Troubleshooting: If you see the error “git is not recognized as an internal or external command, operable program or batch file”     
-Follow these steps from [Stack Overflow](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git):
+**Troubleshooting:** If you see the error “git is not recognized as an internal or external command, operable program or batch file”     
+Follow these steps from [Stack Overflow](https://stackoverflow.com/questions/4492979/git-is-not-recognized-as-an-internal-or-external-command):
 
 ### Modifying PATH on Windows 10:
 * In the Start Menu or taskbar search, search for "environment variable".
 * Select "Edit the system environment variables".
 * Click the "Environment Variables" button at the bottom.
 * Double-click the "Path" entry under "System variables".
-* With the "New" button in the PATH editor, add C:\Program Files\Git\bin\ and C:\Program Files\Git\cmd\ to the end of the list.
+* With the "New" button in the PATH editor, add ```C:\Program Files\Git\bin\``` and ```C:\Program Files\Git\cmd\``` to the end of the list.
 * Close and re-open the console.
 ### Modifying PATH on Windows 7:
 * Right-click "Computer" on the Desktop or Start Menu.
 * Select "Properties".
 * Click the "Environment Variables" button at the bottom.
 * Double-click the "Path" entry under "System variables".
-* At the end of "Variable value", insert a^ ; if there is not already one, and then C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\. Do not put a space between ; and the entry.
+* At the end of "Variable value", insert a  ```;``` if there is not already one, and then ```C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\```
 * Close and re-open the console.
 
 ## GitHub Desktop (Optionalz
