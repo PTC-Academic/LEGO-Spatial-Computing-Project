@@ -7,7 +7,7 @@ For the Windows version of this project, use the [SpatialToolbox-Windows-Interns
 
 For the best experience with this project, open the PDF's linked below and download them. Using multiple monitors, if possible, is highly suggested.  
 
-1. [Introduction](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/1.%20Introduction.pdf) – A brief introduction to project with helpful resources, project requirements, and a table of contents
+1. [Introduction](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/1-Introduction.md) – A brief introduction to project with helpful resources, project requirements, and a table of contents
 2. [Downloads](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2.%20Downloads.pdf) – All necessary software downloads are outlined ahead of time
 3. [LEGO SPIKE Prime Hardware Build](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/3.%20LEGO%20SPIKE%20Prime%20Hardware%20Build.pdf) – Building instructions for the hardware portion of the project
 4. Connecting LEGO SPIKE Prime to Vuforia Spatial Toolbox 
