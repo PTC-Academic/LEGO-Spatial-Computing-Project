@@ -15,15 +15,13 @@ iPhone/iPad running iOS 12.0 or later
 - Spatial UI buttons actions are in “quotations”
 
 ## Getting Started 
-This page will give detailed instructions about downloading the software necessary
-to complete this project. Each software download is linked directly to where the
-download can be found.
+This page will give detailed instructions for downloading the software necessary to complete this project. 
 
 ## Vuforia Spatial Toolbox
-Vuforia Spatial Toolbox has two components to it: the Vuforia Spatial Edge Server
-and the Vuforia Spatial Toolbox application. View “Differentiating between the
-Vuforia Spatial Toolbox app and Vuforia Spatial Edge Server” video for further
-explanation between the two parts of the Vuforia Spatial Toolbox.
+Vuforia Spatial Toolbox has two primary software components: 
+1. Vuforia Spatial Edge Server
+1. Vuforia Spatial Toolbox application. 
+Watch [Differentiating between the Vuforia Spatial Toolbox app and Vuforia Spatial Edge Server](https://www.youtube.com/watch?v=G5-06A-dxy4) for an explanation of these two components.
 
 ### Vuforia Spatial Toolbox App
 Download the Vuforia Spatial Toolbox App through the App Store. Visit the
