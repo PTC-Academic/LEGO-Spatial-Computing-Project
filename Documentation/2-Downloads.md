@@ -2,10 +2,10 @@
 
 ## Time to complete: 30 - 45 minutes
 
-## Requirements
+## Hardware Requirements
 
-Computer running either MacOS or Windows
-iPhone/iPad running iOS 12.0 or later
+1. Computer running either MacOS or Windows
+2. iPhone/iPad running iOS 12.0 or later
 
 ## Style Guide:
 
@@ -38,10 +38,8 @@ Visit the [Download section of the Vuforia Spatial Toolbox website](https://spat
 The Vuforia Spatial Edge Server provides a web interface for connecting and configuring the environment that is viewed in the Vuforia Spatial Toolbox app. This server can edit image targets and spatial tools, as well as manage the hardware interfaces that can be interacted with. The server needs to be running on a computer to connect the LEGO SPIKE Prime to the Vuforia Spatial Toolbox App. Mac and PC instructions for downloading the server from GitHub are listed below, as they have slightly different download methods.
 
 ## Git (Optional)
-Git is a distributed version control system which allows users to make changes to
-code before actually implementing them. In this case, it provides a shortcut for
-downloading the Vuforia Spatial Toolbox from GitHub. This download is not
-required, as a zip file of the documents can be downloaded from GitHub, but it will
+Git is a distributed version control system which allows users to make changes to code before actually implementing them. In this case, it provides a shortcut for
+downloading the Vuforia Spatial Toolbox from GitHub. This download is not required, as a zip file of the documents can be downloaded from GitHub, but it will
 speed up the download process.
 
 
@@ -64,34 +62,29 @@ Follow these steps from [Stack Overflow](https://stackoverflow.com/questions/449
 * Select "Properties".
 * Click the "Environment Variables" button at the bottom.
 * Double-click the "Path" entry under "System variables".
-* At the end of "Variable value", insert a  ```;``` if there is not already one, and then ```C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\```
+* At the end of "Variable value", insert a  ```;``` if there is not already one, and then ```C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\```. Do not put a space between ```;``` and the entry.
 * Close and re-open the console.
 
-## GitHub Desktop (Optionalz
+## GitHub Desktop (Optional)
 Desktop interface for storing any files downloaded from GitHub. Suggested for users who are not yet familiar with Git.
 
-1. Download GitHub Desktop from the link in the section title
+1. [Download GitHub Desktop](https://desktop.github.com/)
 2. Open the install file that has been downloaded and start the install process
-3. Sign in with GitHub account information or create an account
+3. Create or sign in with a GitHub account
 
-## Download the Vuforia Spatial Edge Server from GitHub
-GitHub is a website that provides hosting for code management and this is where all the necessary files for using Vuforia Spatial Toolbox are stored. In order to do this project, users will need to download the _SpatialToolbox-Mac-Interns_ or _SpatialToolbox-Windows-Interns_ folder from the LEGO-Spatial-Computing-Project
-repository in the PTC Academic GitHub, as explained in the bullets below, which includes all the necessary files for running the Vuforia Spatial Edge Server. Check out **_Appendix A_** in **Appendices and Additional Resources** for a folder hierarchy explanation.
+## Download the Vuforia Spatial Edge Server from the GitHub website
+GitHub is a website that provides hosting for code management and this is where all the necessary files for using Vuforia Spatial Toolbox are stored. In order to do this project, users will need to download the _SpatialToolbox-Mac-Interns_ or _SpatialToolbox-Windows-Interns_ folder from the LEGO-Spatial-Computing-Project repository in the PTC Academic GitHub, as explained below, which includes all the necessary files for running the Vuforia Spatial Edge Server. Check out **_Appendix A_** in **Appendices and Additional Resources** for a folder hierarchy explanation.
 
 ### For Mac Users:
 
-1. In a web browser, go to the GitHub repository where the Vuforia Spatial Edge
-    Server download is located: https://github.com/PTC-
-    Academic/SpatialToolbox-Mac-Interns
+1. In a web browser, navigate to [the GitHub repository where the Vuforia Spatial Edge
+    Server download is located](https://github.com/PTC-Academic/SpatialToolbox-Mac-Interns)
 2. Using Git in Terminal **_(for users experienced with Git)_**
-    o Use git clone to download the GitHub repository. This is the fastest
+    * Use ```git clone``` to download the GitHub repository. This is the fastest
        download method, but **_Git needs to be installed_** to complete it.
-          ▪ Open Terminal. For instructions how to do this, follow the
-             information on Apple’s website.
-          ▪ Navigate to the _Documents_ folder in Terminal using the
-             command cd^ Documents
-                - Information on how to navigate through folders in
-                   Terminal
+        * Open Terminal. For instructions how to do this, follow the information on Apple’s website.
+        * Navigate to the _Documents_ folder in Terminal using the command cd^ Documents
+            * Information on how to navigate through folders in Terminal
 
 * Type in git clone https://github.com/PTC-Academic/Spatial-Toolbox-Mac-Interns.git
 * This step clones the GitHub repository into the _Documents_  folder
