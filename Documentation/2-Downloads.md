@@ -153,7 +153,6 @@ Python is an object-oriented programming language. It is used when connecting Vu
 
 ## LEGO Education SPIKE app
 The SPIKE app can be downloaded for free and is traditionally used as the controlling interface for the SPIKE Prime. In this project, it is used only for connecting the computer to the SPIKE Prime Hub since the Prime will be controlled with Vuforia Spatial Toolbox.
-* Download the LEGO Education SPIKE app on a computer or tablet. This app will be used for connecting the SPIKE Prime to the Vuforia Spatial Edge
-    Server in the **Connecting LEGO SPIKE Prime to Vuforia Spatial Toolbox** section of this project.
+* [Download the LEGO Education SPIKE app](https://education.lego.com/en-us/downloads/spike-prime/software) on a computer or tablet. This app will be used for connecting the SPIKE Prime to the Vuforia Spatial Edge Server in the **Connecting LEGO SPIKE Prime to Vuforia Spatial Toolbox** section of this project.
 
 
