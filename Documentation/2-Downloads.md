@@ -92,36 +92,18 @@ GitHub is a website that provides hosting for code management and this is where 
 3. Using GitHub desktop
 * The “Open with GitHub Desktop” option allows a manual import of the Vuforia Spatial Edge Server folder into GitHub Desktop, **_if GitHub Desktop has already been downloaded_**.
 
-### Selecting the “Open with GitHub Desktop” option will prompt GitHub Desktop to open
-
-▪ (^) When GitHub Desktop opens, there is a pop-up window that
-prompts users to choose a location for the repository to be
-downloaded.
-
-- For consistency purposes throughout the project, choose
-    the _Documents_ folder of the computer as the location to
-    clone the repository.
-▪ Once a location has been chosen, the repository will clone itself
-to the given location.
-
-▪ (^) Navigate to the _Documents_ folder in Finder. If there is a folder
-named _SpatialToolbox-Mac-Interns_ , then the cloning was
-completed successfully.
+#### Selecting the “Open with GitHub Desktop” option will prompt GitHub Desktop to open
+* When GitHub Desktop opens, there is a pop-up window that prompts users to choose a location for the repository to be downloaded.
+* For consistency purposes throughout the project, choose the _Documents_ folder of the computer as the location to clone the repository.
+* Once a location has been chosen, the repository will clone itself to the given location.
+* Navigate to the _Documents_ folder in Finder. If there is a folder named _SpatialToolbox-Mac-Interns_ , then the cloning was completed successfully.
 
 4. Downloading ZIP File
-    o For an option that does not require any additional software downloads,
-       select the “Download ZIP” option. This will download a zipped version
-       of the Vuforia Spatial Edge Server folder, most likely to the _Downloads_
-       folder of the computer.
-          ▪ When the download completes, locate the file in Finder and
-             move it into the _Documents_ folder. Unzip the file if it did not unzip
-             automatically.
-5.^ **_The_** _SpatialToolbox_ **_folder inside of the_** _SpatialToolbox-Mac-Interns_ **_folder will_**
-    **_need to be moved to sit directly in the_** _Documents_ **_folder, regardless of_**
-    **_download method_****.** **_If this folder is not in the correct spot, the connection will_**
-    **_not be properly established._**
+* For an option that does not require any additional software downloads, select the “Download ZIP” option. This will download a zipped version of the Vuforia Spatial Edge Server folder, most likely to the _Downloads_ folder of the computer.
+    * When the download completes, locate the file in Finder and move it into the _Documents_ folder. Unzip the file if it did not unzip automatically.
+5. The _SpatialToolbox_ folder inside of the _SpatialToolbox-Mac-Interns_ folder will need to be moved to sit directly in the _Documents_ folder, regardless of download method. If this folder is not in the correct spot, the connection will not be properly established.
 
-For PC Users
+### For PC Users
 
 1. In a web browser, go to the GitHub repository where the Vuforia Spatial Edge
     Server download is located https://github.com/PTC-
