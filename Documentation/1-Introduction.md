@@ -49,4 +49,4 @@ The Downloads section of this project will give directions for how to download a
 6. Learn About IoT Using Airtable
 7. Appendices and Additional Resources
 
-## ![Project Workflow Overview](https://github.com/PTC-Academic/DX-Resources/blob/master/documentation/images/project-workflow.png)
+## ![Project Workflow Overview](https://github.com/PTC-Academic/DX-Resources/blob/master/Documentation/images/project-workflow.png)
