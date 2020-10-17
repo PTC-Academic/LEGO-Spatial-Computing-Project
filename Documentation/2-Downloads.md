@@ -20,7 +20,8 @@ This page will give detailed instructions for downloading the software necessary
 ## Vuforia Spatial Toolbox
 Vuforia Spatial Toolbox has two primary software components: 
 1. Vuforia Spatial Edge Server
-1. Vuforia Spatial Toolbox application. 
+2. Vuforia Spatial Toolbox application. 
+
 Watch [Differentiating between the Vuforia Spatial Toolbox app and Vuforia Spatial Edge Server](https://www.youtube.com/watch?v=G5-06A-dxy4) for an explanation of these two components.
 
 ### Vuforia Spatial Toolbox App
