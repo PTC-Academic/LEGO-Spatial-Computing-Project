@@ -29,15 +29,12 @@ Visit the [Download section of the Vuforia Spatial Toolbox website](https://spat
 
 ### ![Project Workflow Overview](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/2-toolbox-app.png)
 
-Troubleshooting note: iOS 14.0 may sometimes cause issues with connecting
-using the Vuforia Spatial Toolbox app. To fix this issue, follow these steps:
-```
+Troubleshooting note: iOS 14.0 may cause issues with the Vuforia Spatial Toolbox app. To fix this issue, follow these steps:
 1. Go into the iPhone/iPad Settings
 2. Scroll down and click on “Toolbox”
 3. Toggle the switches for local network and cellular data on and off
 
-```
-Vuforia Spatial Edge Server
+## Vuforia Spatial Edge Server
 The Vuforia Spatial Edge Server provides a web interface for connecting and
 configuring the environment that is viewed in the Vuforia Spatial Toolbox app.
 This server can edit image targets and spatial tools, as well as manage the
@@ -46,8 +43,8 @@ running on a computer to connect the LEGO SPIKE Prime to the Vuforia
 Spatial Toolbox App. Mac and PC instructions for downloading the server
 from GitHub are listed below, as they have slightly different download
 methods.
-```
-**Git (Optional)**
+
+## Git (Optional)
 Git is a distributed version control system which allows users to make changes to
 code before actually implementing them. In this case, it provides a shortcut for
 downloading the Vuforia Spatial Toolbox from GitHub. This download is not
