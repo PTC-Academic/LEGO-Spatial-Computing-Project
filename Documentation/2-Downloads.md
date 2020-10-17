@@ -1,38 +1,31 @@
 # Downloads
 
-**Time to complete**
-30 - 45 minutes
+## Time to complete: 30 - 45 minutes
 
-**Requirements**
+## Requirements
 
 Computer running either MacOS or Windows
 iPhone/iPad running iOS 12.0 or later
 
-**Font Notes:**
+## Style Guide:
 
-- All code to be typed in Terminal/Command Prompt is designated by text
-    following this convention
-- All important notes are in **_bold italics_**
-- All folder names are in _italics_
-- All file names are underlined
-- All buttons that need to be clicked are in “quotations”
-- All section headers are **bold**
-- All references to other portions of the project are **bold and underlined**
-- Hyperlinks are blue and underlined
+- Code is designated by <inline code> font
+- Important notes are in **_bold italics_**
+- Folder names are in _italics_
+- Spatial UI buttons actions are in “quotations”
 
-**Getting Started**
+## Getting Started 
 This page will give detailed instructions about downloading the software necessary
 to complete this project. Each software download is linked directly to where the
 download can be found.
 
-**Vuforia Spatial Toolbox**
+## Vuforia Spatial Toolbox
 Vuforia Spatial Toolbox has two components to it: the Vuforia Spatial Edge Server
 and the Vuforia Spatial Toolbox application. View “Differentiating between the
 Vuforia Spatial Toolbox app and Vuforia Spatial Edge Server” video for further
 explanation between the two parts of the Vuforia Spatial Toolbox.
 
-```
-Vuforia Spatial Toolbox App
+### Vuforia Spatial Toolbox App
 Download the Vuforia Spatial Toolbox App through the App Store. Visit the
 Download section of the Vuforia Spatial Toolbox website to see a list of
 compatible devices. This app interacts with the spatial environment of Vuforia
