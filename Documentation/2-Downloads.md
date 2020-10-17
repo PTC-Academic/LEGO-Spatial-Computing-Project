@@ -45,9 +45,9 @@ required, as a zip file of the documents can be downloaded from GitHub, but it w
 speed up the download process.
 
 
-1. Navigate to the [Git Getting Started page for Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Scroll through this page and find the instructions for downloading
+1. Follow these instructions to [Intall Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Scroll through this page and find the instructions for downloading
     Git for your computer.
-2. Type <where git> if using Windows Command Prompt or <whereis git> if using
+2. Type '<where git>' if using Windows Command Prompt or '<whereis git>' if using
     Mac Terminal. 
 ### Troubleshooting: If you see the error “git is not recognized as an internal or external command, operable program or batch file”     
 Follow these steps from [Stack Overflow](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git):
