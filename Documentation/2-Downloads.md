@@ -47,56 +47,38 @@ speed up the download process.
 
 1. Follow these instructions to [Intall Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Scroll through this page and find the instructions for downloading
     Git for your computer.
-2. Type '<where git>' if using Windows Command Prompt or '<whereis git>' if using
+2. Type ```where``` git if using Windows Command Prompt or ```whereis git``` if using
     Mac Terminal. 
 ### Troubleshooting: If you see the error “git is not recognized as an internal or external command, operable program or batch file”     
 Follow these steps from [Stack Overflow](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git):
 
-```
-Modifying PATH on Windows 10:
-```
-▪ (^) In the Start Menu or taskbar search, search for "environment
-variable".
-▪ Select "Edit the system environment variables".
-▪ Click the "Environment Variables" button at the bottom.
-▪ Double-click the "Path" entry under "System variables".
-▪ With the "New" button in the PATH editor, add C:\Program
-Files\Git\bin\ and C:\Program Files\Git\cmd\ to the end of the
-list.
-▪ Close and re-open the console.
-Modifying PATH on Windows 7:
-▪ (^) Right-click "Computer" on the Desktop or Start Menu.
-▪ (^) Select "Properties".
-▪ (^) On the very far left, click the "Advanced system settings" link.
-▪ Click the "Environment Variables" button at the bottom.
-▪ Double-click the "Path" entry under "System variables".
-▪ At the end of "Variable value", insert a^ ; if there is not already
-one, and then C:\Program Files\Git\bin\;C:\Program
-Files\Git\cmd\. Do not put a space between ; and the entry.
-▪ Close and re-open the console.
-**GitHub Desktop (Optional)**
-Desktop interface for storing any files downloaded from GitHub. Suggested for
-users who are not yet familiar with Git.
+### Modifying PATH on Windows 10:
+* In the Start Menu or taskbar search, search for "environment variable".
+* Select "Edit the system environment variables".
+* Click the "Environment Variables" button at the bottom.
+* Double-click the "Path" entry under "System variables".
+* With the "New" button in the PATH editor, add C:\Program Files\Git\bin\ and C:\Program Files\Git\cmd\ to the end of the list.
+* Close and re-open the console.
+### Modifying PATH on Windows 7:
+* Right-click "Computer" on the Desktop or Start Menu.
+* Select "Properties".
+* Click the "Environment Variables" button at the bottom.
+* Double-click the "Path" entry under "System variables".
+* At the end of "Variable value", insert a^ ; if there is not already one, and then C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\. Do not put a space between ; and the entry.
+* Close and re-open the console.
+
+## GitHub Desktop (Optionalz
+Desktop interface for storing any files downloaded from GitHub. Suggested for users who are not yet familiar with Git.
 
 1. Download GitHub Desktop from the link in the section title
 2. Open the install file that has been downloaded and start the install process
 3. Sign in with GitHub account information or create an account
 
-**Downloading the Vuforia Spatial Edge Server from GitHub**
-GitHub is a website that provides hosting for code management and this is where all
+## Download the Vuforia Spatial Edge Server from GitHub
+GitHub is a website that provides hosting for code management and this is where all the necessary files for using Vuforia Spatial Toolbox are stored. In order to do this project, users will need to download the _SpatialToolbox-Mac-Interns_ or _SpatialToolbox-Windows-Interns_ folder from the LEGO-Spatial-Computing-Project
+repository in the PTC Academic GitHub, as explained in the bullets below, which includes all the necessary files for running the Vuforia Spatial Edge Server. Check out **_Appendix A_** in **Appendices and Additional Resources** for a folder hierarchy explanation.
 
-the necessary files for using Vuforia Spatial Toolbox are stored. In order to do this
-
-
-project, users will need to download the _SpatialToolbox-Mac-Interns_ or
-
-_SpatialToolbox-Windows-Interns_ folder from the LEGO-Spatial-Computing-Project
-repository in the PTC Academic GitHub, as explained in the bullets below, which
-includes all the necessary files for running the Vuforia Spatial Edge Server. Check
-out **_Appendix A_** in **Appendices and Additional Resources** for a folder hierarchy
-explanation.
-
-For Mac Users
+### For Mac Users:
 
 1. In a web browser, go to the GitHub repository where the Vuforia Spatial Edge
     Server download is located: https://github.com/PTC-
@@ -111,22 +93,14 @@ For Mac Users
                 - Information on how to navigate through folders in
                    Terminal
 
-▪ (^) Type in git clone https://github.com/PTC-Academic/Spatial-Toolbox-Mac-
-Interns.git
+* Type in git clone https://github.com/PTC-Academic/Spatial-Toolbox-Mac-Interns.git
+* This step clones the GitHub repository into the _Documents_  folder
 
-- This step clones the GitHub repository into the _Documents_
-    folder
-3.^ Using GitHub desktop
+3. Using GitHub desktop
+* The “Open with GitHub Desktop” option allows a manual import of the Vuforia Spatial Edge Server folder into GitHub Desktop, **_if GitHub Desktop has already been downloaded_**.
 
-o (^) The “Open with GitHub Desktop” option allows a manual import of the
-Vuforia Spatial Edge Server folder into GitHub Desktop, **_if GitHub
-Desktop has already been downloaded_**.
+### Selecting the “Open with GitHub Desktop” option will prompt GitHub Desktop to open
 
-
-```
-▪ Selecting the “Open with GitHub Desktop” option will prompt
-GitHub Desktop to open
-```
 ▪ (^) When GitHub Desktop opens, there is a pop-up window that
 prompts users to choose a location for the repository to be
 downloaded.
