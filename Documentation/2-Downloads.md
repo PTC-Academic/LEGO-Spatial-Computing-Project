@@ -139,13 +139,13 @@ Node.js is an open source JavaScript environment that executes JavaScript code i
 1. Download [Node.js](https://nodejs.org/en/) for either MacOS or Windows
 * For Windows, check the box that says “Automatically install the necessary tools. Note that this will also install Chocolatey. A script will pop-up in a new window after the new installation completes.”
 
-## Python 3
+## Python 3.7
 Python is an object-oriented programming language. It is used when connecting Vuforia Spatial Toolbox to the SPIKE Prime Hub. No changes will need to be made in Python, but the software needs to be downloaded in order to run the _initialize.py_ file in the _vuforia-spatial-edge-server_ folder.
 
-1. Follow the link in this section title to go to the download page for Python 3.
+1. If you don't already have Python installed [Download Python 3.7[(https://www.python.org/downloads/release/python-379/)
 2. Read the instructions on the page and scroll down to the different downloads at the bottom.
 * For computers running macOS, choose the “macOS 64-bit installer”
-* For Windows computers, choose the “Windows x86 executable installer” or “Windows x86- 64 executable installer” for 64-bit machines (Support for figuring out if a computer is 32 or 64 bits)
+* For Windows computers, choose the “Windows x86 executable installer” or “Windows x86- 64 executable installer” for 64-bit machines [Determine if a computer is 32 or 64 bits](https://support.microsoft.com/en-us/help/15056/windows-32-64-bit-faq)
     * Open the installer and choose the “Customize installation” option
     * In the Optional Features page, leave all default options unchecked and click “Next”.
     * In the Advanced Options page, set the file path for the download to 
