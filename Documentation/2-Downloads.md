@@ -80,14 +80,13 @@ GitHub is a website that provides hosting for code management and this is where 
 1. In a web browser, navigate to [the GitHub repository where the Vuforia Spatial Edge
     Server download is located](https://github.com/PTC-Academic/SpatialToolbox-Mac-Interns)
 2. Using Git in Terminal **_(for users experienced with Git)_**
-    * Use ```git clone``` to download the GitHub repository. This is the fastest
+    * Enter ```git clone``` to download the GitHub repository. This is the fastest
        download method, but **_Git needs to be installed_** to complete it.
         * Open Terminal. For instructions how to do this, follow the information on Apple’s website.
-        * Navigate to the _Documents_ folder in Terminal using the command cd^ Documents
-            * Information on how to navigate through folders in Terminal
-
-* Type in git clone https://github.com/PTC-Academic/Spatial-Toolbox-Mac-Interns.git
-* This step clones the GitHub repository into the _Documents_  folder
+        * Navigate to the _Documents_ folder in Terminal using the command ```cd Documents```
+            * [Information on how to navigate through folders in Terminal](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101)
+        * Type ```git clone https://github.com/PTC-Academic/Spatial-Toolbox-Mac-Interns.git```
+            * This step clones the GitHub repository into the _Documents_  folder
 
 3. Using GitHub desktop
 * The “Open with GitHub Desktop” option allows a manual import of the Vuforia Spatial Edge Server folder into GitHub Desktop, **_if GitHub Desktop has already been downloaded_**.
@@ -103,26 +102,20 @@ GitHub is a website that provides hosting for code management and this is where 
     * When the download completes, locate the file in Finder and move it into the _Documents_ folder. Unzip the file if it did not unzip automatically.
 5. The _SpatialToolbox_ folder inside of the _SpatialToolbox-Mac-Interns_ folder will need to be moved to sit directly in the _Documents_ folder, regardless of download method. If this folder is not in the correct spot, the connection will not be properly established.
 
-### For PC Users
+### For Windows Users
 
-1. In a web browser, go to the GitHub repository where the Vuforia Spatial Edge
-    Server download is located https://github.com/PTC-
-    Academic/SpatialToolbox-Windows-Interns
+1. In a web browser, go to the GitHub repository where the Vuforia Spatial Edge Server download is located https://github.com/PTC-Academic/SpatialToolbox-Windows-Interns
 2. Using Git in Command Prompt
-    o Use git clone to download the GitHub repository. This is the fastest
-       download method, but **_Git needs to be installed_** to complete it.
-          ▪ Open the Command Prompt
-          ▪ Navigate to the _Documents_ folder in the Command Prompt using
-             the command cd Documents
-                - Information about common Command Prompt commands
-          ▪ Type in git clone https://github.com/PTC-Academic/SpatialToolbox-
-             Windows-Interns.git
-                - This step clones the GitHub repository into the _Documents_
-                   folder
+    * Enter ```git clone``` to download the GitHub repository. This is the fastest download method, but **_Git needs to be installed_** to complete it.
+        * Open the Command Prompt
+        * Navigate to the _Documents_ folder in the Command Prompt using the command ```cd Documents```
+            * [Information about common Command Prompt commands](https://www.digitalcitizen.life/command-prompt-how-use-basic-commands)
+        * Type ```git clone https://github.com/PTC-Academic/SpatialToolbox-Windows-Interns.git```
+            * This step clones the GitHub repository into the _Documents_ folder
 
 
 3. Using GitHub Desktop
-    o The “Open with GitHub Desktop” option allows a manual import of the
+* The “Open with GitHub Desktop” option allows a manual import of the
        Vuforia Spatial Edge Server folder into GitHub desktop, if GitHub
        Desktop has already been downloaded.
           ▪ Selecting the “Open with GitHub Desktop” option will prompt
