@@ -29,7 +29,7 @@ Visit the [Download section of the Vuforia Spatial Toolbox website](https://spat
 
 ### ![Project Workflow Overview](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/2-toolbox-app.png)
 
-Troubleshooting note: iOS 14.0 may cause issues with the Vuforia Spatial Toolbox app. To fix this issue, follow these steps:
+### Troubleshooting note: iOS 14.0 may cause issues with the Vuforia Spatial Toolbox app. To fix this issue, follow these steps:
 1. Go into the iPhone/iPad Settings
 2. Scroll down and click on “Toolbox”
 3. Toggle the switches for local network and cellular data on and off
