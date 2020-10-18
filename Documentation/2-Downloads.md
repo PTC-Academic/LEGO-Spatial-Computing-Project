@@ -32,9 +32,10 @@ Visit the [Download section of the Vuforia Spatial Toolbox website](https://spat
 ## Step 2: Git (Optional)
 Git is a distributed version control system which allows users to make changes to code before actually implementing them. In this case, it provides a shortcut for downloading the Vuforia Spatial Toolbox from GitHub. This download is not required, as a zip file of the documents can be downloaded from GitHub, but it will speed up the download process.
 
-1. Follow these instructions to [Intall Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Scroll through this page and find the instructions for downloading
+1. Check if you have Git installed by opening a terminal and entering ```git --version```. If you don't have Git installed, continue to Step 2.
+2. Follow these instructions to [Intall Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Scroll through this page and find the instructions for downloading
     Git for your computer.
-2. Type ```where``` git if using Windows Command Prompt or ```whereis git``` if using
+3. Type ```where``` git if using Windows Command Prompt or ```whereis git``` if using
     Mac Terminal. 
 
 **Windows Users Troubleshooting:** If you see the error “git is not recognized as an internal or external command, operable program or batch file”     
