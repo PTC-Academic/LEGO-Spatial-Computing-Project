@@ -26,9 +26,9 @@ Visit the [Download section of the Vuforia Spatial Toolbox website](https://spat
 
 ### Troubleshooting: 
 * iOS 14.0 may cause issues with the Vuforia Spatial Toolbox app. To fix this issue, follow these steps:
-1. Go into the iPhone/iPad Settings
-2. Scroll down and click on “Toolbox”
-3. Toggle the switches for local network and cellular data on and off
+    1. Go into the iPhone/iPad Settings
+    2. Scroll down and click on “Toolbox”
+    3. Toggle the switches for local network and cellular data on and off
 
 ## Step 2: Git (Optional)
 Git is a distributed version control system which allows users to make changes to code before actually implementing them. In this case, it provides a shortcut for downloading the Vuforia Spatial Toolbox from GitHub. This download is not required, as a zip file of the documents can be downloaded from GitHub, but it will speed up the download process.
