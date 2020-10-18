@@ -24,7 +24,8 @@ This page will give detailed instructions for downloading the software necessary
 ## Step 1: Vuforia Spatial Toolbox App
 Visit the [Download section of the Vuforia Spatial Toolbox website](https://spatialtoolbox.vuforia.com/docs/download) to see a list of compatible devices, and download the Vuforia Spatial Toolbox App for your device. This app interacts with the spatial environment of Vuforia Spatial Toolbox.
 
-**Troubleshooting:** iOS 14.0 may cause issues with the Vuforia Spatial Toolbox app. To fix this issue, follow these steps:
+### Troubleshooting: 
+* iOS 14.0 may cause issues with the Vuforia Spatial Toolbox app. To fix this issue, follow these steps:
 1. Go into the iPhone/iPad Settings
 2. Scroll down and click on “Toolbox”
 3. Toggle the switches for local network and cellular data on and off
