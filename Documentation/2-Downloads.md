@@ -129,9 +129,23 @@ GitHub is a website that provides hosting for code management and this is where 
 5. The _SpatialToolbox_ folder inside of the _SpatialToolbox-Mac-Interns_ folder will need to be moved to sit directly in the _Documents_ folder, regardless of download method. If this folder is not in the correct spot, the connection will not be properly established.
 
 
-## Visual Studio Code
-Visual Studio Code is a simple, lightweight integrated development environment for editing all kinds of code
+## Visual Studio / Visual Studio Code
+Visual Studio and Visual Studio Code are integrated development environments for editing code. Windows users should download and install Visual Studio; it comes with two add-ins that are required for the Spatial Edge Server to run correctly. Mac users don't need do this step if they already have a code editor, otherwise, it's reccomended they install the lightweight Visual Studio Code to assist with this project.
+
+### Windows Users -- Install Visual Studio:
+
+1. [Download Visual Studio](https://visualstudio.microsoft.com)
+2. In the Visual Studio Installer, select the “Community Edition”
+3. Make sure to check the boxes for the “Desktop development with C++” and
+“Node.js development” workloads when installing, as seen in the image below
+4. In the pulldown bar at the bottom right-hand corner, select either “Install while downloading” or “Download all, then install” and then click “Install”. Download all, then install should be used if the internet connection that is being used is slow.
+5. Troubleshooting note: The install can take a few minutes sometimes, depending on internet speed, so do not be alarmed if it does not complete the install immediately
+6. The computer will need to restart after the install. Save all current work and restart the computer
+
+### Mac Users - Install Visual Studio Code
+
 * [Download Visual Studio Code](https://visualstudio.microsoft.com)
+
 
 ## Node.js 
 Node.js is an open source JavaScript environment that executes JavaScript code in Terminal or Command Prompt. This is necessary in order to run the Vuforia Spatial Edge Server.
