@@ -8,7 +8,7 @@ This page will give detailed instructions for downloading the software necessary
 
 **Watch:** [Differentiating between the Vuforia Spatial Toolbox app and Vuforia Spatial Edge Server](https://www.youtube.com/watch?v=G5-06A-dxy4) for an explanation of these two components. 
 
-**Tip:** Hold CTRL (Windows) or Command (Mac) to open links in a new tab.
+**Tip:** Hold **CTRL** (Windows) or **Command** (Mac) to open links in a new tab.
 
 ## Hardware Requirements
 1. Computer running either MacOS or Windows
