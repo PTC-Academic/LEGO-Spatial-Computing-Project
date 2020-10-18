@@ -50,3 +50,5 @@ The Downloads section of this project will give directions for how to download a
 7. Appendices and Additional Resources
 
 ## ![Project Workflow Overview](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/project-workflow.png)
+
+Continue with the next step - [Downloads](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2-Downloads.md)
