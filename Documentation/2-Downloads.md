@@ -1,4 +1,5 @@
 # Downloads
+This page will give detailed instructions for downloading the software necessary to complete this Vuforia Spatial Toolbox project. 
 
 ## Time to complete: 30 - 45 minutes
 
@@ -6,9 +7,6 @@
 
 1. Computer running either MacOS or Windows
 2. iPhone/iPad running iOS 12.0 or later
-
-## Getting Started 
-This page will give detailed instructions for downloading the software necessary to complete this project. 
 
 ## Steps
 1. Vuforia Spatial Toolbox App
@@ -20,17 +18,15 @@ This page will give detailed instructions for downloading the software necessary
 7. Python 3.7
 8. LEGO Education SPIKE app
 
-## Step 1: Vuforia Spatial Toolbox
-Vuforia Spatial Toolbox has two primary software components: 
-1. Vuforia Spatial Toolbox App (run a AR-enabled device)
-2. Vuforia Spatial Edge Server (runs on a computer)
+### ![Project Workflow Overview](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/2-toolbox-app.png)
 
-**Watch** [Differentiating between the Vuforia Spatial Toolbox app and Vuforia Spatial Edge Server](https://www.youtube.com/watch?v=G5-06A-dxy4) for an explanation of these two components.
-
-### Vuforia Spatial Toolbox App
+## Step 1: Vuforia Spatial Toolbox App
 Visit the [Download section of the Vuforia Spatial Toolbox website](https://spatialtoolbox.vuforia.com/docs/download) to see a list of compatible devices, and download the Vuforia Spatial Toolbox App for your device. This app interacts with the spatial environment of Vuforia Spatial Toolbox.
 
-### ![Project Workflow Overview](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/2-toolbox-app.png)
+**Note:**  Vuforia Spatial Toolbox has two primary software components: 
+1. Vuforia Spatial Toolbox App (run a AR-enabled device)
+2. Vuforia Spatial Edge Server (runs on a computer). 
+**Watch** [Differentiating between the Vuforia Spatial Toolbox app and Vuforia Spatial Edge Server](https://www.youtube.com/watch?v=G5-06A-dxy4) for an explanation of these two components. 
 
 **Troubleshooting:** iOS 14.0 may cause issues with the Vuforia Spatial Toolbox app. To fix this issue, follow these steps:
 1. Go into the iPhone/iPad Settings
