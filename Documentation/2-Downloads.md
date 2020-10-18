@@ -162,8 +162,6 @@ ftware needs to be downloaded in order to run the _initialize.py_ file in the _v
     * In the Advanced Options page, set the file path for the download to 
     ```C:/Users/[Your User Name]/AppData/Local/Programs/Python/Python37``` and click “Install"
 
-### ![Install Python](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/2-install-python.png)
-
 ## Step 8: LEGO Education SPIKE app
 The SPIKE app can be downloaded for free and is traditionally used as the controlling interface for the SPIKE Prime. In this project, it is used only for connecting the computer to the SPIKE Prime Hub since the Prime will be controlled with Vuforia Spatial Toolbox.
 * [Download the LEGO Education SPIKE app](https://education.lego.com/en-us/downloads/spike-prime/software) on a computer or tablet. This app will be used for connecting the SPIKE Prime to the Vuforia Spatial Edge Server in the **Connecting LEGO SPIKE Prime to Vuforia Spatial Toolbox** section of this project.
