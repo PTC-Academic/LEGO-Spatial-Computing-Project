@@ -23,7 +23,6 @@ This page will give detailed instructions for downloading the software necessary
 
 ## Step 1: Vuforia Spatial Toolbox App
 Visit the [Download section of the Vuforia Spatial Toolbox website](https://spatialtoolbox.vuforia.com/docs/download) to see a list of compatible devices, and download the Vuforia Spatial Toolbox App for your device. This app interacts with the spatial environment of Vuforia Spatial Toolbox.
-### ![Vuforia Spatial Toolbox App](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/2-toolbox-app.png)
 
 **Troubleshooting:** iOS 14.0 may cause issues with the Vuforia Spatial Toolbox app. To fix this issue, follow these steps:
 1. Go into the iPhone/iPad Settings
@@ -65,8 +64,6 @@ Desktop interface for storing any files downloaded from GitHub. Suggested for us
 
 ## Step 4: Vuforia Spatial Edge Server
 The Vuforia Spatial Edge Server provides a web interface for connecting and configuring the environment that is viewed in the Vuforia Spatial Toolbox app. This server can edit image targets and spatial tools, as well as manage the hardware interfaces that can be interacted with. The server needs to be running on a computer to connect the LEGO SPIKE Prime to the Vuforia Spatial Toolbox App. Mac and PC instructions for downloading the server from GitHub are listed below, as they have slightly different download methods.
-
-### ![Vuforia Spatial Edge Server](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/2-edge-server.png)
 
 ### Download the Vuforia Spatial Edge Server from the GitHub website
 GitHub is a website that provides hosting for code management and this is where all the necessary files for using Vuforia Spatial Toolbox are stored. In order to do this project, users will need to download the _SpatialToolbox-Mac-Interns_ or _SpatialToolbox-Windows-Interns_ folder from the LEGO-Spatial-Computing-Project repository in the PTC Academic GitHub, as explained below, which includes all the necessary files for running the Vuforia Spatial Edge Server. Check out **_Appendix A_** in **Appendices and Additional Resources** for a folder hierarchy explanation.
@@ -140,8 +137,6 @@ Visual Studio and Visual Studio Code are integrated development environments for
 ### Mac Users - Install Visual Studio Code
 
 * [Download Visual Studio Code](https://visualstudio.microsoft.com)
-
-### ![Visual Studio Code](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/2-visual-studio-code.png)
 
 ## Step 6: Node.js 
 Node.js is an open source JavaScript environment that executes JavaScript code in Terminal or Command Prompt. This is necessary in order to run the Vuforia Spatial Edge Server.
