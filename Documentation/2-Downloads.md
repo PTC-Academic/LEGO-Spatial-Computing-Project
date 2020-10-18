@@ -45,14 +45,14 @@ Git is a distributed version control system which allows users to make changes t
 ### Windows Users Troubleshooting: 
 * If you see the error “git is not recognized as an internal or external command, operable program or batch file”, follow these steps from [Stack Overflow](https://stackoverflow.com/questions/4492979/git-is-not-recognized-as-an-internal-or-external-command):
 
-#### Modifying PATH on Windows 10:
+#### Modifying the PATH environment variable on Windows 10:
 * In the Start Menu or taskbar search, search for "environment variable".
 * Select "Edit the system environment variables".
 * Click the "Environment Variables" button at the bottom.
 * Double-click the "Path" entry under "System variables".
 * With the "New" button in the PATH editor, add ```C:\Program Files\Git\bin\``` and ```C:\Program Files\Git\cmd\``` to the end of the list.
 * Close and re-open the console.
-#### Modifying PATH on Windows 7:
+#### Modifying the PATH environment variable on Windows 7:
 * Right-click "Computer" on the Desktop or Start Menu.
 * Select "Properties".
 * Click the "Environment Variables" button at the bottom.
@@ -132,7 +132,7 @@ GitHub is a website that provides hosting for code management and this is where 
 ## Step 5: Visual Studio / Visual Studio Code
 Visual Studio and Visual Studio Code are integrated development environments for editing code. Windows users should download and install Visual Studio; it comes with two add-ins that are required for the Spatial Edge Server to run correctly. Mac users don't need do this step if they already have a code editor, otherwise, it's reccomended they install the lightweight Visual Studio Code to assist with this project.
 
-### Windows Users -- Install Visual Studio:
+### Windows Users - Install Visual Studio:
 1. [Download Visual Studio](https://visualstudio.microsoft.com)
 2. In the Visual Studio Installer, select the “Community Edition”
 3. Make sure to check the boxes for the “Desktop development with C++” and
