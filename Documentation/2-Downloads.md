@@ -169,4 +169,5 @@ ftware needs to be downloaded in order to run the _initialize.py_ file in the _v
 The SPIKE app can be downloaded for free and is traditionally used as the controlling interface for the SPIKE Prime. In this project, it is used only for connecting the computer to the SPIKE Prime Hub since the Prime will be controlled with Vuforia Spatial Toolbox.
 * [Download the LEGO Education SPIKE app](https://education.lego.com/en-us/downloads/spike-prime/software) on a computer or tablet. This app will be used for connecting the SPIKE Prime to the Vuforia Spatial Edge Server in the **Connecting LEGO SPIKE Prime to Vuforia Spatial Toolbox** section of this project.
 
-## Now that the software is installed, continue to the [LEGO SPIKE Prime Hardware Build](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/3-LEGO-SPIKE-Prime-Build.md}
+### Next step:
+Now that the software is installed, continue to the [https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/3-LEGO-SPIKE-Prime-Build.md](LEGO SPIKE Prime Hardware Build)
