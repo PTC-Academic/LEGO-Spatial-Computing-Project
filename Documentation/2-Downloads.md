@@ -16,10 +16,12 @@ This page will give detailed instructions for downloading the software necessary
 7. Python 3.7
 8. LEGO Education SPIKE app
 
-### ![Project Workflow Overview](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/2-toolbox-app.png)
+### ![Project Workflow Overview](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/project-workflow.png)
 
 ## Step 1: Vuforia Spatial Toolbox App
 Visit the [Download section of the Vuforia Spatial Toolbox website](https://spatialtoolbox.vuforia.com/docs/download) to see a list of compatible devices, and download the Vuforia Spatial Toolbox App for your device. This app interacts with the spatial environment of Vuforia Spatial Toolbox.
+### ![Vuforia Spatial Toolbox Appe](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/2-toolbox-app.png)
+
 
 **Note:**  Vuforia Spatial Toolbox has two primary software components: 
 1. Vuforia Spatial Toolbox App (run a AR-enabled device)
