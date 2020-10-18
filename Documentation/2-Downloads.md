@@ -77,7 +77,7 @@ GitHub is a website that provides hosting for code management and this is where 
 
 1. In a web browser, navigate to [the GitHub repository where the Vuforia Spatial Edge Server download is located](https://github.com/PTC-Academic/SpatialToolbox-Mac-Interns)
 2. Clone the repository with **Git in Terminal** or with **Github Desktop**
-* **UGit in Terminal _(for users experienced with Git)_**
+* **Git in Terminal _(for users experienced with Git)_**
     * Enter ```git clone``` to download the GitHub repository. This is the fastest
         download method, but **_Git needs to be installed_** to complete it.
         * Open Terminal. For instructions how to do this, follow the information on Apple’s website.
@@ -98,7 +98,8 @@ GitHub is a website that provides hosting for code management and this is where 
 5. Download ZIP File
 * For an option that does not require any additional software downloads, select the “Download ZIP” option. This will download a zipped version of the Vuforia Spatial Edge Server folder, most likely to the _Downloads_ folder of the computer.
     * When the download completes, locate the file in Finder and move it into the _Documents_ folder. Unzip the file if it did not unzip automatically.
-5. The _SpatialToolbox_ folder inside of the _SpatialToolbox-Mac-Interns_ folder will need to be moved to sit directly in the _Documents_ folder, regardless of download method. If this folder is not in the correct spot, the connection will not be properly established.
+6. **Move** the _SpatialToolbox_ folder (from inside of the _SpatialToolbox-Mac-Interns_ folder) to directly in the _Documents_ folder
+* If this folder is not in the correct spot, the connection will not be properly established.
 
 #### For Windows Users
 
@@ -125,7 +126,8 @@ GitHub is a website that provides hosting for code management and this is where 
     * When the download completes, locate the ZIP file in File Explorer.
     * Unzip the file and move it into the _Documents_ folder
 
-5. The _SpatialToolbox_ folder inside of the _SpatialToolbox-Mac-Interns_ folder will need to be moved to sit directly in the _Documents_ folder, regardless of download method. If this folder is not in the correct spot, the connection will not be properly established.
+5. **Move** the _SpatialToolbox_ folder (from inside of the _SpatialToolbox-Mac-Interns_ folder) to directly in the _Documents_ folder
+* If this folder is not in the correct spot, the connection will not be properly established.
 
 ## Step 5: Visual Studio / Visual Studio Code
 Visual Studio and Visual Studio Code are integrated development environments for editing code. Windows users should download and install Visual Studio; it comes with two add-ins that are required for the Spatial Edge Server to run correctly. Mac users don't need do this step if they already have a code editor, otherwise, it's reccomended they install the lightweight Visual Studio Code to assist with this project.
