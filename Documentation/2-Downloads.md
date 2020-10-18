@@ -73,33 +73,34 @@ The Vuforia Spatial Edge Server provides a web interface for connecting and conf
 ### Download the Vuforia Spatial Edge Server from the GitHub website
 GitHub is a website that provides hosting for code management and this is where all the necessary files for using Vuforia Spatial Toolbox are stored. In order to do this project, users will need to download the _SpatialToolbox-Mac-Interns_ or _SpatialToolbox-Windows-Interns_ folder from the LEGO-Spatial-Computing-Project repository in the PTC Academic GitHub, as explained below, which includes all the necessary files for running the Vuforia Spatial Edge Server. Check out **_Appendix A_** in **Appendices and Additional Resources** for a folder hierarchy explanation.
 
-#### For Mac Users:
+#### Mac Users:
 
 1. In a web browser, navigate to [the GitHub repository where the Vuforia Spatial Edge Server download is located](https://github.com/PTC-Academic/SpatialToolbox-Mac-Interns)
-2. Using Git in Terminal **_(for users experienced with Git)_**
-* Enter ```git clone``` to download the GitHub repository. This is the fastest
-    download method, but **_Git needs to be installed_** to complete it.
-    * Open Terminal. For instructions how to do this, follow the information on Apple’s website.
-    * Navigate to the _Documents_ folder in Terminal using the command ```cd Documents```
-        * [Information on how to navigate through folders in Terminal](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101)
-    * Type ```git clone https://github.com/PTC-Academic/Spatial-Toolbox-Mac-Interns.git```
-        * This step clones the GitHub repository into the _Documents_  folder
+2. Clone the repository with **Git in Terminal** or with **Github Desktop**
+* Using Git in Terminal **_(for users experienced with Git)_**
+    * Enter ```git clone``` to download the GitHub repository. This is the fastest
+        download method, but **_Git needs to be installed_** to complete it.
+        * Open Terminal. For instructions how to do this, follow the information on Apple’s website.
+        * Navigate to the _Documents_ folder in Terminal using the command ```cd Documents```
+            * [Information on how to navigate through folders in Terminal](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101)
+        * Type ```git clone https://github.com/PTC-Academic/Spatial-Toolbox-Mac-Interns.git```
+            * This step clones the GitHub repository into the _Documents_  folder
 
-3. Using GitHub desktop
-* The “Open with GitHub Desktop” option allows a manual import of the Vuforia Spatial Edge Server folder into GitHub Desktop, **_if GitHub Desktop has already been downloaded_**.
+* GitHub desktop
+    * The “Open with GitHub Desktop” option allows a manual import of the Vuforia Spatial Edge Server folder into GitHub Desktop, **_if GitHub Desktop has already been downloaded_**.
 
-4. Selecting the “Open with GitHub Desktop” option will prompt GitHub Desktop to open
+4. Select the “Open with GitHub Desktop” option will prompt GitHub Desktop to open
 * When GitHub Desktop opens, there is a pop-up window that prompts users to choose a location for the repository to be downloaded.
 * For consistency purposes throughout the project, choose the _Documents_ folder of the computer as the location to clone the repository.
 * Once a location has been chosen, the repository will clone itself to the given location.
 * Navigate to the _Documents_ folder in Finder. If there is a folder named _SpatialToolbox-Mac-Interns_ , then the cloning was completed successfully.
 
-5. Downloading ZIP File
+5. Download ZIP File
 * For an option that does not require any additional software downloads, select the “Download ZIP” option. This will download a zipped version of the Vuforia Spatial Edge Server folder, most likely to the _Downloads_ folder of the computer.
     * When the download completes, locate the file in Finder and move it into the _Documents_ folder. Unzip the file if it did not unzip automatically.
 5. The _SpatialToolbox_ folder inside of the _SpatialToolbox-Mac-Interns_ folder will need to be moved to sit directly in the _Documents_ folder, regardless of download method. If this folder is not in the correct spot, the connection will not be properly established.
 
-### For Windows Users
+#### For Windows Users
 
 1. In a web browser, navigate to [the GitHub repository where the Vuforia Spatial Edge Server download is located](https://github.com/PTC-Academic/SpatialToolbox-Windows-Interns)
 2. Using Git in Command Prompt
