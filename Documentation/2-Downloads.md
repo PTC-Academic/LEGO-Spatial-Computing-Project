@@ -37,7 +37,7 @@ Git is a distributed version control system which allows users to make changes t
 2. Type ```where``` git if using Windows Command Prompt or ```whereis git``` if using
     Mac Terminal. 
 
-**Troubleshooting:** If you see the error “git is not recognized as an internal or external command, operable program or batch file”     
+**Windows Users Troubleshooting:** If you see the error “git is not recognized as an internal or external command, operable program or batch file”     
 Follow these steps from [Stack Overflow](https://stackoverflow.com/questions/4492979/git-is-not-recognized-as-an-internal-or-external-command):
 
 ### Modifying PATH on Windows 10:
