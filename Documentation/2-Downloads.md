@@ -76,7 +76,7 @@ GitHub is a website that provides hosting for code management and this is where 
 #### Mac Users:
 
 1. In a web browser, navigate to [the GitHub repository where the Vuforia Spatial Edge Server download is located](https://github.com/PTC-Academic/SpatialToolbox-Mac-Interns)
-2. Clone the repository with **Git in Terminal** or with **Github Desktop**
+2. Clone the repository with **Git in Mac Terminal** or with **Github Desktop**
 * **Git in Terminal _(for users experienced with Git)_**
     * Enter ```git clone``` to download the GitHub repository. This is the fastest
         download method, but **_Git needs to be installed_** to complete it.
@@ -88,40 +88,40 @@ GitHub is a website that provides hosting for code management and this is where 
 
 * **GitHub Desktop**
     * The “Open with GitHub Desktop” option allows a manual import of the Vuforia Spatial Edge Server folder into GitHub Desktop, **_if GitHub Desktop has already been downloaded_**.
+    . **Select** the “Open with GitHub Desktop” option to prompt GitHub Desktop to open
+    * When GitHub Desktop opens, there is a pop-up window that prompts users to choose a location for the repository to be downloaded.
+    * For consistency purposes throughout the project, choose the _Documents_ folder of the computer as the location to clone the repository.
+    * Once a location has been chosen, the repository will clone itself to the given location.
+    * Navigate to the _Documents_ folder in Finder. If there is a folder named _SpatialToolbox-Mac-Interns_ , then the cloning was completed successfully.
 
-4. Select the “Open with GitHub Desktop” option will prompt GitHub Desktop to open
-* When GitHub Desktop opens, there is a pop-up window that prompts users to choose a location for the repository to be downloaded.
-* For consistency purposes throughout the project, choose the _Documents_ folder of the computer as the location to clone the repository.
-* Once a location has been chosen, the repository will clone itself to the given location.
-* Navigate to the _Documents_ folder in Finder. If there is a folder named _SpatialToolbox-Mac-Interns_ , then the cloning was completed successfully.
-
-5. Download ZIP File
+4. **Download** ZIP File
 * For an option that does not require any additional software downloads, select the “Download ZIP” option. This will download a zipped version of the Vuforia Spatial Edge Server folder, most likely to the _Downloads_ folder of the computer.
     * When the download completes, locate the file in Finder and move it into the _Documents_ folder. Unzip the file if it did not unzip automatically.
-6. **Move** the _SpatialToolbox_ folder (from inside of the _SpatialToolbox-Mac-Interns_ folder) to directly in the _Documents_ folder
+    
+5. **Move** the _SpatialToolbox_ folder (from inside of the _SpatialToolbox-Mac-Interns_ folder) to directly in the _Documents_ folder
 * If this folder is not in the correct spot, the connection will not be properly established.
 
 #### For Windows Users
 
-1. In a web browser, navigate to [the GitHub repository where the Vuforia Spatial Edge Server download is located](https://github.com/PTC-Academic/SpatialToolbox-Windows-Interns)
-2. Using Git in Command Prompt
-* Enter ```git clone``` to download the GitHub repository. This is the fastest download method, but **_Git needs to be installed_** to complete it.
-    * Open the Command Prompt
-    * Navigate to the _Documents_ folder in the Command Prompt using the command ```cd Documents```
-        * [Information about common Command Prompt commands](https://www.digitalcitizen.life/command-prompt-how-use-basic-commands)
-    * Type ```git clone https://github.com/PTC-Academic/SpatialToolbox-Windows-Interns.git```
-        * This step clones the GitHub repository into the _Documents_ folder
+1. In a web browser, **navigate** to [the GitHub repository where the Vuforia Spatial Edge Server download is located](https://github.com/PTC-Academic/SpatialToolbox-Windows-Interns)
+2. Clone the repository with **Git with Windows Terminal** or with **Github Desktop**
+* **Git with Windows Terminal**
+    * Enter ```git clone``` to download the GitHub repository. This is the fastest download method, but **_Git needs to be installed_** to complete it.
+        * Open the Command Prompt
+        * Navigate to the _Documents_ folder in the Command Prompt using the command ```cd Documents```
+            * [Information about common Command Prompt commands](https://www.digitalcitizen.life/command-prompt-how-use-basic-commands)
+        * Type ```git clone https://github.com/PTC-Academic/SpatialToolbox-Windows-Interns.git```
+            * This step clones the GitHub repository into the _Documents_ folder
 
-
-3. Using GitHub Desktop
-* The “Open with GitHub Desktop” option allows a manual import of the Vuforia Spatial Edge Server folder into GitHub desktop, if GitHub Desktop has already been downloaded.
-    * Selecting the “Open with GitHub Desktop” option will prompt GitHub Desktop to open
+* **GitHub Desktop**
+    * The “Open with GitHub Desktop” option allows a manual import of the Vuforia Spatial Edge Server folder into GitHub desktop, if GitHub Desktop has already been downloaded.
+    . **Select** the “Open with GitHub Desktop” option to prompt GitHub Desktop to open
     * When GitHub Desktop opens, there is a pop-up window that prompts users to choose a location for the repository to be downloaded.
         * For consistency purposes throughout the project, choose the _Documents_ folder of the computer as the location to clone the repository.
         * Once a location has been chosen, the repository will clone itself to the given location.^
         * Navigate to the _Documents_ folder in Finder. If there is a folder named _SpatialToolbox-Windows-Interns_ , then the cloning was completed successfully.
 
-4. Downloading ZIP
+4. **Download** ZIP File
 * For an option that does not require any additional software downloads, select the “Download Zip” option. This will download a zipped version of the Vuforia Spatial Edge Server folder most likely to the _Downloads_ folder of the computer.
     * When the download completes, locate the ZIP file in File Explorer.
     * Unzip the file and move it into the _Documents_ folder
