@@ -1,11 +1,14 @@
 # Downloads
 This page will give detailed instructions for downloading the software necessary to complete this Vuforia Spatial Toolbox project. 
+
 **Time to complete: 30 - 45 minutes**
 #### Note: Vuforia Spatial Toolbox has two primary software components: 
 1. Vuforia Spatial Toolbox App (run a AR-enabled device)
 2. Vuforia Spatial Edge Server (runs on a computer). 
 
 **Watch:** [Differentiating between the Vuforia Spatial Toolbox app and Vuforia Spatial Edge Server](https://www.youtube.com/watch?v=G5-06A-dxy4) for an explanation of these two components. 
+
+**Tip:** Hold CTRL (Windows) or Command (Mac) to open links in a new tab.
 
 ## Hardware Requirements
 1. Computer running either MacOS or Windows
