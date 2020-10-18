@@ -12,14 +12,14 @@ This page will give detailed instructions for downloading the software necessary
 2. iPhone/iPad running iOS 12.0 or later
 
 ## Steps
-1. Vuforia Spatial Toolbox App
-2. Git (Optional)
-3. Github Desktop (Optional)
-4. Vuforia Spatial Edge Server
-5. Visual Studio / Visual Studio Code
-6. Node.js 
-7. Python 3.7
-8. LEGO Education SPIKE app
+1. [Vuforia Spatial Toolbox App](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2-Downloads.md#step-1-vuforia-spatial-toolbox-app)
+2. [Git (Optional)](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2-Downloads.md#step-2-git-optional)
+3. [Github Desktop (Optional)](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2-Downloads.md#step-3-github-desktop-optional)
+4. [Vuforia Spatial Edge Server](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2-Downloads.md#step-4-vuforia-spatial-edge-server)
+5. [Visual Studio / Visual Studio Code](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2-Downloads.md#step-5-visual-studio--visual-studio-code)
+6. [Node.js](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2-Downloads.md#step-6-nodejs)
+7. [Python 3.7](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2-Downloads.md#step-7-python-37)
+8. [LEGO Education SPIKE app](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2-Downloads.md#step-8-lego-education-spike-app)
 
 ## Step 1: Vuforia Spatial Toolbox App
 Visit the [Download section of the Vuforia Spatial Toolbox website](https://spatialtoolbox.vuforia.com/docs/download) to see a list of compatible devices, and download the Vuforia Spatial Toolbox App for your device. This app interacts with the spatial environment of Vuforia Spatial Toolbox.
