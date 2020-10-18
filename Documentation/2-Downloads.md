@@ -97,7 +97,7 @@ GitHub is a website that provides hosting for code management and this is where 
 * **Downloading the project ZIP file**
     * On the Github website, select the “Download ZIP” option. This will download a zipped version of the Vuforia Spatial Edge Server folder, most likely to the _Downloads_ folder of the computer.
         * When the download completes, locate the file in Finder and move it into the _Documents_ folder. Unzip the file if it did not unzip automatically. 
-        * **Move** the _SpatialToolbox_ folder (from inside of the _SpatialToolbox-Mac-Interns_ folder) to directly in the _Documents_ folder
+        * **Copy** the _spatialToolbox_ folder (from inside of the _SpatialToolbox-Mac-Interns_ folder) to directly in the _Documents_ folder
             * If this folder is not in the correct spot, the connection will not be properly established.
 
 ### Windows Users
@@ -124,8 +124,11 @@ GitHub is a website that provides hosting for code management and this is where 
     * On the Github website, select the “Download ZIP” option. This will download a zipped version of the Vuforia Spatial Edge Server folder, most likely to the _Downloads_ folder of the computer.
     * When the download completes, locate the ZIP file in File Explorer.
     * Unzip the file and move it into the _Documents_ folder
-    * **Move** the _SpatialToolbox_ folder (from inside of the _SpatialToolbox-Mac-Interns_ folder) to directly in the _Documents_ folder
+    * **Copy** the _spatialToolbox_ folder (from inside of the _SpatialToolbox-Mac-Interns_ folder) to directly in the _Documents_ folder
         * If this folder is not in the correct spot, the connection will not be properly established.
+
+### **Verify Configuration** 
+In all cases, Mac or Windows, verify that a copy of the _spatialToolbox_ folder is inside of your computer's _Documents_ folder.
 
 ## Step 5: Visual Studio / Visual Studio Code
 Visual Studio and Visual Studio Code are integrated development environments for editing code. Windows users should download and install Visual Studio; it comes with two add-ins that are required for the Spatial Edge Server to run correctly. Mac users don't need do this step if they already have a code editor, otherwise, it's reccomended they install the lightweight Visual Studio Code to assist with this project.
