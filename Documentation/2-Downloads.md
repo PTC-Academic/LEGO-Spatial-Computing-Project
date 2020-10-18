@@ -5,7 +5,7 @@ This page will give detailed instructions for downloading the software necessary
 1. Vuforia Spatial Toolbox App (run a AR-enabled device)
 2. Vuforia Spatial Edge Server (runs on a computer). 
 
-**Watch** [Differentiating between the Vuforia Spatial Toolbox app and Vuforia Spatial Edge Server](https://www.youtube.com/watch?v=G5-06A-dxy4) for an explanation of these two components. 
+**Watch:** [Differentiating between the Vuforia Spatial Toolbox app and Vuforia Spatial Edge Server](https://www.youtube.com/watch?v=G5-06A-dxy4) for an explanation of these two components. 
 
 ## Hardware Requirements
 1. Computer running either MacOS or Windows
