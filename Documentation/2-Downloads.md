@@ -150,6 +150,7 @@ Node.js is an open source JavaScript environment that executes JavaScript code i
 
 1. Download [Node.js](https://nodejs.org/en/) for either MacOS or Windows
 * For Windows, check the box that says “Automatically install the necessary tools. Note that this will also install Chocolatey. A script will pop-up in a new window after the new installation completes.”
+2. For advanced users, there are [other options for installing Node.js](https://nodejs.dev/learn/how-to-install-nodejs)
 
 ## Step 7: Python 3.7
 Python is an object-oriented programming language. It is used when connecting Vuforia Spatial Toolbox to the SPIKE Prime Hub. No changes will need to be made in Python, but the so
