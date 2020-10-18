@@ -12,7 +12,7 @@ This page will give detailed instructions for downloading the software necessary
 
 ## Hardware Requirements
 1. Computer running either MacOS or Windows
-2. iPhone/iPad running iOS 12.0 or later
+2. iPhone/iPad running iOS 12.0 or later (Android support in development)
 
 ## Steps
 1. [Vuforia Spatial Toolbox App](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2-Downloads.md#step-1-vuforia-spatial-toolbox-app)
