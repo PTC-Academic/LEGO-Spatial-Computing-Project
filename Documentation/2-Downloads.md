@@ -7,22 +7,25 @@
 1. Computer running either MacOS or Windows
 2. iPhone/iPad running iOS 12.0 or later
 
-## Style Guide:
-
-- Code is designated by <inline code> font
-- Important notes are in **_bold italics_**
-- Folder names are in _italics_
-- Spatial UI buttons actions are in “quotations”
-
 ## Getting Started 
 This page will give detailed instructions for downloading the software necessary to complete this project. 
 
-## Vuforia Spatial Toolbox
-Vuforia Spatial Toolbox has two primary software components: 
-1. Vuforia Spatial Edge Server (runs on a computer)
-2. Vuforia Spatial Toolbox App (run a AR-enabled device)
+## Steps
+1. Vuforia Spatial Toolbox App
+2. Git (Optional)
+3. Github Desktop (Optional)
+4. Vuforia Spatial Edge Server
+5. Visual Studio / Visual Studio Code
+6. Node.js 
+7. Python 3.7
+8. LEGO Education SPIKE app
 
-Watch [Differentiating between the Vuforia Spatial Toolbox app and Vuforia Spatial Edge Server](https://www.youtube.com/watch?v=G5-06A-dxy4) for an explanation of these two components.
+## Step 1: Vuforia Spatial Toolbox
+Vuforia Spatial Toolbox has two primary software components: 
+1. Vuforia Spatial Toolbox App (run a AR-enabled device)
+2. Vuforia Spatial Edge Server (runs on a computer)
+
+**Watch** [Differentiating between the Vuforia Spatial Toolbox app and Vuforia Spatial Edge Server](https://www.youtube.com/watch?v=G5-06A-dxy4) for an explanation of these two components.
 
 ### Vuforia Spatial Toolbox App
 Visit the [Download section of the Vuforia Spatial Toolbox website](https://spatialtoolbox.vuforia.com/docs/download) to see a list of compatible devices, and download the Vuforia Spatial Toolbox App for your device. This app interacts with the spatial environment of Vuforia Spatial Toolbox.
@@ -34,19 +37,14 @@ Visit the [Download section of the Vuforia Spatial Toolbox website](https://spat
 2. Scroll down and click on “Toolbox”
 3. Toggle the switches for local network and cellular data on and off
 
-## Vuforia Spatial Edge Server
-The Vuforia Spatial Edge Server provides a web interface for connecting and configuring the environment that is viewed in the Vuforia Spatial Toolbox app. This server can edit image targets and spatial tools, as well as manage the hardware interfaces that can be interacted with. The server needs to be running on a computer to connect the LEGO SPIKE Prime to the Vuforia Spatial Toolbox App. Mac and PC instructions for downloading the server from GitHub are listed below, as they have slightly different download methods.
-
-## Git (Optional)
-Git is a distributed version control system which allows users to make changes to code before actually implementing them. In this case, it provides a shortcut for
-downloading the Vuforia Spatial Toolbox from GitHub. This download is not required, as a zip file of the documents can be downloaded from GitHub, but it will
-speed up the download process.
-
+## Step 2: Git (Optional)
+Git is a distributed version control system which allows users to make changes to code before actually implementing them. In this case, it provides a shortcut for downloading the Vuforia Spatial Toolbox from GitHub. This download is not required, as a zip file of the documents can be downloaded from GitHub, but it will speed up the download process.
 
 1. Follow these instructions to [Intall Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Scroll through this page and find the instructions for downloading
     Git for your computer.
 2. Type ```where``` git if using Windows Command Prompt or ```whereis git``` if using
     Mac Terminal. 
+
 **Troubleshooting:** If you see the error “git is not recognized as an internal or external command, operable program or batch file”     
 Follow these steps from [Stack Overflow](https://stackoverflow.com/questions/4492979/git-is-not-recognized-as-an-internal-or-external-command):
 
@@ -65,17 +63,20 @@ Follow these steps from [Stack Overflow](https://stackoverflow.com/questions/449
 * At the end of "Variable value", insert a  ```;``` if there is not already one, and then ```C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\```. Do not put a space between ```;``` and the entry.
 * Close and re-open the console.
 
-## GitHub Desktop (Optional)
+## Step 3: GitHub Desktop (Optional)
 Desktop interface for storing any files downloaded from GitHub. Suggested for users who are not yet familiar with Git.
 
 1. [Download GitHub Desktop](https://desktop.github.com/)
 2. Open the install file that has been downloaded and start the install process
 3. Create or sign in with a GitHub account
 
-## Download the Vuforia Spatial Edge Server from the GitHub website
+## Step 4: Vuforia Spatial Edge Server
+The Vuforia Spatial Edge Server provides a web interface for connecting and configuring the environment that is viewed in the Vuforia Spatial Toolbox app. This server can edit image targets and spatial tools, as well as manage the hardware interfaces that can be interacted with. The server needs to be running on a computer to connect the LEGO SPIKE Prime to the Vuforia Spatial Toolbox App. Mac and PC instructions for downloading the server from GitHub are listed below, as they have slightly different download methods.
+
+### Download the Vuforia Spatial Edge Server from the GitHub website
 GitHub is a website that provides hosting for code management and this is where all the necessary files for using Vuforia Spatial Toolbox are stored. In order to do this project, users will need to download the _SpatialToolbox-Mac-Interns_ or _SpatialToolbox-Windows-Interns_ folder from the LEGO-Spatial-Computing-Project repository in the PTC Academic GitHub, as explained below, which includes all the necessary files for running the Vuforia Spatial Edge Server. Check out **_Appendix A_** in **Appendices and Additional Resources** for a folder hierarchy explanation.
 
-### For Mac Users:
+#### For Mac Users:
 
 1. In a web browser, navigate to [the GitHub repository where the Vuforia Spatial Edge Server download is located](https://github.com/PTC-Academic/SpatialToolbox-Mac-Interns)
 2. Using Git in Terminal **_(for users experienced with Git)_**
@@ -90,13 +91,13 @@ GitHub is a website that provides hosting for code management and this is where 
 3. Using GitHub desktop
 * The “Open with GitHub Desktop” option allows a manual import of the Vuforia Spatial Edge Server folder into GitHub Desktop, **_if GitHub Desktop has already been downloaded_**.
 
-#### Selecting the “Open with GitHub Desktop” option will prompt GitHub Desktop to open
+4. Selecting the “Open with GitHub Desktop” option will prompt GitHub Desktop to open
 * When GitHub Desktop opens, there is a pop-up window that prompts users to choose a location for the repository to be downloaded.
 * For consistency purposes throughout the project, choose the _Documents_ folder of the computer as the location to clone the repository.
 * Once a location has been chosen, the repository will clone itself to the given location.
 * Navigate to the _Documents_ folder in Finder. If there is a folder named _SpatialToolbox-Mac-Interns_ , then the cloning was completed successfully.
 
-4. Downloading ZIP File
+5. Downloading ZIP File
 * For an option that does not require any additional software downloads, select the “Download ZIP” option. This will download a zipped version of the Vuforia Spatial Edge Server folder, most likely to the _Downloads_ folder of the computer.
     * When the download completes, locate the file in Finder and move it into the _Documents_ folder. Unzip the file if it did not unzip automatically.
 5. The _SpatialToolbox_ folder inside of the _SpatialToolbox-Mac-Interns_ folder will need to be moved to sit directly in the _Documents_ folder, regardless of download method. If this folder is not in the correct spot, the connection will not be properly established.
@@ -128,8 +129,7 @@ GitHub is a website that provides hosting for code management and this is where 
 
 5. The _SpatialToolbox_ folder inside of the _SpatialToolbox-Mac-Interns_ folder will need to be moved to sit directly in the _Documents_ folder, regardless of download method. If this folder is not in the correct spot, the connection will not be properly established.
 
-
-## Visual Studio / Visual Studio Code
+## Step 5. Visual Studio / Visual Studio Code
 Visual Studio and Visual Studio Code are integrated development environments for editing code. Windows users should download and install Visual Studio; it comes with two add-ins that are required for the Spatial Edge Server to run correctly. Mac users don't need do this step if they already have a code editor, otherwise, it's reccomended they install the lightweight Visual Studio Code to assist with this project.
 
 ### Windows Users -- Install Visual Studio:
@@ -146,8 +146,7 @@ Visual Studio and Visual Studio Code are integrated development environments for
 
 * [Download Visual Studio Code](https://visualstudio.microsoft.com)
 
-
-## Node.js 
+## Step 6. Node.js 
 Node.js is an open source JavaScript environment that executes JavaScript code in Terminal or Command Prompt. This is necessary in order to run the Vuforia Spatial Edge Server.
 
 1. Download [Node.js](https://nodejs.org/en/) for either MacOS or Windows
