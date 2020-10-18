@@ -97,7 +97,7 @@ GitHub is a website that provides hosting for code management and this is where 
 4. **Download** ZIP File
 * For an option that does not require any additional software downloads, select the “Download ZIP” option. This will download a zipped version of the Vuforia Spatial Edge Server folder, most likely to the _Downloads_ folder of the computer.
     * When the download completes, locate the file in Finder and move it into the _Documents_ folder. Unzip the file if it did not unzip automatically.
-    
+
 5. **Move** the _SpatialToolbox_ folder (from inside of the _SpatialToolbox-Mac-Interns_ folder) to directly in the _Documents_ folder
 * If this folder is not in the correct spot, the connection will not be properly established.
 
@@ -133,7 +133,6 @@ GitHub is a website that provides hosting for code management and this is where 
 Visual Studio and Visual Studio Code are integrated development environments for editing code. Windows users should download and install Visual Studio; it comes with two add-ins that are required for the Spatial Edge Server to run correctly. Mac users don't need do this step if they already have a code editor, otherwise, it's reccomended they install the lightweight Visual Studio Code to assist with this project.
 
 ### Windows Users -- Install Visual Studio:
-
 1. [Download Visual Studio](https://visualstudio.microsoft.com)
 2. In the Visual Studio Installer, select the “Community Edition”
 3. Make sure to check the boxes for the “Desktop development with C++” and
@@ -143,7 +142,6 @@ Visual Studio and Visual Studio Code are integrated development environments for
 6. The computer will need to restart after the install. Save all current work and restart the computer
 
 ### Mac Users - Install Visual Studio Code
-
 * [Download Visual Studio Code](https://visualstudio.microsoft.com)
 
 ## Step 6: Node.js 
