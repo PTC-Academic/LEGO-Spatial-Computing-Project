@@ -122,7 +122,7 @@ GitHub is a website that provides hosting for code management and this is where 
 
 5. The _SpatialToolbox_ folder inside of the _SpatialToolbox-Mac-Interns_ folder will need to be moved to sit directly in the _Documents_ folder, regardless of download method. If this folder is not in the correct spot, the connection will not be properly established.
 
-## Step 5. Visual Studio / Visual Studio Code
+## Step 5: Visual Studio / Visual Studio Code
 Visual Studio and Visual Studio Code are integrated development environments for editing code. Windows users should download and install Visual Studio; it comes with two add-ins that are required for the Spatial Edge Server to run correctly. Mac users don't need do this step if they already have a code editor, otherwise, it's reccomended they install the lightweight Visual Studio Code to assist with this project.
 
 ### Windows Users -- Install Visual Studio:
@@ -139,13 +139,13 @@ Visual Studio and Visual Studio Code are integrated development environments for
 
 * [Download Visual Studio Code](https://visualstudio.microsoft.com)
 
-## Step 6. Node.js 
+## Step 6: Node.js 
 Node.js is an open source JavaScript environment that executes JavaScript code in Terminal or Command Prompt. This is necessary in order to run the Vuforia Spatial Edge Server.
 
 1. Download [Node.js](https://nodejs.org/en/) for either MacOS or Windows
 * For Windows, check the box that says “Automatically install the necessary tools. Note that this will also install Chocolatey. A script will pop-up in a new window after the new installation completes.”
 
-## Python 3.7
+## Step 7: Python 3.7
 Python is an object-oriented programming language. It is used when connecting Vuforia Spatial Toolbox to the SPIKE Prime Hub. No changes will need to be made in Python, but the software needs to be downloaded in order to run the _initialize.py_ file in the _vuforia-spatial-edge-server_ folder.
 
 1. If you don't already have Python installed [Download Python 3.7[(https://www.python.org/downloads/release/python-379/)
@@ -157,7 +157,7 @@ Python is an object-oriented programming language. It is used when connecting Vu
     * In the Advanced Options page, set the file path for the download to 
     ```C:/Users/[Your User Name]/AppData/Local/Programs/Python/Python37``` and click “Install"
 
-## LEGO Education SPIKE app
+## Step 8: LEGO Education SPIKE app
 The SPIKE app can be downloaded for free and is traditionally used as the controlling interface for the SPIKE Prime. In this project, it is used only for connecting the computer to the SPIKE Prime Hub since the Prime will be controlled with Vuforia Spatial Toolbox.
 * [Download the LEGO Education SPIKE app](https://education.lego.com/en-us/downloads/spike-prime/software) on a computer or tablet. This app will be used for connecting the SPIKE Prime to the Vuforia Spatial Edge Server in the **Connecting LEGO SPIKE Prime to Vuforia Spatial Toolbox** section of this project.
 
