@@ -1,9 +1,8 @@
 # Downloads
 This page will give detailed instructions for downloading the software necessary to complete this Vuforia Spatial Toolbox project. 
-#### Time to complete: 30 - 45 minutes
+**Time to complete: 30 - 45 minutes**
 
 ## Hardware Requirements
-
 1. Computer running either MacOS or Windows
 2. iPhone/iPad running iOS 12.0 or later
 
