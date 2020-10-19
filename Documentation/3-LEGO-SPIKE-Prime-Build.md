@@ -14,7 +14,7 @@ One way to do this is to build a LEGO structure similar to the one shown , with 
 Another option is to bulld a more complex LEGO mechanism, like this [Radial Engine MOC at Rebrickable](https://rebrickable.com/mocs/MOC-3247/martijnnab/8-cylinder-radial-aircraft-engine/#details).
 
 Here's a video of this engine in action:
-## ![Radial Engine video](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/radial-engine.mov)
+## ![Radial Engine video](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/radial-engine.gif)
 
 Part of the **Fast Fourier Transform activity** will involve changing designs to see their effect on the FFT analysis, so more complex design ideas are encouraged!
 
