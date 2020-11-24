@@ -67,18 +67,18 @@ The following steps will describe the procedure of connecting a LEGO SPIKE Prime
 
 ### Troubleshooting: 
 If this serial port cannot be found, open the LEGO Educational SPIKE app.
-▪ Unplug the LEGO SPIKE Prime from the computer if it is plugged
+- Unplug the LEGO SPIKE Prime from the computer if it is plugged
 in
-▪ Turn the SPIKE Prime off and then back on
-▪ Open a new project and select the “connect” button in the upper
+- Turn the SPIKE Prime off and then back on
+- Open a new project and select the “connect” button in the upper
 left-hand corner of the screen
-▪ Select “Connect via Bluetooth” in the upper right-hand corner of
+- Select “Connect via Bluetooth” in the upper right-hand corner of
 the window that pops up.
-▪ Follow the instructions from LEGO for connecting via Bluetooth
-▪ Be sure to close the LEGO SPIKE Prime from the app after
+- Follow the instructions from LEGO for connecting via Bluetooth
+- Be sure to close the LEGO SPIKE Prime from the app after
 connecting. This will block communication with the server if not
 disconnected.
-▪ Repeat the steps above.
+- Repeat the steps above.
 ```
 6. Open the serial.js document inside of the folder path _SpatialToolbox-Mac-_
     _Interns/vuforia-spatial-edge-server/addons/vuforia-spatial-robotic-_
@@ -92,7 +92,7 @@ disconnected.
 ```
 SerialPort(‘/dev/tty.LEGOHubPTCAcademic-Seri’, {, where PTCAcademic is
 the distinct name that was given to the hub.
-▪ Troubleshooting note: Make sure to keep /dev/ at the beginning
+- Troubleshooting note: Make sure to keep /dev/ at the beginning
 of the line. Also, pay close attention to the syntax of the line.
 Removing the bracket on the end of the line can cause an error
 in the system.
@@ -166,10 +166,10 @@ repeating the start up instructions.
 
 ```
 o Troubleshooting Notes:
-▪ The iPhone being used needs to be on the same Wi-Fi network
+- The iPhone being used needs to be on the same Wi-Fi network
 as the computer being used to form a connection with the
 Vuforia Spatial Edge Server
-▪ If restarting still does not work, go into the settings tab in the
+- If restarting still does not work, go into the settings tab in the
 Vuforia Spatial Toolbox app and go into Found Objects.
 Compare this list to the list of objects in the Vuforia Spatial Edge
 Server.
@@ -197,7 +197,7 @@ case letters)._** For more information about the different nodes and
 
 complexity levels, visit **_Appendix D_** in **Appendices and Additional
 Resources**
-▪ When changing complexities, the server will need to be
+- When changing complexities, the server will need to be
 restarted. Go back into Terminal and press control key + C to stop
 the server and then start the process again while running node
 server in the vuforia-spatial-edge-server directory.
