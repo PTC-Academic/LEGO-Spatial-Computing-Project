@@ -1,58 +1,33 @@
-```
-Learn About IOT using Airtable
-```
-**Estimated time to complete**
-20 - 30 minutes
+# Learn About IOT using Airtable
 
-**Requirements**
-LEGO SPIKE Prime Hub & hardware build
-LEGO Education product feedback pamphlet
-Computer with Bluetooth capabilities
-Vuforia Spatial Toolbox compatible device
-Vuforia Spatial Toolbox app
-Vuforia Spatial Edge Server download from GitHub
+**Estimated time to complete** 20 - 30 minutes
 
-**Font Notes:**
+## Requirements
+1. LEGO SPIKE Prime Hub & LEGO build
+2. LEGO Education product feedback pamphlet
+3. Computer with Bluetooth capabilities
+4. Vuforia Spatial Toolbox compatible device
+5. Vuforia Spatial Edge Server download from GitHub
+6. Vuforia Spatial Toolbox app
 
-- All code to be typed in Terminal/Command Prompt is designated by text
-    following this convention
-- All important notes are in **_bold italics_**
-- All folder names are in _italics_
-- All files names are underlined
-- All buttons/areas that need to be clicked are in “quotations”
-- All section headers are **bold**
-- All references to other portions of the project are **bold and underlined**
-- Hyperlinks are blue and underlined
-- Anything other than code that needs to be typed is in “underlined quotations”
-
-**Getting Started**
-Airtable is an open-source collaborative database service. It can be used as an
-example of IOT connectivity that allows users to send data between different
-objects and see those changes update in real time between the environments. In
-this example, using IOT, data will be sent between Airtable, Vuforia Spatial Toolbox,
+## Getting Started
+Airtable is an open-source collaborative database service. It can be used as an example of IOT connectivity that allows users to send data between different
+objects and see those changes update in real time between the environments. In this example, using IOT, data will be sent between Airtable, Vuforia Spatial Toolbox,
 and the SPIKE Prime using an API connection.
 
-**Hardware Edits**
-As mentioned in the SPIKE Prime Hardware Build PDF, this activity serves its best
-purpose when additional parts are connected to the SPIKE Prime Hub. In the images
-below, the distance sensor from the SPIKE Prime has been added to the build. If the
-distance sensor is not available, the pressure sensor can be substituted in to serve
-the same purpose.
+## Hardware Edits
+As mentioned in the SPIKE Prime Hardware Build PDF, this activity serves its best purpose when additional parts are connected to the SPIKE Prime Hub. In the images
+below, the distance sensor from the SPIKE Prime has been added to the build. If the distance sensor is not available, the pressure sensor can be substituted in to serve the same purpose.
 
-**Setting Up Airtable**
+## Setting Up Airtable
 
-# 1. Visit https://airtable.com/
-
-# 2. Click “Get started” to create a free account or sign in.
-
-
+1. Visit https://airtable.com/
+2. Click “Get started” to create a free account or sign in.
 3. Make sure the “Bases” tab is selected
 4. Click “Add a base” to start creating a database
     o Choose the “Start from scratch” option.
-    o Give the base a name. The color of the base icon can be changed, and
-       other customizations can be added if desired.
-5. Click on the newly created database. The database that opens should look
-    similar to the one below.
+    o Give the base a name. The color of the base icon can be changed, and other customizations can be added if desired.
+5. Click on the newly created database. The database that opens should lookl similar to the one below.
 
 ```
 o The table will be named “Table 1” by default. Keep this name, as it is

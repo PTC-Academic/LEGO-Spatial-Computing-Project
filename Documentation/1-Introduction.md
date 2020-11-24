@@ -11,14 +11,13 @@ To view an example of what the outcome of this project may look like, check out 
 For troubleshooting, check out the [Vuforia Spatial Toolbox forum](https://forum.spatialtoolbox.vuforia.com/). It is monitored regularly by the PTC Spatial Toolbox team and members of the spatial computing community.
 
 ## Requirements
-Below is a list of components that are necessary to complete this project. They can be broken down between hardware and software. It is also recommended that this project is completed in an area where there is a strong Wi-Fi connection.
+Below is a list of components that are necessary to complete this project. They can be broken down between hardware and software. A wi-fi network is also required.
 
 ### Hardware:
 * iPhone, iPad, or iPod Touch running iOS 12.0 or later (Android is  urrently in BETA)
 * LEGO SPIKE Prime set
 * LEGO Education feedback pamphlet that comes with SPIKE Prime set
 * Computer running MacOS or Windows with Bluetooth capabilities
-
 
 ### Software:
 * [LEGO SPIKE App](https://education.lego.com/en-us/downloads/spike-prime/software)
@@ -28,9 +27,6 @@ Below is a list of components that are necessary to complete this project. They 
 * [Node.js]()https://nodejs.org/en/
 * [Visual Studio 2019](https://visualstudio.microsoft.com/)
 * [Airtable](https://airtable.com/)
-
-### Note: 
-The Downloads section of this project will give directions for how to download all software components
 
 ## Table of Contents
 
