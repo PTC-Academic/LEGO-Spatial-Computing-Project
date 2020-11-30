@@ -118,7 +118,7 @@ The following steps will describe the procedure of connecting a LEGO SPIKE Prime
     - If there are multiple error statements in the Terminal after running node server, like shown below, then the LEGO SPIKE Prime did not connect correctly. Restart the LEGO SPIKE Prime and confirm that the correct serial port is being used.
     ## ![Multiple errors](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image010.png)
     -  If there are errors in the Terminal that do not look like this, or localhost:8080 does not load in the browser, restart the Vuforia Spatial Edge Server by closing out of Terminal or typing control key + c and repeating the start up instructions.
-15. Open the Vuforia Spatial Toolbox mobile app and point the camera at the image target. A light blue box should appear around the image target. If nothing seems to happen, try moving the camera/target or changing the lighting of the room. If the light blue box still isn’t visible, then restart the mobile app.
+14. Open the Vuforia Spatial Toolbox mobile app and point the camera at the image target. A light blue box should appear around the image target. If nothing seems to happen, try moving the camera/target or changing the lighting of the room. If the light blue box still isn’t visible, then restart the mobile app.
     ## ![Blue spatial target box](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image013.png)
     #### Troubleshooting:
     - The iPhone being used needs to be on the same Wi-Fi network as the computer being used to form a connection with the Vuforia Spatial Edge Server
@@ -127,9 +127,9 @@ The following steps will describe the procedure of connecting a LEGO SPIKE Prime
     app and the Vuforia Spatial Edge Server and the connection process will need to be restarted.
     - If the list of objects looks like the one below, but all of the font is red, then the app was opened too quickly. Closing and  reopening the app should solve the issue.
     ## ![Object list](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image015.png)
-16. When in Programming Mode in the app, a node setup similar to one of the following should appear:
+15. When in Programming Mode in the app, a node setup similar to one of the following should appear:
     ## ![Diffent node complexity levels](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image016.png)
-17. Changes to complexity levels can be made within the Vuforia Spatial Edge Server.
+16. Changes to complexity levels can be made within the Vuforia Spatial Edge Server.
     - Select “manage hardware interfaces” from the home screen
     - Click the gear icon next to Spike-Prime interface to open up settings for the SPIKE Prime.
     - Change the setting called “spikeComplexity” by typing in one of the four options shown above **_(all configurations should be typed in lower case letters)._** For more information about the different nodes and omplexity levels, visit **_Appendix D_** in **Appendices and Additional Resources**
