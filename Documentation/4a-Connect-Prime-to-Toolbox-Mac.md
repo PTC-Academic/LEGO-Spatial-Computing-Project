@@ -39,6 +39,7 @@ When using a SPIKE Prime for the first time, it needs to be connected to a compu
 
 1. Open the LEGO Educational SPIKE app and click “New Project” to start a new project. Choose the “Word Blocks” option, even though there will not be any coding inside of this interface.
 2. Click the “Connect” button at the top of the page and turn on the SPIKE Prime Hub.
+## ![Connect Button](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image003.png)
 3. Ensure that the computer has Bluetooth enabled and choose the “CONNECT
     VIA BLUETOOTH” option at the top right-hand corner of the pop-up window
 4. Turn on the SPIKE Prime Hub
