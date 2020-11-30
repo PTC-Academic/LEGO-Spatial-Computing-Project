@@ -115,6 +115,8 @@ The following steps will describe the procedure of connecting a LEGO SPIKE Prime
 12. Run node server. This should start the Vuforia Spatial Edge Server. Type
     localhost:8080 into a web browser. If the page does not load, troubleshoot
     using the methods below. If it does load, it should look like this image:
+    ## ![Serial Port List](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image009.png)
+
     #### Troubleshooting: 
     - the LEGO SPIKE Prime will make a beep shortly after running node server and connecting for the first time. This indicates that everything was connected correctly. 
     - Troubleshooting Note: if there is an error like the one below in the Terminal, it is okay.
