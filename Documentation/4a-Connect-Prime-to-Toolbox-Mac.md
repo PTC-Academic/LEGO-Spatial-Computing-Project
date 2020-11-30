@@ -68,7 +68,7 @@ The following steps will describe the procedure of connecting a LEGO SPIKE Prime
     being used are displayed.
 5. Find the serial port that starts with “tty.LEGOHub” and copy the full name of
     the port.
-## ![Serial Port List](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image006.png)
+    ## ![Serial Port List](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image006.png)
     
     #### Troubleshooting: 
     - If this serial port cannot be found, open the LEGO Educational SPIKE app.
@@ -78,7 +78,7 @@ The following steps will describe the procedure of connecting a LEGO SPIKE Prime
     - Select “Connect via Bluetooth” in the upper right-hand corner ofthe window that pops up.
     - Follow the instructions from LEGO for connecting via Bluetooth
     - Be sure to close the LEGO SPIKE Prime from the app after connecting. This will block communication with the server if not disconnected.
-    - Repeat the steps above.
+- Repeat the steps above.
 
 6. Open the serial.js document inside of the folder path ```SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server/addons/vuforia-spatial-robotic-addon/interfaces/SPIKE-Prime```
     - Go to line 23 of serial.js and replace the serial port with the one that
