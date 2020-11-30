@@ -68,7 +68,7 @@ The following steps will describe the procedure of connecting a LEGO SPIKE Prime
     being used are displayed.
 5. Find the serial port that starts with “tty.LEGOHub” and copy the full name of
     the port.
-## ![Serial Port List](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image005.png)
+## ![Serial Port List](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image006.png)
     #### Troubleshooting: 
     If this serial port cannot be found, open the LEGO Educational SPIKE app.
     - Unplug the LEGO SPIKE Prime from the computer if it is plugged in
