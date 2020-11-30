@@ -64,7 +64,7 @@ The following steps will describe the procedure of connecting a LEGO SPIKE Prime
     being used are displayed.
 5. Find the serial port that starts with “tty.LEGOHub” and copy the full name of
     the port.
-    ### Troubleshooting: 
+    #### Troubleshooting: 
     If this serial port cannot be found, open the LEGO Educational SPIKE app.
     - Unplug the LEGO SPIKE Prime from the computer if it is plugged in
     - Turn the SPIKE Prime off and then back on
@@ -78,7 +78,7 @@ The following steps will describe the procedure of connecting a LEGO SPIKE Prime
           was just copied that starts with tty.LEGOHub. This is the string directly
           after SerialPort(. For example, the code at line 23 that was used when
           making this tutorial was ```const port = newSerialPort(‘/dev/tty.LEGOHubPTCAcademic-Seri’, {```, where PTCAcademic is the distinct name that was given to the hub.
-    ### Troubleshooting: 
+    #### Troubleshooting: 
     - Make sure to keep /dev/ at the beginning of the line, and keep the bracket on the end of the line.
 
 7. In Terminal, navigate back to SpatialToolbox-Mac-Interns/vuforia-spatial-
@@ -107,7 +107,7 @@ The following steps will describe the procedure of connecting a LEGO SPIKE Prime
 12. Run node server. This should start the Vuforia Spatial Edge Server. Type
     localhost:8080 into a web browser. If the page does not load, troubleshoot
     using the methods below. If it does load, it should look like this image:
-    ### Troubleshooting: 
+    #### Troubleshooting: 
     - the LEGO SPIKE Prime will make a beep shortly after running node server and connecting for the first time. This indicates that everything was connected correctly. 
     - Troubleshooting Note: if there is an error like the one below in the Terminal, it is okay.
 13. If the readout in Terminal shows something like the image below, then the
@@ -117,7 +117,7 @@ The following steps will describe the procedure of connecting a LEGO SPIKE Prime
     F, and a Color Sensor at E, with the location in the instrument array
     corresponding to the location of the port that instrument is attached to in the
     port array.
-    ### Troubleshooting: 
+    #### Troubleshooting: 
     - There is the possibility that there may be issues when starting the server. Most issues can be resolved by restarting either the SPIKE Prime or the Vuforia Spatial Edge Server (control key + c and node server again in Terminal).
     - If there are multiple error statements in the Terminal after running node server, like shown below, then the LEGO SPIKE Prime did not connect correctly. Restart the LEGO SPIKE Prime and confirm that the correct serial port is being used.
     -  If there are errors in the Terminal that do not look like this, or localhost:8080 does not load in the browser, restart the Vuforia Spatial Edge Server by closing out of Terminal or typing control key + c and repeating the start up instructions.
@@ -126,7 +126,7 @@ The following steps will describe the procedure of connecting a LEGO SPIKE Prime
     nothing seems to happen, try moving the camera/target or changing the
     lighting of the room. If the light blue box still isn’t visible, then restart the
     mobile app.
-    ### Troubleshooting:
+    #### Troubleshooting:
     - The iPhone being used needs to be on the same Wi-Fi network as the computer being used to form a connection with the Vuforia Spatial Edge Server
     - If restarting still does not work, go into the settings tab in the Vuforia Spatial Toolbox app and go into Found Objects. Compare this list to the list of objects in the Vuforia Spatial Edge Server.
     - If objects are missing and the only thing showing up is “_WORLD_local”, then there was an issue connecting the
