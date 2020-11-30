@@ -65,38 +65,32 @@ The following steps will describe the procedure of connecting a LEGO SPIKE Prime
 5. Find the serial port that starts with “tty.LEGOHub” and copy the full name of
     the port.
 
-### Troubleshooting: 
-If this serial port cannot be found, open the LEGO Educational SPIKE app.
-- Unplug the LEGO SPIKE Prime from the computer if it is plugged
-in
-- Turn the SPIKE Prime off and then back on
-- Open a new project and select the “connect” button in the upper
-left-hand corner of the screen
-- Select “Connect via Bluetooth” in the upper right-hand corner of
-the window that pops up.
-- Follow the instructions from LEGO for connecting via Bluetooth
-- Be sure to close the LEGO SPIKE Prime from the app after
-connecting. This will block communication with the server if not
-disconnected.
-- Repeat the steps above.
-```
+    ### Troubleshooting: 
+    If this serial port cannot be found, open the LEGO Educational SPIKE app.
+    - Unplug the LEGO SPIKE Prime from the computer if it is plugged
+    in
+    - Turn the SPIKE Prime off and then back on
+    - Open a new project and select the “connect” button in the upper
+    left-hand corner of the screen
+    - Select “Connect via Bluetooth” in the upper right-hand corner of
+    the window that pops up.
+    - Follow the instructions from LEGO for connecting via Bluetooth
+    - Be sure to close the LEGO SPIKE Prime from the app after
+    connecting. This will block communication with the server if not
+    disconnected.
+    - Repeat the steps above.
+
 6. Open the serial.js document inside of the folder path _SpatialToolbox-Mac-_
     _Interns/vuforia-spatial-edge-server/addons/vuforia-spatial-robotic-_
     _addon/interfaces/SPIKE-Prime_.
-       o Go to line 23 of serial.js and replace the serial port with the one that
+    - Go to line 23 of serial.js and replace the serial port with the one that
           was just copied that starts with tty.LEGOHub. This is the string directly
           after SerialPort(. For example, the code at line 23 that was used when
-          making this tutorial was const port = new
+          making this tutorial was ```const port = newSerialPort(‘/dev/tty.LEGOHubPTCAcademic-Seri’, {```, where PTCAcademic is the distinct name that was given to the hub.
 
+    ### Troubleshooting: 
+    - Make sure to keep /dev/ at the beginningof  the line. Also, pay close attention to the syntax of the line. Removing the bracket on the end of the line can cause an error in the system.
 
-```
-SerialPort(‘/dev/tty.LEGOHubPTCAcademic-Seri’, {, where PTCAcademic is
-the distinct name that was given to the hub.
-- Troubleshooting note: Make sure to keep /dev/ at the beginning
-of the line. Also, pay close attention to the syntax of the line.
-Removing the bracket on the end of the line can cause an error
-in the system.
-```
 7. In Terminal, navigate back to SpatialToolbox-Mac-Interns/vuforia-spatial-
     edge-server with the code cd Documents/SpatialToolbox-Mac-Interns/vuforia-
     spatial-edge-server. If the _SpatialToolbox-Mac-Interns_ folder is not saved to the
