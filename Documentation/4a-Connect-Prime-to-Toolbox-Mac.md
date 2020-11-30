@@ -51,6 +51,7 @@ When using a SPIKE Prime for the first time, it needs to be connected to a compu
     screen as a nearby Hub and will be recognized as a device by the computer
        o If this is the first time that the Hub is connected to the app, a prompt
           will pop up so that it can be given a unique name
+## ![Hub Screenshot](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image004.png)
 7. Once the SPIKE Prime Hub has been connected successfully, close out of the SPIKE app to avoid interference when connecting with Vuforia Spatial Toolbox
 
 ## Connecting the LEGO SPIKE Prime to Vuforia Spatial Toolbox
@@ -67,6 +68,7 @@ The following steps will describe the procedure of connecting a LEGO SPIKE Prime
     being used are displayed.
 5. Find the serial port that starts with “tty.LEGOHub” and copy the full name of
     the port.
+## ![Serial Port List](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image005.png)
     #### Troubleshooting: 
     If this serial port cannot be found, open the LEGO Educational SPIKE app.
     - Unplug the LEGO SPIKE Prime from the computer if it is plugged in
