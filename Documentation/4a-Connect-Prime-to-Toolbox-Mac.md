@@ -110,14 +110,16 @@ The following steps will describe the procedure of connecting a LEGO SPIKE Prime
     #### Troubleshooting: 
     - The LEGO SPIKE Prime will make a beep shortly after running node server and connecting for the first time. This indicates that everything was connected correctly. 
     - If there is an error like the one below in the Terminal, it is okay.
-    ## ![Serial Port List](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image011.png)
-
+    ## ![Connection Error](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image011.png)
 13. If the readout in Terminal shows something like the image below, then the server is working! The last two lines in this image describe what type of instrument is connected to the SPIKE Prime and which port that they are in. For example, there is a motor connected to port A and B, a distance sensor at F, and a Color Sensor at E, with the location in the instrument arry corresponding to the location of the port that instrument is attached to in the port array.
+    ## ![Terminal readout](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image012.png)
     #### Troubleshooting: 
     - There is the possibility that there may be issues when starting the server. Most issues can be resolved by restarting either the SPIKE Prime or the Vuforia Spatial Edge Server (control key + c and node server again in Terminal).
     - If there are multiple error statements in the Terminal after running node server, like shown below, then the LEGO SPIKE Prime did not connect correctly. Restart the LEGO SPIKE Prime and confirm that the correct serial port is being used.
+    ## ![Multiple errors](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image010.png)
     -  If there are errors in the Terminal that do not look like this, or localhost:8080 does not load in the browser, restart the Vuforia Spatial Edge Server by closing out of Terminal or typing control key + c and repeating the start up instructions.
 15. Open the Vuforia Spatial Toolbox mobile app and point the camera at the image target. A light blue box should appear around the image target. If nothing seems to happen, try moving the camera/target or changing the lighting of the room. If the light blue box still isn’t visible, then restart the mobile app.
+    ## ![Blue spatial target box](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image013.png)
     #### Troubleshooting:
     - The iPhone being used needs to be on the same Wi-Fi network as the computer being used to form a connection with the Vuforia Spatial Edge Server
     - If restarting still does not work, go into the settings tab in the Vuforia Spatial Toolbox app and go into Found Objects. Compare this list to the list of objects in the Vuforia Spatial Edge Server.
