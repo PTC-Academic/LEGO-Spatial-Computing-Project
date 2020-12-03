@@ -14,7 +14,7 @@
 ## Suggested pre-requisites:
 1. [What is Vuforia Spatial Toolbox?](https://youtu.be/k3uHFk1PAAM)
 2. [Getting Started with the Vuforia Spatial Toolbox](https://spatialtoolbox.vuforia.com/docs/use)
-3. [Usihg the Vuforia Spatial Toolbox](https://spatialtoolbox.vuforia.com/docs/use/using-the-app)
+3. [Using the Vuforia Spatial Toolbox](https://spatialtoolbox.vuforia.com/docs/use/using-the-app)
 4. [Glossary of Spatial Tools](https://spatialtoolbox.vuforia.com/docs/use/spatial-tools)
 5. [Spatial Programming](https://spatialtoolbox.vuforia.com/docs/use/spatial-programming)
 6. [Logic Blocks](https://spatialtoolbox.vuforia.com/docs/use/spatial-programming/example-programs)

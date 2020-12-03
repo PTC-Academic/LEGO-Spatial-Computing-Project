@@ -10,37 +10,31 @@
 5. Vuforia Spatial Edge Server download from GitHub
 6. Vuforia Spatial Toolbox app
 
-Before diving into this portion of the project, it would be beneficial to get acquainted with the capabilities and functions of the Vuforia Spatial Toolbox. Starting at the home page, review the following materials:
+## Suggested pre-requisites:
+1. [What is Vuforia Spatial Toolbox?](https://youtu.be/k3uHFk1PAAM)
+2. [Getting Started with the Vuforia Spatial Toolbox](https://spatialtoolbox.vuforia.com/docs/use)
+3. [Using the Vuforia Spatial Toolbox](https://spatialtoolbox.vuforia.com/docs/use/using-the-app)
+4. [Glossary of Spatial Tools](https://spatialtoolbox.vuforia.com/docs/use/spatial-tools)
+5. [Spatial Programming](https://spatialtoolbox.vuforia.com/docs/use/spatial-programming)
+6. [Logic Blocks](https://spatialtoolbox.vuforia.com/docs/use/spatial-programming/example-programs)
+7. [Example Programs](https://spatialtoolbox.vuforia.com/docs/use/spatial-programming/example-programs)
 
-1. What is Vuforia Spatial Toolbox? YouTube video
-2. Getting Started with the Vuforia Spatial Toolbox
-3. Getting Started guide for using Vuforia Spatial Toolbox
-4. Spatial Tools page documenting each spatial tool that can be used
-5. Spatial Programming page for using Logic Nodes and each of its related
-    pages for Logic Blocks and Example Programs
-
-
-Additionally, the LEGO SPIKE Prime Hub will need to be connected to the LEGO Educational SPIKE App. Open the app and become familiar with the capabilities of
-the LEGO SPIKE Prime. Learn how to connect it to Bluetooth with the beginning tutorials within the app.\
+## Preparing the LEGO Education SPIKE App.
+The LEGO SPIKE Prime Hub needs to be connected to the LEGO Education SPIKE App. Open the app and become familiar with the capabilities of the LEGO SPIKE Prime. Learn how to connect it to Bluetooth with the beginning tutorials within the SPIKE app.
 
 ## Getting Started
-
-This portion of the project will teach how to connect the LEGO SPIKE Prime set to Vuforia Spatial Toolbox. It will start out by providing steps for connecting the SPIKE Prime to the Vuforia Spatial Edge Server and then move into allowing the SPIKE Prime to be controlled by the Vuforia Spatial Toolbox app with the help of an image target.
+This portion of the project details how to connect the SPIKE Prime to the Vuforia Spatial Edge Server to allow the SPIKE Prime to be controlled by the Vuforia Spatial Toolbox app.
 
 ## Image Target
+A key part of using the Vuforia Spatial Toolbox is an image target. This allows the app to scan a predetermined image that will signal the server to display an AR overlay onto the physical world as viewed through a mobile device or tablet. For this project, the feedback pamphlet that comes in each LEGO SPIKE Prime box will be used as the image target. This image has already been preconfigured in the Vuforia Spatial Edge Server that has been downloaded. If the pamphlet is not accessible, save the image below as a standalone picture and print it out and use it as the image target.
 
-A key part of using the Vuforia Spatial Toolbox is an image target. This allows the app to scan a predetermined image that will signal the server to display an AR
-overlay onto the physical world as viewed through a mobile device or tablet. For this project, the feedback pamphlet that comes in each LEGO SPIKE Prime box will be
-used as the image target. This image has already been preconfigured in the Vuforia Spatial Edge Server that has been downloaded. If the pamphlet is not accessible,
-save the image below as a standalone picture and print it out and use it as the image target.
+## ![LEGO SPIKE Prime Pamphlet](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image001.jpg)
 
 - If printing out the image is not an option, the pamphlet image will also scan ff the computer monitor
 - Resources for creating new image targets are in the **Appendices and Additional Resources** PDF for this project.
 
-**Connecting the LEGO SPIKE Prime Hub to a computer**
-When using a SPIKE Prime for the first time, it needs to be connected to a computer
-for it to be named, which plays a key part in connecting it to Vuforia Spatial Toolbox.
-This section will explain how to start the initial connection of the SPIKE Prime Hub.
+## Connecting the LEGO SPIKE Prime Hub to a computer
+When using a SPIKE Prime for the first time, it needs to be connected to a computer for it to be named, which plays a key part in connecting it to Vuforia Spatial Toolbox. This section will explain how to start the initial connection of the SPIKE Prime Hub.
 
 1. Open the LEGO Educational SPIKE app and click “New Project” to start a new
     project. Choose the “Word Blocks” option, even though there will not be any
