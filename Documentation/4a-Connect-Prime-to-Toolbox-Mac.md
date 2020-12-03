@@ -40,17 +40,13 @@ When using a SPIKE Prime for the first time, it needs to be connected to a compu
 1. Open the LEGO Educational SPIKE app and click “New Project” to start a new project. Choose the “Word Blocks” option, even though there will not be any coding inside of this interface.
 2. Click the “Connect” button at the top of the page and turn on the SPIKE Prime Hub.
 ## ![Connect Button](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image003.png)
-3. Ensure that the computer has Bluetooth enabled and choose the “CONNECT
-    VIA BLUETOOTH” option at the top right-hand corner of the pop-up window
+3. Ensure that the computer has Bluetooth enabled and choose the “CONNECT VIA BLUETOOTH” option at the top right-hand corner of the pop-up window
 4. Turn on the SPIKE Prime Hub
-5. Hold down the Bluetooth button on the corner of the Hub until it starts
-    beeping and lights up
-       o Make sure that the SPIKE Prime Hub is within range of the computer,
-          otherwise it will not be able to connect
+5. Hold down the Bluetooth button on the corner of the Hub until it starts beeping and lights up
+    - Make sure that the SPIKE Prime Hub is within range of the computer, otherwise it will not be able to connect
 6. If the SPIKE Prime Hub can connect to the computer, it will show up on the
     screen as a nearby Hub and will be recognized as a device by the computer
-       o If this is the first time that the Hub is connected to the app, a prompt
-          will pop up so that it can be given a unique name
+    - If this is the first time that the Hub is connected to the app, a prompt will pop up so that it can be given a unique name
 ## ![Hub Screenshot](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image004.png)
 7. Once the SPIKE Prime Hub has been connected successfully, close out of the SPIKE app to avoid interference when connecting with Vuforia Spatial Toolbox
 
@@ -58,16 +54,10 @@ When using a SPIKE Prime for the first time, it needs to be connected to a compu
 The following steps will describe the procedure of connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox via the Bluetooth connection on a computer and the Vuforia Spatial Toolbox mobile app. All code will be run in Terminal.
 
 1. Turn on the LEGO SPIKE Prime if it is not already on
-2. Go to “System Preferences” and click on “Bluetooth”. Ensure that Bluetooth is
-    turned on. Press down the Bluetooth button on the LEGO SPIKE Prime and
-    wait for the computer to recognize it. Pair the LEGO SPIKE Prime with the
-    computer.
-3. Open a new Terminal window. This is where all commands to start the Vuforia
-    Spatial Edge Server will be executed.
-4. Type ls /dev/tty.* and hit the enter key until the Bluetooth ports that are
-    being used are displayed.
-5. Find the serial port that starts with “tty.LEGOHub” and copy the full name of
-    the port.
+2. Go to “System Preferences” and click on “Bluetooth”. Ensure that Bluetooth is turned on. Press down the Bluetooth button on the LEGO SPIKE Prime and wait for the computer to recognize it. Pair the LEGO SPIKE Prime with the computer.
+3. Open a new Terminal window. This is where all commands to start the Vuforia Spatial Edge Server will be executed.
+4. Type ls /dev/tty.* and hit the enter key until the Bluetooth ports that are being used are displayed.
+5. Find the serial port that starts with “tty.LEGOHub” and copy the full name of the port.
     ## ![Serial Port List](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image006.png)
     
     #### Troubleshooting: 
@@ -81,27 +71,16 @@ The following steps will describe the procedure of connecting a LEGO SPIKE Prime
     - Repeat the steps above.
 
 6. Open the serial.js document inside of the folder path ```SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server/addons/vuforia-spatial-robotic-addon/interfaces/SPIKE-Prime```
-    - Go to line 23 of serial.js and replace the serial port with the one that
-          was just copied that starts with tty.LEGOHub. This is the string directly
-          after SerialPort(. For example, the code at line 23 that was used when
-          making this tutorial was ```const port = newSerialPort(‘/dev/tty.LEGOHubPTCAcademic-Seri’, {```, where PTCAcademic is the distinct name that was given to the hub.
+    - Go to line 23 of serial.js and replace the serial port with the one that was just copied that starts with tty.LEGOHub. This is the string directly after ```SerialPort(.``` For example, the code at line 23 that was used when making this tutorial was ```const port = newSerialPort(‘/dev/tty.LEGOHubPTCAcademic-Seri’, {```, where PTCAcademic is the distinct name that was given to the hub.
     #### Troubleshooting: 
     - Make sure to keep /dev/ at the beginning of the line, and keep the bracket on the end of the line.
     ## ![Serial.js Editing](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image008.png)
 
-7. In Terminal, navigate back to SpatialToolbox-Mac-Interns/vuforia-spatial-
-    edge-server with the code cd Documents/SpatialToolbox-Mac-Interns/vuforia-
-    spatial-edge-server. If the _SpatialToolbox-Mac-Interns_ folder is not saved to the
-    _Documents_ folder, replace Documents in the code above with whatever folder
-    the _SpatialToolbox-Mac-Interns_ folder is saved in.
-8. Type node -v to check which version of Node.js was installed and take note.
-    This will be used in the next step.
-9. Run npm install while in the SpatialToolbox-Mac-Interns/vuforia-spatial-
-    edge-server directory in Terminal
+7. In Terminal, navigate back to SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server with the code cd Documents/SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server. If the _SpatialToolbox-Mac-Interns_ folder is not saved to the_Documents_ folder, replace Documents in the code above with whatever folder the _SpatialToolbox-Mac-Interns_ folder is saved in.
+8. Type node -v to check which version of Node.js was installed and take note. This will be used in the next step.
+9. Run npm install while in the SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server directory in Terminal
     - If Node.js is a version other than v12.18.2, use npm rebuild to get the folder to work with the current version of Node.js. The server will not start if the without doing this if Node is a version other than v12.18.2.
-10. Navigate to the Spatial Robotic Addon directory using cd addons/vuforia-
-    spatial-robotic-addon while in the SpatialToolbox-Mac-Interns/vuforia-spatial-
-    edge-server directory and run npm install again
+10. Navigate to the Spatial Robotic Addon directory using cd addons/vuforia-spatial-robotic-addon while in the SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server directory and run npm install again
     - These two commands will install all necessary packages for this project
     - **_As with the step above, if Node.js is a version other than v12.18.2, use npm rebuild to get the folder to work with the current version of Node.js. The server will not start if the without doing this if Node is a version other than v12.18.2.
 11. Enter cd ../../ into Terminal to navigate back to the SpatialToolbox-Mac- Interns/vuforia-spatial-edge-server directory
