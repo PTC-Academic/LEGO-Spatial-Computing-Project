@@ -78,13 +78,17 @@ The following steps will describe the procedure of connecting a LEGO SPIKE Prime
 
 7. In Terminal, navigate back to SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server with the code cd Documents/SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server. If the _SpatialToolbox-Mac-Interns_ folder is not saved to the_Documents_ folder, replace Documents in the code above with whatever folder the _SpatialToolbox-Mac-Interns_ folder is saved in.
 8. Type node -v to check which version of Node.js was installed and take note. This will be used in the next step.
-9. Run npm install while in the SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server directory in Terminal
+9. Run ```npm install``` while in the SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server directory in Terminal
     - If Node.js is a version other than v12.18.2, use npm rebuild to get the folder to work with the current version of Node.js. The server will not start if the without doing this if Node is a version other than v12.18.2.
 10. Navigate to the Spatial Robotic Addon directory using cd addons/vuforia-spatial-robotic-addon while in the SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server directory and run npm install again
     - These two commands will install all necessary packages for this project
     - **_As with the step above, if Node.js is a version other than v12.18.2, use npm rebuild to get the folder to work with the current version of Node.js. The server will not start if the without doing this if Node is a version other than v12.18.2.
 11. Enter cd ../../ into Terminal to navigate back to the SpatialToolbox-Mac- Interns/vuforia-spatial-edge-server directory
-12. Run node server. This should start the Vuforia Spatial Edge Server. Type localhost:8080 into a web browser. If the page does not load, troubleshoot using the methods below. If it does load, it should look like this image:
+12. Run node server. 
+    - In a terminlal window, browse to the vuforia-spatial-edge-server directory
+    - Enter ```npm start``` to start the Vuforia Spatial Edge Server. 
+    - Navigate to localhost:8080 into a web browser. 
+    - If the page does not load, troubleshoot using the methods below. If it does load, it should look like this image:
     ## ![Edge Server](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image009.png)
     #### Troubleshooting: 
     - The LEGO SPIKE Prime will make a beep shortly after running node server and connecting for the first time. This indicates that everything was connected correctly. 
