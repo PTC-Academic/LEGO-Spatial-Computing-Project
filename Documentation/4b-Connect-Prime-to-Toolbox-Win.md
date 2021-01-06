@@ -49,10 +49,8 @@ When using a SPIKE Prime for the first time, it needs to be connected to a compu
 ## ![Hub Screenshot](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image004.png)
 7. Once the SPIKE Prime Hub has been connected successfully, close out of the SPIKE app to avoid interference when connecting with Vuforia Spatial Toolbox
 
-**Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox**
-The following steps will describe the procedure of connecting a LEGO SPIKE Prime
-to Vuforia Spatial Toolbox via the Bluetooth connection on a computer and the
-Vuforia Spatial Toolbox mobile app. All code will be run in the Command Prompt.
+## Connecting the LEGO SPIKE Prime to Vuforia Spatial Toolbox
+The following steps will describe the procedure of connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox via the Bluetooth connection on a computer and the Vuforia Spatial Toolbox mobile app. All code will be run in the Command Prompt.
 
 1. Turn on the LEGO SPIKE Prime if it is not already on
 2. Hit the Windows key on the keyboard and type in “Bluetooth” to go to Bluetooth and other devices settings. Ensure that Bluetooth is turned on and hold down the Bluetooth button on the LEGO SPIKE Prime until it is recognized by the computer. Pair the LEGO SPIKE Prime with the computer.
