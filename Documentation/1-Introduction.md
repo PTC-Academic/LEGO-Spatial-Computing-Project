@@ -6,7 +6,7 @@ This project combines Augmented Reality, Spatial Computing and the Internet of T
 
 These documents detail the requirements necessary to complete this project and will guide users through the steps.
 
-To view an example of what the outcome of this project may look like, check out this [FFT Activity and Learn About IOT Using Airtable](https://youtu.be/5Z9nq_n4VDI) video on YouTube.
+To view an example of what the outcome of this project may look like, check out this [![Intro LEGO Spatial Computing FFT video](intro-video-image.png)](https://youtu.be/DtDQxQUz03o "Intro LEGO Spatial Computing FFT video") on YouTube.
 
 For troubleshooting, check out the [Vuforia Spatial Toolbox forum](https://forum.spatialtoolbox.vuforia.com/). It is monitored regularly by the PTC Spatial Toolbox team and members of the spatial computing community.
 
