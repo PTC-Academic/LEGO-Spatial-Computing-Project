@@ -1,6 +1,6 @@
 # Introduction
 
-These lessons demonstrate how to connect a LEGO Education SPIKE Prime set to [Vuforia Spatial Toolbox](https://www.ptc.com/en/products/augmented-reality/vuforia-spatial-toolbox), PTC’s latest solution for augmented reality and spatial computing. Vuforia Spatial Toolbox allows users to control and connect the physical world with digital interfaces through the Internet of Things, a mobile device, and a computer.
+This exercise demonstrates how to connect a LEGO Education SPIKE Prime set to [Vuforia Spatial Toolbox](https://www.ptc.com/en/products/augmented-reality/vuforia-spatial-toolbox), PTC’s latest solution for augmented reality and spatial computing. Vuforia Spatial Toolbox allows users to control and connect the physical world with digital interfaces through the Internet of Things, a mobile device, and a computer.
 
 This project combines Augmented Reality, Spatial Computing and the Internet of Things, with JavaScript and an algorithm called a [Fast Fourier Transform](https://en.wikipedia.org/wiki/Fast_Fourier_transform)to analyze the vibrations produced by a LEGO SPIKE Prime rotating a "Radial Engine", or similar imperftect rotating artifact.
 
