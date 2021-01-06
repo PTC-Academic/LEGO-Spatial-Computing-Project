@@ -1,12 +1,10 @@
 # Introduction
 
-This exercise demonstrates how to connect a LEGO Education SPIKE Prime set to [Vuforia Spatial Toolbox](https://www.ptc.com/en/products/augmented-reality/vuforia-spatial-toolbox), PTC’s latest solution for augmented reality and spatial computing. Vuforia Spatial Toolbox allows users to control and connect the physical world with digital interfaces through the Internet of Things, a mobile device, and a computer.
+This exercise demonstrates how to connect a [LEGO Education SPIKE Prime](https://education.lego.com/en-us/meetspikeprime#science) to [Vuforia Spatial Toolbox](https://www.ptc.com/en/products/augmented-reality/vuforia-spatial-toolbox), PTC’s latest solution for augmented reality and spatial computing. Vuforia Spatial Toolbox allows users to control and connect the physical world with digital interfaces through the Internet of Things, a mobile device, and a computer.
 
-This project combines Augmented Reality, Spatial Computing and the Internet of Things, with JavaScript and an algorithm called a [Fast Fourier Transform](https://en.wikipedia.org/wiki/Fast_Fourier_transform)to analyze the vibrations produced by a LEGO SPIKE Prime rotating a "Radial Engine", or similar imperftect rotating artifact.
+This project combines Augmented Reality (AR), Spatial Computing and the Internet of Things (IoT), with JavaScript and an algorithm called a [Fast Fourier Transform](https://en.wikipedia.org/wiki/Fast_Fourier_transform)(FFT) to analyze the vibrations produced by a LEGO SPIKE Prime rotating a LEGO-built [Radial Engine](https://en.wikipedia.org/wiki/Radial_engine).
 
-These documents detail the requirements necessary to complete this project and will guide users through the steps.
-
-For aadditional help with Vuforia Spatial Toolbox, check out the [Vuforia Spatial Toolbox forum](https://forum.spatialtoolbox.vuforia.com/). It is monitored regularly by the PTC Spatial Toolbox team and members of the spatial computing community.
+For additional help with Vuforia Spatial Toolbox, check out the [Vuforia Spatial Toolbox forum](https://forum.spatialtoolbox.vuforia.com/). It is monitored regularly by the PTC Spatial Toolbox team and the spatial computing community.
 
 ## Requirements
 Below is a list of components that are necessary to complete this project. A wi-fi network is also required.
