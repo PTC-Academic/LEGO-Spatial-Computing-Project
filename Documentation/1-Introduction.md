@@ -1,15 +1,15 @@
 # Introduction
 
-Welcome to PTC Academic’s LEGO Spatial Computing Project! These lessons demonstrate how to connect a LEGO Education SPIKE Prime set to [Vuforia Spatial Toolbox](https://www.ptc.com/en/products/augmented-reality/vuforia-spatial-toolbox), PTC’s latest solution for augmented reality and spatial computing. Vuforia Spatial Toolbox allows users to control and connect the physical world with digital interfaces through the Internet of Things, a mobile device, and a computer.
+These lessons demonstrate how to connect a LEGO Education SPIKE Prime set to [Vuforia Spatial Toolbox](https://www.ptc.com/en/products/augmented-reality/vuforia-spatial-toolbox), PTC’s latest solution for augmented reality and spatial computing. Vuforia Spatial Toolbox allows users to control and connect the physical world with digital interfaces through the Internet of Things, a mobile device, and a computer.
 
-This project combines Augmented Reality, Spatial Computing and the Internet of Things, with JavaScript and an engineering concepts called a Fast Fourier Transform to analyze the vibrations produced by a LEGO SPIKE Prime rotating a "Radial Engine", or similar imperftect rotating artifact.
+This project combines Augmented Reality, Spatial Computing and the Internet of Things, with JavaScript and an algorithm called a [Fast Fourier Transform](https://en.wikipedia.org/wiki/Fast_Fourier_transform)to analyze the vibrations produced by a LEGO SPIKE Prime rotating a "Radial Engine", or similar imperftect rotating artifact.
 
 These documents detail the requirements necessary to complete this project and will guide users through the steps.
 
-For troubleshooting, check out the [Vuforia Spatial Toolbox forum](https://forum.spatialtoolbox.vuforia.com/). It is monitored regularly by the PTC Spatial Toolbox team and members of the spatial computing community.
+For aadditional help with Vuforia Spatial Toolbox, check out the [Vuforia Spatial Toolbox forum](https://forum.spatialtoolbox.vuforia.com/). It is monitored regularly by the PTC Spatial Toolbox team and members of the spatial computing community.
 
 ## Requirements
-Below is a list of components that are necessary to complete this project. They can be broken down between hardware and software. A wi-fi network is also required.
+Below is a list of components that are necessary to complete this project. A wi-fi network is also required.
 
 ### Hardware:
 * iPhone, iPad, or iPod Touch running iOS 12.0 or later (Android is  urrently in BETA)
