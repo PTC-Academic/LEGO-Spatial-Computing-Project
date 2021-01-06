@@ -105,4 +105,4 @@ Additional Resources
     local vs global tools in Vuforia Spatial Toolbox
 - Airtable Support
 
-
+<-- Go back to [Learn About IOT using Airtable](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/6-IOT-with-Airtable.md)
