@@ -1,14 +1,15 @@
-# Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox on Windows
+# Connecting LEGO SPIKE Prime to Vuforia Spatial Toolbox on Windows
 
 **Estimated time to complete** 30 - 60 minutes
 
 ##  Requirements
 1. LEGO SPIKE Prime Hub & LEGO build
 2. LEGO Education product feedback pamphlet
-3. Computer with Bluetooth capabilities
-4. Vuforia Spatial Toolbox compatible device
-5. Vuforia Spatial Edge Server download from GitHub
-6. Vuforia Spatial Toolbox app
+3. LEGO Education SPIKE app
+4. Computer with Bluetooth capabilities
+5. Vuforia Spatial Toolbox compatible device
+6. Vuforia Spatial Edge Server download from GitHub
+7. Vuforia Spatial Toolbox app
 
 ## Suggested pre-requisites:
 1. [What is Vuforia Spatial Toolbox?](https://youtu.be/k3uHFk1PAAM)
@@ -36,8 +37,9 @@ A key part of using the Vuforia Spatial Toolbox is an image target. This allows 
 ## Connecting the LEGO SPIKE Prime Hub to a computer
 When using a SPIKE Prime for the first time, it needs to be connected to a computer for it to be named, which plays a key part in connecting it to Vuforia Spatial Toolbox. This section will explain how to start the initial connection of the SPIKE Prime Hub.
 
-1. Open the LEGO Educational SPIKE app and click “New Project” to start a new project. Choose the “Word Blocks” option, even though there will not be any coding inside of this interface.
+1. Open the LEGO Education SPIKE app and click “New Project” to start a new project. Choose the “Word Blocks” option, even though there will not be any coding inside of this interface.
 2. Click the “Connect” button at the top of the page and turn on the SPIKE Prime Hub.
+## ![Connect Button](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image003.png)
 3. Ensure that the computer has Bluetooth enabled and choose the “CONNECT VIA BLUETOOTH” option at the top right-hand corner of the pop-up window
 4. Turn on the SPIKE Prime Hub
 5. Hold down the Bluetooth button on the corner of the Hub until it starts beeping and lights up    o Make sure that the SPIKE Prime Hub is within range of the computer, otherwise it will not be able to connect.
