@@ -40,4 +40,4 @@ Below is a list of components that are necessary to complete this project. A wi-
 
 ## ![Project Workflow Overview](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/project-workflow.png)
 
-Continue to the next step - [Downloads](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2-Downloads.md)
+Continue to the [Downloads](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2-Downloads.md) step -->
