@@ -53,14 +53,17 @@ When using a SPIKE Prime for the first time, it needs to be connected to a compu
 The following steps will describe the procedure of connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox via the Bluetooth connection on a computer and the Vuforia Spatial Toolbox mobile app. All code will be run in the Command Prompt.
 
 1. Turn on the LEGO SPIKE Prime if it is not already on
-2. Hit the Windows key on the keyboard and type in “Bluetooth” to go to Bluetooth and other devices settings. Ensure that Bluetooth is turned on and hold down the Bluetooth button on the LEGO SPIKE Prime until it is recognized by the computer. Pair the LEGO SPIKE Prime with the computer.
+2. Click the Windows key on the keyboard and type in “Bluetooth” to go to Bluetooth and other devices settings. Ensure that Bluetooth is turned on and hold down the Bluetooth button on the LEGO SPIKE Prime until it is recognized by the computer. Pair the LEGO SPIKE Prime with the computer.
 3. If the LEGO SPIKE Prime isn’t immediately visible, look under the “other devices” heading and scroll down.
 4. Select the “Devices and Printers” link at the bottom or right side of Bluetooth and other devices.
-5. Scroll through the devices and search for a device that starts with “LEGO Hub@...” right click on the device, and select “Properties”    o If the SPIKE Prime Hub does not show up as a Bluetooth device, ensure that Bluetooth enabled on the computer and that the Bluetooth button on the Hub has been pressed to prepare it for pairing
+5. Scroll through the devices and search for a device that starts with “LEGO Hub@...” right click on the device, and select “Properties”    
+    - If the SPIKE Prime Hub does not show up as a Bluetooth device, ensure that Bluetooth enabled on the computer and that the Bluetooth button on the Hub has been pressed to prepare it for pairing
     - Also ensure that the LEGO SPIKE App has been closed and disconnected from the SPIKE Prime Hub
 6. In the new Properties window, navigate into the tab for “Hardware”.
 7. There should be a Device Function with the name “Standard Serial over Bluetooth Link”. The COM name in the parenthesis is the serial port for the SPIKE Prime, take note of this.
-    **Troubleshooting:**
+    ## ![Serial Port List](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image006.png)
+    
+    #### Troubleshooting: 
     If this serial port cannot be found, open the LEGO Educational SPIKE app.
         - Unplug the LEGO SPIKE Prime from the computer if it is plugged in
         - Turn the SPIKE Prime off and then back on
@@ -69,8 +72,10 @@ The following steps will describe the procedure of connecting a LEGO SPIKE Prime
         - Follow the instructions from LEGO for Connecting via Bluetooth
         - Be sure to close the LEGO SPIKE Prime from the app after connecting. This will block communication with the server if not disconnected.
         - Repeat the steps above.
-8. Open the serial.js document inside of the path _SpatialToolbox-Windows-_ _Interns/vuforia-spatial-edge-server/addons/Vuforia-spatial-robotic-_ _addon/interfaces/SPIKE-Prime_ in File Explorer.    o Go to line 23 of serial.js and replace the serial port with the one that was just taken note of. The part of the line that has COMX, where X is the number of the serial port that was found above. For example, the code at line 23 that was used when making this tutorial was const port = new SerialPort('COM 6 ', {, where COM 6 is the port that the PTC hub is connected to.
-9. Open a new Command Prompt window by clicking the Windows button on the keyboard and typing in “Command Prompt”. This is where the commands to start the Vuforia Spatial Edge Server will be executed from.
+
+8. Open the serial.js document inside of the path ```SpatialToolbox-Windows-Interns/vuforia-spatial-edge-server/addons/Vuforia-spatial-robotic-addon/interfaces/SPIKE-Prime``` in File Explorer.    
+    - Go to line 23 of serial.js and replace the serial port with the one that was just taken note of. The part of the line that has COMX, where X is the number of the serial port that was found above. For example, the code at line 23 that was used when making this tutorial was ```const port = new SerialPort('COM 6 ', {```, where COM 6 is the port that the PTC hub is connected to.
+9. Open a new Command Prompt window by clicking the Windows button on the keyboard and typing in "Command". This is where the commands to start the Vuforia Spatial Edge Server will be executed from.
 10. In the Command Prompt, navigate to the vuforia-spatial-edge-server directory inside of SpatialToolbox-Windows-Interns with the code cd Documents/SpatialToolbox-Windows-Interns/vuforia-spatial-edge-server. If the _SpatialToolbox-Windows-Interns_ folder is not saved in the Documents folder, replace Documents in the code above with whatever folder that _SpatialToolbox-Windows-Interns_ is saved in.
 11. Type node -v to ch```eck which version of Node.js was installed and take note
 12. Run ```npm install while in the SpatialToolbox-Windows-Interns/vuforia-spatial- edge-server directory

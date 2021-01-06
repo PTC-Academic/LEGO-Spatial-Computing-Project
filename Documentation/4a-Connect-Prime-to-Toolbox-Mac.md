@@ -74,13 +74,12 @@ The following steps will describe the procedure of connecting a LEGO SPIKE Prime
     #### Troubleshooting: 
     - Make sure to keep /dev/ at the beginning of the line, and keep the bracket on the end of the line.
     ## ![Serial.js Editing](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image008.png)
-
-7. In Terminal, navigate back to SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server with the code cd Documents/SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server. If the _SpatialToolbox-Mac-Interns_ folder is not saved to the_Documents_ folder, replace Documents in the code above with whatever folder the _SpatialToolbox-Mac-Interns_ folder is saved in.
-8. Type node -v to check which version of Node.js was installed and take note. This will be used in the next step.
-9. Run ```npm install``` while in the SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server directory in Terminal
+    - In Terminal, navigate back to SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server by entering ```cd Documents/SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server```. If the ```SpatialToolbox-Mac-Interns``` folder is not saved to the ```Documents``` folder, replace Documents in the code above with wthe acutal path to the ```SpatialToolbox-Mac-Interns``` folder.
+    - Type ```node -v``` to check which version of Node.js was installed and take note of the results. This will be used in the next step.
+    - Run ```npm install``` while in the SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server directory in Terminal
     - If Node.js is a version other than v12.18.2, use npm rebuild to get the folder to work with the current version of Node.js. The server will not start if the without doing this if Node is a version other than v12.18.2.
-10. Navigate to the Spatial Robotic Addon directory using cd addons/vuforia-spatial-robotic-addon while in the SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server directory and run npm install again
-    - These two commands will install all necessary packages for this project
+    - Navigate to the Spatial Robotic Addon directory by entering ```cd addons/vuforia-spatial-robotic-addon``` while in the SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server directory and enter ```npm install``` again
+    - These two commands will install all necessary packages for t`his project
     - **_As with the step above, if Node.js is a version other than v12.18.2, use npm rebuild to get the folder to work with the current version of Node.js. The server will not start if the without doing this if Node is a version other than v12.18.2.
 11. Enter cd ../../ into Terminal to navigate back to the SpatialToolbox-Mac- Interns/vuforia-spatial-edge-server directory
 12. Run node server. 
