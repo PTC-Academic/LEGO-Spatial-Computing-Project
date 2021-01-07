@@ -50,11 +50,11 @@ activity, the node setup needs to be in Advanced mode in order to do the necessa
 This section introduces how to set up Vuforia Spatial Toolbox for using the FFTanalysis on the SPIKE Prime radial engine
 
 1. The four nodes used for running the FFT are as follows:
-   - FFTStart works as a toggle to trigger the FFT analysis. When it is turned on, data sampling will start
-   - FFTLength is used for deciding the number of samples that are going to be taken into the FFT analysis. It intakes sample integers between 16 and 512 samples at powers of 2 (16, 32, 64, etc). Higher sample rates lead to accurate results but will also take slightly longer due to more samples being taken.
-   - FFTAxis takes an input of 0, 1, or 2, which represent the X, Y, and Z axes on a coordinate system, respectively. This determines the axis along which the FFT analysis will be calculated.
+   - **FFTStart** works as a toggle to trigger the FFT analysis. When it is turned on, data sampling will start
+   - **FFTLength** is used for deciding the number of samples that are going to be taken into the FFT analysis. It intakes sample integers between 16 and 512 samples at powers of 2 (16, 32, 64, etc). Higher sample rates lead to accurate results but will also take slightly longer due to more samples being taken.
+   - **FFTAxis** takes an input of 0, 1, or 2, which represent the X, Y, and Z axes on a coordinate system, respectively. This determines the axis along which the FFT analysis will be calculated.
    - To determine the direction the coordinate system is facing, attach a Value tool to each of the accelerometer nodes. Whichever node outputs a number around 980 (cm/s^2 ) is the vertical axis. Move the SPIKE Prime linearly to determine where the other two horizontal axes are. In the case below, the Value tool that is outputting 1005 cm/s^2 and is connected to the accelerometerY shows that the Y direction is on the vertical axis
-   - FFTOutput outputs the solution of the FFT analysis. This will be attached to a Number tool, where the primary frequency of oscillation of the system will be displayed
+   - **FFTOutput** outputs the solution of the FFT analysis. This will be attached to a Number tool, where the primary frequency of oscillation of the system will be displayed
 2. In addition to the FFT nodes, there will also be three different tools that need to be added into the spatial environment in the Vuforia Spatial Toolbox app
    -  Numbers tool for inputting numbers and text
    - Switch tool that can be turned on and off
