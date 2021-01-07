@@ -41,6 +41,7 @@ Below is a list of components that are necessary to complete this project. A wi-
 
 **Time to complete all sections:  2-3 hours**
 
+This project workflow diagram outlines the tasks that are covered in each section:
 ## ![Project Workflow Overview](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/project-workflow.png)
 
 Continue to [Downloads](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2-Downloads.md) -->
