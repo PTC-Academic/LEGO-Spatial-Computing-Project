@@ -75,9 +75,9 @@ The following steps describes the procedure of connecting a LEGO SPIKE Prime to 
     - Make sure to keep ```/dev/``` at the beginning of the line, and keep the bracket on the end of the line.
     ## ![Serial.js Editing](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image008.png)
 
-7. In Terminal, navigate back to SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server by entering ```cd Documents/SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server```. If the ```SpatialToolbox-Mac-Interns``` folder is not saved to the ```Documents``` folder, replace Documents in the code above with wthe acutal path to the ```SpatialToolbox-Mac-Interns``` folder.
-8. Type ```node -v``` to check which version of Node.js was installed and take note of the results. This will be used in the next step.
-9. Run ```npm install``` while in the SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server directory in Terminal
+7. In Terminal, navigate back to SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server by entering ```cd Documents/SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server```. If the _SpatialToolbox-Mac-Interns_ folder is not saved to the _Documents_ folder, replace _Documents_ in the code above with wthe acutal path to the _SpatialToolbox-Mac-Interns_ folder.
+8. Type ```node -v``` to check which version of Node.js was installed and take note of the result.
+9. Run ```npm install``` while in the _SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server_ directory in Terminal
     - If Node.js is a version other than v12.18.2, enter ```npm rebuild``` to get the folder to work with the current version of Node.js. The server will not start if the without doing this if Node is a version other than v12.18.2.
 10. Navigate to the Spatial Robotic Addon directory by entering ```cd addons/vuforia-spatial-robotic-addon``` while in the SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server directory and enter ```npm install``` again
     - These two commands will install all necessary packages for t`his project
