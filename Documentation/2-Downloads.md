@@ -1,5 +1,5 @@
 # Downloads
-This page will give detailed instructions for downloading the software necessary to complete this Vuforia Spatial Toolbox project. 
+This sections gives detailed instructions for downloading the software necessary to complete this Vuforia Spatial Toolbox project. 
 
 **Time to complete: 30 - 45 minutes**
 #### Note: Vuforia Spatial Toolbox has two primary software components: 

@@ -3,9 +3,9 @@ Welcome to PTC’s LEGO Spatial Computing Project! These lessons will instruct u
 
 This video shows an example of what the outcome of this project may look like (click image for full video and explanation on Youtube): [![Intro LEGO Spatial Computing FFT video](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/intro-video.gif)](https://youtu.be/DtDQxQUz03o "Intro LEGO Spatial Computing FFT video")
 
-This exercise demonstrates how to connect a [LEGO Education SPIKE Prime](https://education.lego.com/en-us/meetspikeprime#science) to [Vuforia Spatial Toolbox](https://www.ptc.com/en/products/augmented-reality/vuforia-spatial-toolbox), PTC’s latest solution for augmented reality and spatial computing. Vuforia Spatial Toolbox allows users to control and connect the physical world with digital interfaces through the Internet of Things, a mobile device, and a computer.
+This exercise demonstrates how to connect a [LEGO Education SPIKE Prime](https://education.lego.com/en-us/meetspikeprime#science) to [Vuforia Spatial Toolbox](https://www.ptc.com/en/products/augmented-reality/vuforia-spatial-toolbox), PTC’s latest solution for augmented reality and spatial computing. Vuforia Spatial Toolbox allows users to control and connect the physical world with Augmented Reality (AR).
 
-This project combines Augmented Reality (AR), Spatial Computing and the Internet of Things (IoT), with JavaScript and an algorithm called a [Fast Fourier Transform](https://en.wikipedia.org/wiki/Fast_Fourier_transform)(FFT) to analyze the vibrations produced by a LEGO SPIKE Prime rotating a LEGO-built [Radial Engine](https://en.wikipedia.org/wiki/Radial_engine).
+This project combines AR, Spatial Computing and the Internet of Things (IoT), with JavaScript and an algorithm called a [Fast Fourier Transform](https://en.wikipedia.org/wiki/Fast_Fourier_transform)(FFT) to analyze the vibrations produced by a LEGO SPIKE Prime rotating a LEGO-built [Radial Engine](https://en.wikipedia.org/wiki/Radial_engine).
 
 For additional help with Vuforia Spatial Toolbox, check out the [Vuforia Spatial Toolbox forum](https://forum.spatialtoolbox.vuforia.com/). It is monitored regularly by the PTC Spatial Toolbox team and the spatial computing community.
 

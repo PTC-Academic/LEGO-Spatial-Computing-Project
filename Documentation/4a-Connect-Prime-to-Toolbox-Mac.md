@@ -24,7 +24,7 @@
 The LEGO SPIKE Prime Hub needs to be connected to the LEGO Education SPIKE App. Open the app and become familiar with the capabilities of the LEGO SPIKE Prime. Learn how to connect it to Bluetooth with the beginning tutorials within the SPIKE app.
 
 ## Getting Started
-This portion of the project details how to connect the SPIKE Prime to the Vuforia Spatial Edge Server to allow the SPIKE Prime to be controlled by the Vuforia Spatial Toolbox app.
+This section details how to connect the SPIKE Prime to the Vuforia Spatial Edge Server to allow the SPIKE Prime to be controlled by the Vuforia Spatial Toolbox app.
 
 ## Image Target
 A key part of using the Vuforia Spatial Toolbox is an image target. This allows the app to scan a predetermined image that will signal the server to display an AR overlay onto the physical world as viewed through a mobile device or tablet. For this project, the feedback pamphlet that comes in each LEGO SPIKE Prime box will be used as the image target. This image has already been preconfigured in the Vuforia Spatial Edge Server that has been downloaded. If the pamphlet is not accessible, save the image below as a standalone picture and print it out and use it as the image target.
