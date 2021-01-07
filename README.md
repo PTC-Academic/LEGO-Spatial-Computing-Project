@@ -1,6 +1,6 @@
-# LEGO-Spatial-Computing-Project
+# LEGO Spatial Computing Project
 Welcome to PTC’s LEGO Spatial Computing Project! These lessons will instruct users how to connect a LEGO Education SPIKE Prime set to Vuforia Spatial Toolbox, PTC’s latest solution for augmented reality and spatial computing.  
-
+s
 This video shows an example of what the outcome of this project may look like (click image for full video and explanation on Youtube): [![Intro LEGO Spatial Computing FFT video](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/intro-video.gif)](https://youtu.be/DtDQxQUz03o "Intro LEGO Spatial Computing FFT video")
 
 This exercise demonstrates how to connect a [LEGO Education SPIKE Prime](https://education.lego.com/en-us/meetspikeprime#science) to [Vuforia Spatial Toolbox](https://www.ptc.com/en/products/augmented-reality/vuforia-spatial-toolbox), PTC’s latest solution for augmented reality and spatial computing. Vuforia Spatial Toolbox allows users to control and connect the physical world with Augmented Reality (AR).
