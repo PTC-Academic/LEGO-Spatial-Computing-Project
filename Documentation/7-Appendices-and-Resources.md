@@ -7,16 +7,14 @@ There are also additional resources listed for further explanation with all part
 project.
 
 **Appendix A:** SpatialToolbox-Mac/Windows-Interns folder hierarchy
-
+    ## ![Folder hierarchy](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/7-image001.png)
 **Appendix B:** Concept Map
-
-
+    ## ![Concept Map](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/7-image003.jpg)
 **Appendix C:** Project Process Map
-
+    ## ![Project Process Map](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/7-image005.jpg)
 **Appendix D:** Node Explanations
 
 Beginner
-
 
 Beginner has 5 nodes: screen, LED, motors, distance, and stopMotors. This one
 should be used by students who are just starting to work with the SPIKE Prime for

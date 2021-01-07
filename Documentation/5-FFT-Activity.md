@@ -12,15 +12,11 @@
 
 
 ## Getting Started
-A Fast Fourier Transform (FFT) is a form of frequency analysis that takes a discrete signal in the time domain and transforms that signal into its discrete frequency
-domain representation in order to find the primary frequency that the object is vibrating at. This frequency is important to know to avoid having an object vibrate at
-its natural frequency, as that would cause potential failure in the object. In this activity, a Fast Fourier Transform analysis will be made on a LEGO SPIKE Prime
-representation of a radial engine. The FFT analysis will be used to tell how many vibrations occur per second on the engine. This is important, as vibration analysis is used for predicting failure in rotating machinery. This activity will have students use the Vuforia Spatial Toolbox to trigger an FFT analysis on their LEGO SPIKE Prime and be able to visualize the number of vibrations per second on its motor while it is rotating.
+A Fast Fourier Transform (FFT) is a method of frequency analysis that takes a discrete signal in the time domain and transforms that signal into its  frequency domain components -- the fundamental frequencies at which an an object is vibrating. These frequencies is important to know to avoid having an object vibrate at its natural frequency, as that could cause potential failure in the object. In this activity, an FFT analysis will be made on a LEGO-based radial engine. 
 
 ## Changing the Hardware Interface
 
-As mentioned in **Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox**, the setup of the nodes can be changed depending on need. In the case of this FFT
-activity, the node setup needs to be in Advanced mode in order to do the necessary analysis.
+As mentioned in **Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox**, the setup of the nodes can be changed depending on need. In the case of this FFT activity, the node setup needs to be in Advanced mode in order to do the necessary analysis.
 
 1. Connect the SPIKE Prime to a computer via Bluetooth if not already connected
 2. Open Terminal/Command Prompt and go to the vuforia-spatial-edge-server directory

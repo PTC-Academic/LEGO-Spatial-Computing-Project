@@ -11,13 +11,10 @@
 6. Vuforia Spatial Toolbox app
 
 ## Getting Started
-Airtable is an open-source collaborative database service. It can be used as an example of IOT connectivity that allows users to send data between different
-objects and see those changes update in real time between the environments. In this example, using IOT, data will be sent between Airtable, Vuforia Spatial Toolbox,
-and the SPIKE Prime using an API connection.
+Airtable is an open-source collaborative database service. It can be used as an example of IOT connectivity that allows users to send data between different objects and see those changes update in real time between the environments. In this example, using IOT, data will be sent between Airtable, Vuforia Spatial Toolbox, and the SPIKE Prime using an API connection.
 
 ## Hardware Edits
-As mentioned in the SPIKE Prime Hardware Build PDF, this activity serves its best purpose when additional parts are connected to the SPIKE Prime Hub. In the images
-below, the distance sensor from the SPIKE Prime has been added to the build. If the distance sensor is not available, the pressure sensor can be substituted in to serve the same purpose.
+As mentioned in the SPIKE Prime Hardware Build PDF, this activity serves its best purpose when additional parts are connected to the SPIKE Prime Hub. In the images below, the distance sensor from the SPIKE Prime has been added to the build. If the distance sensor is not available, the pressure sensor can be substituted in to serve the same purpose.
 
 ## Setting Up Airtable
 
