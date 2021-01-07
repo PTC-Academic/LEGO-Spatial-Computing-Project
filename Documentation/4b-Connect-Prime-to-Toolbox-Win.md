@@ -61,7 +61,7 @@ The following steps will describe the procedure of connecting a LEGO SPIKE Prime
     - Also ensure that the LEGO SPIKE App has been closed and disconnected from the SPIKE Prime Hub
 6. In the new Properties window, navigate into the tab for “Hardware”.
 7. There should be a Device Function with the name “Standard Serial over Bluetooth Link”. The COM name in the parenthesis is the serial port for the SPIKE Prime, take note of this.
-    ## ![Serial Port List](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image006.png)
+    ## ![Serial Port List](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4b-image006.png)
     
     #### Troubleshooting: 
     If this serial port cannot be found, open the LEGO Educational SPIKE app.
@@ -75,6 +75,7 @@ The following steps will describe the procedure of connecting a LEGO SPIKE Prime
 
 8. Open the serial.js document inside of the folder ```SpatialToolbox-Windows-Interns/vuforia-spatial-edge-server/addons/Vuforia-spatial-robotic-addon/interfaces/SPIKE-Prime```    
     - Go to line 23 of serial.js and replace the serial port with the one that was just taken note of. The part of the line that has COMX, where X is the number of the serial port that was found above. For example, the code at line 23 that was used when making this tutorial was ```const port = new SerialPort('COM 6 ', {```, where ```COM 6``` is the port that the PTC hub is connected to.
+    ## ![Serial Port List](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4b-image007.png)
 9. Open a new Command Prompt and navigate to the vuforia-spatial-edge-server directory inside of SpatialToolbox-Windows-Interns by entering ```cd Documents/SpatialToolbox-Windows-Interns/vuforia-spatial-edge-server```. If the _SpatialToolbox-Windows-Interns_ folder is not saved in the _Documents_ folder, replace _Documents_ in the code above with wthe acutal path to the _SpatialToolbox-Windows-Interns_ folder.
 10. Type ```node -v``` to check which version of Node.js was installed and take note of the result.
 11. Run ```npm install``` while in the _SpatialToolbox-Windows-Interns/vuforia-spatial-edge-server_ directory
