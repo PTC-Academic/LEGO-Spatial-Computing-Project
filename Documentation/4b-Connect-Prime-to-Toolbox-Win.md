@@ -112,7 +112,7 @@ The following steps will describe the procedure of connecting a LEGO SPIKE Prime
     ## ![Object list](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image015.png)
 
 17. When in Programming Mode in the app, a node setup similar to one of the following should appear:
-    ## ![Different node complexity levels](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image016.jpg)
+    ## ![Different node complexity levels](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image018.png)
 
 18. Changes to complexity levels can be made within the Vuforia Spatial Edge Server.
     - Select “Manage Hardware Interfaces” from the home screen
