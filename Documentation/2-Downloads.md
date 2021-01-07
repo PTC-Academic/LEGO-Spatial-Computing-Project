@@ -15,14 +15,14 @@ This sections gives detailed instructions for downloading the software necessary
 2. iPhone/iPad running iOS 12.0 or later (Android support in development)
 
 ## Download Steps
-1. [Vuforia Spatial Toolbox App](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2-Downloads.md#step-1-vuforia-spatial-toolbox-app)
-2. [Git (Optional)](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2-Downloads.md#step-2-git-optional)
-3. [Github Desktop (Optional)](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2-Downloads.md#step-3-github-desktop-optional)
-4. [Vuforia Spatial Edge Server](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2-Downloads.md#step-4-vuforia-spatial-edge-server)
-5. [Visual Studio / Visual Studio Code](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2-Downloads.md#step-5-visual-studio--visual-studio-code)
-6. [Node.js](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2-Downloads.md#step-6-nodejs)
-7. [Python 3.7](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2-Downloads.md#step-7-python-37)
-8. [LEGO Education SPIKE app](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2-Downloads.md#step-8-lego-education-spike-app)
+1. [Vuforia Spatial Toolbox App](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/2-Downloads.md#step-1-vuforia-spatial-toolbox-app)
+2. [Git (Optional)](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/2-Downloads.md#step-2-git-optional)
+3. [Github Desktop (Optional)](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/2-Downloads.md#step-3-github-desktop-optional)
+4. [Vuforia Spatial Edge Server](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/2-Downloads.md#step-4-vuforia-spatial-edge-server)
+5. [Visual Studio / Visual Studio Code](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/2-Downloads.md#step-5-visual-studio--visual-studio-code)
+6. [Node.js](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/2-Downloads.md#step-6-nodejs)
+7. [Python 3.7](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/2-Downloads.md#step-7-python-37)
+8. [LEGO Education SPIKE app](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/2-Downloads.md#step-8-lego-education-spike-app)
 
 ## Step 1: Download the Vuforia Spatial Toolbox App
 Visit the [Download section of the Vuforia Spatial Toolbox website](https://spatialtoolbox.vuforia.com/docs/download) to see a list of compatible devices, and download the Vuforia Spatial Toolbox App for your device. This app interacts with the spatial environment of Vuforia Spatial Toolbox.
@@ -169,4 +169,4 @@ ftware needs to be downloaded in order to run the _initialize.py_ file in the _v
 The SPIKE app can be downloaded for free and is traditionally used as the controlling interface for the SPIKE Prime. In this project, it is used only for connecting the computer to the SPIKE Prime Hub since the Prime will be controlled with Vuforia Spatial Toolbox.
 * [Download the LEGO Education SPIKE app](https://education.lego.com/en-us/downloads/spike-prime/software) on a computer or tablet. This app will be used for connecting the SPIKE Prime to the Vuforia Spatial Edge Server in the **Connecting LEGO SPIKE Prime to Vuforia Spatial Toolbox** section of this project.
 
-<-- Go back to [Introduction](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/README.md), or Continue to [LEGO SPIKE Prime Hardware Build](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/3-LEGO-SPIKE-Prime-Build.md) -->
+<-- Go back to [Introduction](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/README.md), or Continue to [LEGO SPIKE Prime Hardware Build](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/3-LEGO-SPIKE-Prime-Build.md) -->

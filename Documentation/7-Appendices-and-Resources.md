@@ -4,11 +4,11 @@ This page is created with the intent of being an appendix to all the documentati
 There are also additional resources listed for further explanation with all parts of this project.
 
 ## Appendix A: SpatialToolbox-Mac/Windows-Interns folder hierarchy
-## ![Folder hierarchy](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/7-image001.png)
+## ![Folder hierarchy](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/7-image001.png)
 ## Appendix B: Concept Map
-## ![Concept Map](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/7-image003.jpg)
+## ![Concept Map](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/7-image003.jpg)
 ## Appendix C: Project Process Map
-## ![Project Process Map](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/7-image005.jpg)
+## ![Project Process Map](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/7-image005.jpg)
 ## Appendix D: Node Explanations
 
 ## Beginner
@@ -56,4 +56,4 @@ Advanced mode combines concepts from all three modes before it. It contains thre
 - Dive deeper – a section outlining the system architecture, data model, and local vs global tools in Vuforia Spatial Toolbox
 - Airtable Support
 
-<-- Go back to [Learn About IOT using Airtable](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/6-IOT-with-Airtable.md)
+<-- Go back to [Learn About IOT using Airtable](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/6-IOT-with-Airtable.md)
