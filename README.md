@@ -20,10 +20,10 @@ Below is a list of components that are necessary to complete this project. A wi-
 
 ### Software:
 * [LEGO SPIKE App](https://education.lego.com/en-us/downloads/spike-prime/software)
-* [Vuforia Spatial Edge Server](https://github.com/tuftsceeo/PTC-Toolbox)
+* [Vuforia Spatial Edge Server](https://github.com/ptcrealitylab/vuforia-spatial-edge-server)
 * [Vuforia Spatial Toolbox mobile application](https://apps.apple.com/us/app/vuforia-spatial-toolbox/id1506071001)
 * [Git & GitHub Desktop](https://desktop.github.com/)
-* [Node.js]()https://nodejs.org/en/
+* [Node.js](https://nodejs.org/en/)
 * [Visual Studio 2019](https://visualstudio.microsoft.com/)
 * [Airtable](https://airtable.com/)
 
