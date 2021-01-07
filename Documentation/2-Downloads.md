@@ -14,7 +14,7 @@ This sections gives detailed instructions for downloading the software necessary
 1. Computer running either MacOS or Windows
 2. iPhone/iPad running iOS 12.0 or later (Android support in development)
 
-## Steps
+## Download Steps
 1. [Vuforia Spatial Toolbox App](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2-Downloads.md#step-1-vuforia-spatial-toolbox-app)
 2. [Git (Optional)](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2-Downloads.md#step-2-git-optional)
 3. [Github Desktop (Optional)](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2-Downloads.md#step-3-github-desktop-optional)
@@ -24,7 +24,7 @@ This sections gives detailed instructions for downloading the software necessary
 7. [Python 3.7](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2-Downloads.md#step-7-python-37)
 8. [LEGO Education SPIKE app](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/2-Downloads.md#step-8-lego-education-spike-app)
 
-## Step 1: Vuforia Spatial Toolbox App
+## Step 1: Download the Vuforia Spatial Toolbox App
 Visit the [Download section of the Vuforia Spatial Toolbox website](https://spatialtoolbox.vuforia.com/docs/download) to see a list of compatible devices, and download the Vuforia Spatial Toolbox App for your device. This app interacts with the spatial environment of Vuforia Spatial Toolbox.
 
 ### Troubleshooting: 
@@ -33,7 +33,7 @@ Visit the [Download section of the Vuforia Spatial Toolbox website](https://spat
     2. Scroll down and click on “Toolbox”
     3. Toggle the switches for local network and cellular data on and off
 
-## Step 2: Git (Optional)
+## Step 2: Download Git (Optional)
 Git is a distributed version control system which allows users to make changes to code before actually implementing them. In this case, it provides a shortcut for downloading the Vuforia Spatial Toolbox from GitHub. This download is not required, as a zip file of the documents can be downloaded from GitHub, but it will speed up the download process.
 
 1. Check if you have Git installed by opening a terminal and entering ```git --version```. If you don't have Git installed, continue to Step 2.
@@ -60,14 +60,14 @@ Git is a distributed version control system which allows users to make changes t
 * At the end of "Variable value", insert a  ```;``` if there is not already one, and then ```C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\```. Do not put a space between ```;``` and the entry.
 * Close and re-open the console.
 
-## Step 3: GitHub Desktop (Optional)
+## Step 3: Download GitHub Desktop (Optional)
 Desktop interface for storing any files downloaded from GitHub. Suggested for users who are not yet familiar with Git.
 
 1. [Download GitHub Desktop](https://desktop.github.com/)
 2. Open the install file that has been downloaded and start the install process
 3. Create or sign in with a GitHub account
 
-## Step 4: Vuforia Spatial Edge Server
+## Step 4: Download Vuforia Spatial Edge Server
 The Vuforia Spatial Edge Server provides a web interface for connecting and configuring the environment that is viewed in the Vuforia Spatial Toolbox app. This server can edit image targets and spatial tools, as well as manage the hardware interfaces that can be interacted with. The server needs to be running on a computer to connect the LEGO SPIKE Prime to the Vuforia Spatial Toolbox App. Mac and PC instructions for downloading the server from GitHub are listed below, as they have slightly different download methods.
 
 ### Download the Vuforia Spatial Edge Server from the GitHub website
@@ -130,7 +130,7 @@ GitHub is a website that provides hosting for code management and this is where 
 ### **Verify Configuration** 
 In all cases, Mac or Windows, verify that a copy of the _spatialToolbox_ folder is inside of your computer's _Documents_ folder.
 
-## Step 5: Visual Studio / Visual Studio Code
+## Step 5: Download Visual Studio / Visual Studio Code
 Visual Studio and Visual Studio Code are integrated development environments for editing code. Windows users should download and install Visual Studio; it comes with two add-ins that are required for the Spatial Edge Server to run correctly. Mac users don't need do this step if they already have a code editor, otherwise, it's reccomended they install the lightweight Visual Studio Code to assist with this project.
 
 ### Windows Users - Install Visual Studio:
@@ -145,14 +145,14 @@ Visual Studio and Visual Studio Code are integrated development environments for
 ### Mac Users - Install Visual Studio Code
 * [Download Visual Studio Code](https://visualstudio.microsoft.com)
 
-## Step 6: Node.js 
+## Step 6: Download Node.js 
 Node.js is an open source JavaScript environment that executes JavaScript code in Terminal or Command Prompt. This is necessary in order to run the Vuforia Spatial Edge Server.
 
 1. Download [Node.js](https://nodejs.org/en/) for either MacOS or Windows
 * For Windows, check the box that says “Automatically install the necessary tools. Note that this will also install Chocolatey. A script will pop-up in a new window after the new installation completes.”
 2. For advanced users, there are [other options for installing Node.js](https://nodejs.dev/learn/how-to-install-nodejs)
 
-## Step 7: Python 3.7
+## Step 7: Download Python 3.7
 Python is an object-oriented programming language. It is used when connecting Vuforia Spatial Toolbox to the SPIKE Prime Hub. No changes will need to be made in Python, but the so
 ftware needs to be downloaded in order to run the _initialize.py_ file in the _vuforia-spatial-edge-server_ folder.
 
