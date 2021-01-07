@@ -73,16 +73,17 @@ The following steps will describe the procedure of connecting a LEGO SPIKE Prime
         - Be sure to close the LEGO SPIKE Prime from the app after connecting. This will block communication with the server if not disconnected.
         - Repeat the steps above.
 
-8. Open the serial.js document inside of the path ```SpatialToolbox-Windows-Interns/vuforia-spatial-edge-server/addons/Vuforia-spatial-robotic-addon/interfaces/SPIKE-Prime``` in File Explorer.    
+8. Open the serial.js document inside of the folder ```SpatialToolbox-Windows-Interns/vuforia-spatial-edge-server/addons/Vuforia-spatial-robotic-addon/interfaces/SPIKE-Prime```    
     - Go to line 23 of serial.js and replace the serial port with the one that was just taken note of. The part of the line that has COMX, where X is the number of the serial port that was found above. For example, the code at line 23 that was used when making this tutorial was ```const port = new SerialPort('COM 6 ', {```, where ```COM 6``` is the port that the PTC hub is connected to.
-9. Open a new Command Prompt window by clicking the Windows button on the keyboard and enter ```Command```. This is where the commands to start the Vuforia Spatial Edge Server will be executed from.
-10. In the Command Prompt, navigate to the vuforia-spatial-edge-server directory inside of SpatialToolbox-Windows-Interns by entering ```cd Documents/SpatialToolbox-Windows-Interns/vuforia-spatial-edge-server```. If the _SpatialToolbox-Windows-Interns_ folder is not saved in the _Documents_ folder, replace _Documents_ in the code above with wthe acutal path to the _SpatialToolbox-Windows-Interns_ folder.
-11. Type ```node -v``` to check which version of Node.js was installed and take note of the result.
-12. Run ```npm install``` while in the _SpatialToolbox-Windows-Interns/vuforia-spatial-edge-server_ directory
-    - If Node.js is a version other than v12.18.2, use npm rebuild to get the folder to work with the current version of Node.js. The server will not start if the without doing this if Node is a version other than v12.18.2.
-13. Navigate to the _Spatial Robotic Addon_ folder using cd addons/vuforia-spatial- robotic-addon while still in the SpatialToolbox-Windows-Interns/vuforia- spatial-edge-server directory and run npm install again    o These two commands will install all necessary packages for this project    o **_As with the step above, if Node.js is a version other than v12.18.2, use_** **_npm rebuild to get the folder to work with the current version of Node.js._** **_The server will not start if the without doing this if Node is a version_** **_other than v12.18.2._**
-14. Enter cd ../../ into the Command Prompt to navigate back to the SpatialToolbox-Windows-Interns/vuforia-spatial-edge-server directory
-15. Run node server. This should start the Vuforia Spatial Edge Server. Type localhost:8080 into a web browser. If the page does not load, troubleshoot using the methods below. If it does load, it should look like this image:
+9. Open a new Command Prompt and navigate to the vuforia-spatial-edge-server directory inside of SpatialToolbox-Windows-Interns by entering ```cd Documents/SpatialToolbox-Windows-Interns/vuforia-spatial-edge-server```. If the _SpatialToolbox-Windows-Interns_ folder is not saved in the _Documents_ folder, replace _Documents_ in the code above with wthe acutal path to the _SpatialToolbox-Windows-Interns_ folder.
+10. Type ```node -v``` to check which version of Node.js was installed and take note of the result.
+11. Run ```npm install``` while in the _SpatialToolbox-Windows-Interns/vuforia-spatial-edge-server_ directory
+12. Navigate to the _Spatial Robotic Addon_ folder using ```cd addons/vuforia-spatial-robotic-addon``` while still in the _SpatialToolbox-Windows-Interns/vuforia- spatial-edge-server directory_ and run ```npm install``` again    
+    - These two commands will install all necessary packages for this project    
+    - If Node.js is a version other than v12.18.2, enter ```npm rebuild``` to get the folder to work with the current version of Node.js.
+    - The server will not start if the without doing this if Node is a version other than v12.18.2.
+13. Enter cd ../../ into the Command Prompt to navigate back to the SpatialToolbox-Windows-Interns/vuforia-spatial-edge-server directory
+14. Run node server. This should start the Vuforia Spatial Edge Server. Type localhost:8080 into a web browser. If the page does not load, troubleshoot using the methods below. If it does load, it should look like this image:
 
 ```
 o
