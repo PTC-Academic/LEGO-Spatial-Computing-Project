@@ -75,18 +75,18 @@ The following steps describes the procedure of connecting a LEGO SPIKE Prime to 
     - Make sure to keep ```/dev/``` at the beginning of the line, and keep the bracket on the end of the line.
     ## ![Serial.js Editing](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image008.png)
 
-7. In Terminal, navigate back to SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server by entering ```cd Documents/SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server```. If the _SpatialToolbox-Mac-Interns_ folder is not saved to the _Documents_ folder, replace _Documents_ in the code above with wthe acutal path to the _SpatialToolbox-Mac-Interns_ folder.
+7. In Terminal, navigate to _SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server _by entering ```cd Documents/SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server```. If the _SpatialToolbox-Mac-Interns_ folder is not saved to the _Documents_ folder, replace _Documents_ in the code above with the acutal path to the _SpatialToolbox-Mac-Interns_ folder.
 8. Type ```node -v``` to check which version of Node.js was installed and take note of the result.
 9. Run ```npm install``` while in the _SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server_ directory in Terminal
     - If Node.js is a version other than v12.18.2, enter ```npm rebuild``` to get the folder to work with the current version of Node.js. The server will not start if the without doing this if Node is a version other than v12.18.2.
 10. Navigate to the Spatial Robotic Addon directory by entering ```cd addons/vuforia-spatial-robotic-addon``` while in the SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server directory and enter ```npm install``` again
-    - These two commands will install all necessary packages for t`his project
-    - **_As with the step above, if Node.js is a version other than v12.18.2, use npm rebuild to get the folder to work with the current version of Node.js. The server will not start if the without doing this if Node is a version other than v12.18.2.
-11. Enter cd ../../ into Terminal to navigate back to the SpatialToolbox-Mac- Interns/vuforia-spatial-edge-server directory
-12. Run node server. 
-    - In a terminlal window, browse to the vuforia-spatial-edge-server directory
+    - These two commands will install all necessary packages for this project
+    - If Node.js is a version other than v12.18.2, enter ```npm rebuild``` to enable the folder to work with the current version of Node.js. The server will not start if the without doing this if Node is a version other than v12.18.2.
+11. Enter ```cd ../../``` into Terminal to navigate back to the _SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server_ directory
+12. Run node server:
+    - In a terminlal window, browse to the _vuforia-spatial-edge-server_ directory
     - Enter ```npm start``` to start the Vuforia Spatial Edge Server. 
-    - Navigate to localhost:8080 into a web browser. 
+    - Navigate to _localhost:8080_ into a web browser. 
     - If the page does not load, troubleshoot using the methods below. If it does load, it should look like this image:
     ## ![Edge Server](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image009.png)
     #### Troubleshooting: 
@@ -105,7 +105,7 @@ The following steps describes the procedure of connecting a LEGO SPIKE Prime to 
     #### Troubleshooting:
     - The iPhone being used needs to be on the same Wi-Fi network as the computer being used to form a connection with the Vuforia Spatial Edge Server
     - If restarting still does not work, go into the settings tab in the Vuforia Spatial Toolbox app and go into Found Objects. Compare this list to the list of objects in the Vuforia Spatial Edge Server.
-    - If objects are missing and the only thing showing up is “_WORLD_local”, then there was an issue connecting the
+    - If objects are missing and the only thing showing up is "WORLD_local", then there was an issue connecting the
     app and the Vuforia Spatial Edge Server and the connection process will need to be restarted.
     - If the list of objects looks like the one below, but all of the font is red, then the app was opened too quickly. Closing and  reopening the app should solve the issue.
     ## ![Object list](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image015.png)
@@ -114,7 +114,7 @@ The following steps describes the procedure of connecting a LEGO SPIKE Prime to 
 16. Changes to complexity levels can be made within the Vuforia Spatial Edge Server.
     - Select “manage hardware interfaces” from the home screen
     - Click the gear icon next to Spike-Prime interface to open up settings for the SPIKE Prime.
-    - Change the setting called “spikeComplexity” by typing in one of the four options shown above **_(all configurations should be typed in lower case letters)._** For more information about the different nodes and omplexity levels, visit **_Appendix D_** in **Appendices and Additional Resources**
+    - Change the setting called “spikeComplexity” by typing in one of the four options shown above **(all configurations should be typed in lower case letters).** For more information about the different nodes and omplexity levels, visit **Appendix D** in **Appendices and Additional Resources**
     - When changing complexities, the server will need to be restarted. Go back into Terminal and press control key + C to stop the server and then start the process again while running node server in the vuforia-spatial-edge-server directory.
     ## ![Edge Server Directory](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image020.png)
 
