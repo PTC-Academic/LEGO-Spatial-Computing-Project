@@ -1,4 +1,4 @@
-# Appendices and Additional Resources**
+# Appendices and Additional Resources
 This page is created with the intent of being an appendix to all the documentation that has been given for this project. Please refer to this document throughout this project.
 
 There are also additional resources listed for further explanation with all parts of this project.
