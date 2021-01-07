@@ -114,7 +114,7 @@ The following steps will describe the procedure of connecting a LEGO SPIKE Prime
     ## ![Different node complexity levels](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image016.jpg)
 
 18. Changes to complexity levels can be made within the Vuforia Spatial Edge Server.
-    - Select “manage hardware interfaces” from the home screen
+    - Select “Manage Hardware Interfaces” from the home screen
     - Click the gear icon next to Spike-Prime interface to open up settings for the SPIKE Prime.
     - Change the setting called “spikeComplexity” by typing in one of the four options shown above **(all configurations should be typed in lower case letters).** For more information about the different nodes and omplexity levels, visit **Appendix D** in **Appendices and Additional Resources**
     - When changing complexities, the server will need to be restarted. Go back into Terminal and press control key + C to stop the server and then start the process again while running node server in the vuforia-spatial-edge-server directory.
