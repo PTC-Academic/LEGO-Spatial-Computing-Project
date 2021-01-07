@@ -60,7 +60,8 @@ Before using the Airtable tool, it needs to be configured with the unique data f
     open the airtable.js file
 2. Replace the “xxx..” placeholders with the API Key and Base ID that were written down in the previous steps and enter the name of the table that is being connected (Table 1 if the name of the table was not changed in step 5 of the Getting Started with Airtable section of this page)
     #### Troubleshooting:
-    - A common error that hinders connection is just incorrect spelling of API Key or Base ID – be sure that they are copied and transferred exactly as they appear
+    - A common error that hinders connection is just incorrect spelling of API Key or Base ID – be sure that they are copied and transferred exactly as they appear.
+    
 3. The tool is now configured for a specific base inside of Airtable. The Airtable tool inside of Vuforia Spatial Toolbox will only take in data from this specific table. To send/receive data from a different table, go back into airtable.js and repeat step 2.
 
 ## Airtable API in Vuforia Spatial Toolbox
@@ -70,6 +71,7 @@ This section will instruct how to create a connection between Airtable, Vuforia 
     Vuforia Spatial Toolbox app
     #### Troubleshooting:
     - If there are issues with connecting to the Vuforia Spatial Edge Server or the Vuforia Spatial Toolbox app, please refer to the PDF for connecting SPIKE Prime to Vuforia Spatial Toolbox
+
 2. The Vuforia Spatial Toolbox needs to be in “Beginner” node configuration for this activity.
     -  To change the complexity of the node configuration, select the “Manage Hardware Interfaces” button of the Vuforia Spatial Edge Server to view all interfaces that are connected to the server
     -  Ensure that the “Spike-Prime” node is turned ON
@@ -85,6 +87,7 @@ This section will instruct how to create a connection between Airtable, Vuforia 
 9. Once this connection is established, the second row of the Value column in Table 1 in Airtable on the computer should register a value based on the distance between the distance sensor and the closest object in its path. This number will be equal to distance in cm. This number will change as objects are moved closer or further to the distance sensor.
     #### Troubleshooting:
     - If a value does not register, check to see if the SPIKE Prime connected to the Vuforia Spatial Edge Server properly and that the distance sensor registered properly during start up in the console
+
 10. Type an integer between 0- 100 in the first row of the Value column next to Motor in Airtable, which will be the percentage of full speed that the motor is run at. Notice that this starts the rotation of the motor.
        -  To stop the motor, enter 0 into Airtable
     #### Troubleshooting:
