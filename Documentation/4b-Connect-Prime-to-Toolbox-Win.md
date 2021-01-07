@@ -80,58 +80,44 @@ The following steps will describe the procedure of connecting a LEGO SPIKE Prime
 11. Run ```npm install``` while in the _SpatialToolbox-Windows-Interns/vuforia-spatial-edge-server_ directory
 12. Navigate to the _Spatial Robotic Addon_ folder using ```cd addons/vuforia-spatial-robotic-addon``` while still in the _SpatialToolbox-Windows-Interns/vuforia- spatial-edge-server directory_ and run ```npm install``` again    
     - These two commands will install all necessary packages for this project    
-    - If Node.js is a version other than v12.18.2, enter ```npm rebuild``` to get the folder to work with the current version of Node.js.
-    - The server will not start if the without doing this if Node is a version other than v12.18.2.
-13. Enter cd ../../ into the Command Prompt to navigate back to the SpatialToolbox-Windows-Interns/vuforia-spatial-edge-server directory
-14. Run node server. This should start the Vuforia Spatial Edge Server. Type localhost:8080 into a web browser. If the page does not load, troubleshoot using the methods below. If it does load, it should look like this image:
+    - If Node.js is a version other than v12.18.2, enter ```npm rebuild``` to get the folder to work with the current version of Node.js. The server will not start if the without doing this if Node is a version other than v12.18.2.
+13. Enter ```cd ../../``` in the Command Prompt window to navigate to the _SpatialToolbox-Windows-Interns/vuforia-spatial-edge-server_ directory
+14. Run node server:
+    - This should start the Vuforia Spatial Edge Server. 
+    - Navigate to _localhost:8080_ into a web browser. 
+    - If the page does not load, troubleshoot using the methods below. If it does load, it should look like this image:
+    ## ![Edge Server](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image009.png)
 
-```
-o
-o Troubleshooting Note: the LEGO SPIKE Prime will make a beep shortly
-after running node server and connecting for the first time. This indicates
-that everything was connected correctly.
-o Troubleshooting Note: : if there is an error like the one below in the
-Command Prompt, it is okay. It is expected and this statement alone
-will not hinder this project. If there are more errors than just this one,
-refer to the troubleshooting suggestions below.
-```
-## ▪
+    #### Troubleshooting: 
+    - The LEGO SPIKE Prime will make a beep shortly after running node server and connecting for the first time. This indicates that everything was connected correctly.
+    - If there is an error like the one below in the Command Prompt, it is okay. 
+    ## ![Connection Error](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image011.png)
 
-16. If the readout in the Command Prompt shows something like the image below, then the server is working! The last two lines in this image describe what type of instrument is connected to the SPIKE Prime and which port that they are in. For example, there is a motor connected to port A and B, with the location in the instrument array corresponding to the location of the port that instrument is attached to in the port array.
+15. If the readout in the Command Prompt shows something like the image below, then the server is working! The last two lines in this image describe what type of instrument is connected to the SPIKE Prime and which port that they are in. For example, there is a motor connected to port A and B, with the location in the instrument array corresponding to the location of the port that instrument is attached to in the port array.
+    ## ![Terminal readout](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image012.png)
+    #### Troubleshooting: 
+    - There is the possibility that there may be issues when starting the server. Most issues can be resolved by restarting either the SPIKE Prime or the Vuforia Spatial Edge Server (control key + c and node server again in Terminal).
+    - If there are multiple error statements in the Terminal after running node server, like shown below, then the LEGO SPIKE Prime did not connect correctly. Restart the LEGO SPIKE Prime and confirm that the correct serial port is being used.
+    ## ![Multiple errors](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image010.png)
+    -  If there are errors in the Terminal that do not look like this, or localhost:8080 does not load in the browser, restart the Vuforia Spatial Edge Server by closing out of Terminal or typing control key + c and repeating the start up instructions.
 
+16. Open the Vuforia Spatial Toolbox mobile app and point the camera at the image target. A light blue box should appear around the image target. If nothing seems to happen, try moving the camera/target or changing the lighting of the room. If the light blue box still isn’t visible, then restart the mobile app.
+    ## ![Blue spatial target box](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image013.png)
+    #### Troubleshooting:
+    - The iPhone being used needs to be on the same Wi-Fi network as the computer being used to form a connection with the Vuforia Spatial Edge Server
+    - If restarting still does not work, go into the settings tab in the Vuforia Spatial Toolbox app and go into Found Objects. Compare this list to the list of objects in the Vuforia Spatial Edge Server.
+    - If objects are missing and the only thing showing up is “_WORLD_local”, then there was an issue connecting the app and the Vuforia Spatial Edge Server and the connection process will need to be restarted
+    - If the list of objects looks like the one below, but all of the font is red, then the app was opened too quickly. Closing out and then reopening the app should solve the issue.
+    ## ![Object list](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image015.png)
 
-```
-o
-```
-17. **_Troubleshooting Notes:_** There is the possibility that there may be issues when starting the server. Do not worry, most of these issues can be solved by restarting either the SPIKE Prime or the Vuforia Spatial Edge Server (control key + c and node server again in the Command Prompt).    o If there are multiple error statements in the Command Prompt after running node server, like shown below, then the LEGO SPIKE Prime did not connect correctly. Restart the LEGO SPIKE Prime and confirm that the correct serial port is being used.
+17. When in Programming Mode in the app, a node setup similar to one of the following should appear:
+    ## ![Different node complexity levels](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image016.png)
 
-```
-o If there are errors in the Command Prompt that do not look like this,
-restart the Vuforia Spatial Edge Server by closing out of the Command
-Prompt and repeating the start up instructions.
-```
-18. Open the Vuforia Spatial Toolbox mobile app and point the camera at the image target. A light blue box should appear around the image target. If nothing seems to happen, try moving the camera/target or changing the lighting of the room. If the light blue box still isn’t visible, then restart the mobile app.
-
-```
-o Troubleshooting Notes:
-```
-
-```
-▪ The iPhone being used needs to be on the same Wi-Fi network
-as the computer being used to form a connection with the
-Vuforia Spatial Edge Server
-▪ If restarting still does not work, go into the settings tab in the
-Vuforia Spatial Toolbox app and go into Found Objects.
-Compare this list to the list of objects in the Vuforia Spatial Edge
-Server.
-```
-- If objects are missing and the only thing showing up is “_WORLD_local”, then there was an issue connecting the app and the Vuforia Spatial Edge Server and the connection process will need to be restarted
-- If the list of objects looks like the one below, but all of the font is red, then the app was opened too quickly. Closing out and then reopening the app should solve the issue.
-19. When in Programming Mode in the app, a node setup similar to one of the
-following should appear:
-
-
-20. Changes to complexity levels can be made within the Vuforia Spatial Edge Server.    o Select the “Manage Hardware Interfaces” button from the home screen    o Click the gear icon next to Spike-Prime interface to open up settings for the SPIKE Prime.    o Change the setting called “spikeComplexity” by typing in one of the four options shown above **_(all configurations should be typed in lower_** **_case letters)._** For more information about the different nodes and complexity levels, visit **_Appendix D_** in the **Appendices and Additional** **Resources** document    ▪ When changing complexities, the server will need to be       restarted. Go back into Terminal and press control key + C to stop       the server and then start the process again while running node       server in the vuforia-spatial-edge-server directory.
+18. Changes to complexity levels can be made within the Vuforia Spatial Edge Server.
+    - Select “manage hardware interfaces” from the home screen
+    - Click the gear icon next to Spike-Prime interface to open up settings for the SPIKE Prime.
+    - Change the setting called “spikeComplexity” by typing in one of the four options shown above **(all configurations should be typed in lower case letters).** For more information about the different nodes and omplexity levels, visit **Appendix D** in **Appendices and Additional Resources**
+    - When changing complexities, the server will need to be restarted. Go back into Terminal and press control key + C to stop the server and then start the process again while running node server in the vuforia-spatial-edge-server directory.
+    ## ![Edge Server Directory](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/images/4a-image020.png)
 
 <-- Go back to [LEGO SPIKE Prime Hardware Build](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/3-LEGO-SPIKE-Prime-Build.md), or Continue to [Fast Fourier Transform Activity](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/5-FFT-Activity.md) -->
-
