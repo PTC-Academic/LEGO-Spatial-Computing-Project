@@ -69,13 +69,13 @@ This section will instruct how to create a connection between Airtable, Vuforia 
 1. If it is not already running, start the Vuforia Spatial Edge Server and open the
     Vuforia Spatial Toolbox app
     #### Troubleshooting:
-        - If there are issues with connecting to the Vuforia Spatial Edge Server or the Vuforia Spatial Toolbox app, please refer to the PDF for connecting SPIKE Prime to Vuforia Spatial Toolbox
+    - If there are issues with connecting to the Vuforia Spatial Edge Server or the Vuforia Spatial Toolbox app, please refer to the PDF for connecting SPIKE Prime to Vuforia Spatial Toolbox
 2. The Vuforia Spatial Toolbox needs to be in “Beginner” node configuration for this activity.
-       -  To change the complexity of the node configuration, select the “Manage Hardware Interfaces” button of the Vuforia Spatial Edge Server to view all interfaces that are connected to the server
-       -  Ensure that the “Spike-Prime” node is turned ON
-       -  In the text box to the right of where it says “spikeComplexity,” change the node setting from its current state to _“beginner”_ to ensure that all necessary nodes are made visible
-       - Click the “Save” button to save the changes
-       -  An explanation of the Beginner node configurations can be found in **_Appendix D_** in [Appendices and Additional Resources](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/7-Appendices-and-Resources.md)
+    -  To change the complexity of the node configuration, select the “Manage Hardware Interfaces” button of the Vuforia Spatial Edge Server to view all interfaces that are connected to the server
+    -  Ensure that the “Spike-Prime” node is turned ON
+    -  In the text box to the right of where it says “spikeComplexity,” change the node setting from its current state to _“beginner”_ to ensure that all necessary nodes are made visible
+    - Click the “Save” button to save the changes
+    -  An explanation of the Beginner node configurations can be found in **_Appendix D_** in [Appendices and Additional Resources](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/Documentation/7-Appendices-and-Resources.md)
 3. In the Vuforia Spatial Toolbox app connect to the SPIKE Prime using the LEGO SPIKE Prime feedback pamphlet as the image target
 4. Drag and drop an Airtable API tool (seen below) from the pocket into the spatial environment in the Vuforia Spatial Toolbox app
 5. Enter the variable name “Motor” where prompted. Make sure that the slider is on receiver mode, which will allow Vuforia Spatial Toolbox to receive data from Airtable. All other data to identify the unique table was added in the previous section.
