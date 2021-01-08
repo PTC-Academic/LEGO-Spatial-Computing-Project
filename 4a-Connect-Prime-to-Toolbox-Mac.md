@@ -70,10 +70,10 @@ The following steps describe the procedure of connecting a LEGO SPIKE Prime to V
     - Repeat steps 1-5 above.
 
 6. Open the serial.js document inside of the folder ```SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server/addons/vuforia-spatial-robotic-addon/interfaces/SPIKE-Prime```
-    - Go to line 25 of serial.js and replace the serial port with the one that was just copied that starts with tty.LEGOHub. This is the string directly after ```SerialPort(.``` For example, the code at line 25 that was used when making this tutorial was ```const port = newSerialPort(‘/dev/tty.LEGOHubPTCAcademic-Seri’, {```, where PTCAcademic is the distinct name that was given to the hub.
+    - Go to line 25 of serial.js and replace the serial port with the one that was just copied that starts with tty.LEGOHub. This is the string directly after ```SerialPort(.``` For example, the code at line 25 that was used when making this tutorial was ```const port = newSerialPort(‘/dev/tty.LEGOHubPTCAcademic-Seri’, {```, where in this case, _PTCAcademic_ is the name that was given to the hub.
     
     #### Troubleshooting: 
-    - Make sure to keep ```/dev/``` at the beginning of the line, and keep the bracket on the end of the line.
+    - Make sure to keep ```/dev/tty.``` at the beginning of the string, and keep the comma and bracket ```, {``` on the end of the line.
     ## ![Serial.js Editing](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/4a-image008.png)
 
 7. In Terminal, navigate to _SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server _by entering ```cd Documents/SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server```. If the _SpatialToolbox-Mac-Interns_ folder is not saved to the _Documents_ folder, replace _Documents_ in the code above with the acutal path to the _SpatialToolbox-Mac-Interns_ folder.
@@ -84,7 +84,6 @@ The following steps describe the procedure of connecting a LEGO SPIKE Prime to V
     - If Node.js is a version other than v12.18.2, enter ```npm rebuild``` to enable the folder to work with the current version of Node.js. The server will not start if the without doing this if Node is a version other than v12.18.2.
 11. Enter ```cd ../../``` into Terminal to navigate back to the _SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server_ directory
 12. Run node server:
-    - In a terminlal window, browse to the _vuforia-spatial-edge-server_ directory
     - Enter ```npm start``` to start the Vuforia Spatial Edge Server. 
     - Navigate to _localhost:8080_ into a web browser. 
     - If the page does not load, troubleshoot using the methods below. If it does load, it should look like this image:
