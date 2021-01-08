@@ -121,4 +121,4 @@ The following steps will describe the procedure of connecting a LEGO SPIKE Prime
     - When changing complexities, the server will need to be restarted. Go back into Terminal and press control key + C to stop the server and then start the process again while running node server in the vuforia-spatial-edge-server directory.
     ## ![Edge Server Directory](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/4a-image020.png)
 
-<-- Go back to [LEGO SPIKE Prime Hardware Build](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/3-LEGO-SPIKE-Prime-Build.md), or Continue to [Fast Fourier Transform Activity](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/5-FFT-Activity.md) -->
+<-- Go back to [LEGO SPIKE Prime Hardware Build](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/3-LEGO-SPIKE-Prime-Build.md), or continue to [Fast Fourier Transform Activity](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/5-FFT-Activity.md) -->

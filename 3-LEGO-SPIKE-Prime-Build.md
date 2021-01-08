@@ -18,5 +18,5 @@ Here's a video of this engine in action:
 
 Part of the **Fast Fourier Transform activity** will involve changing designs to see their effect on the FFT analysis, so more complex design ideas are encouraged!
 
-<-- Go back to [Downloads](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/2-Downloads.md), or Continue to [Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox on MacOS](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/4a-Connect-Prime-to-Toolbox-Mac.md) or [Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox on Windows](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/4b-Connect-Prime-to-Toolbox-Win.md) -->
+<-- Go back to [Downloads](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/2-Downloads.md), or continue to [Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox on MacOS](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/4a-Connect-Prime-to-Toolbox-Mac.md) or [Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox on Windows](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/4b-Connect-Prime-to-Toolbox-Win.md) -->
 

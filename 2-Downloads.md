@@ -166,11 +166,10 @@ ftware needs to be downloaded in order to run the _initialize.py_ file in the _v
 * For Windows computers, choose the “Windows x86 executable installer” or “Windows x86- 64 executable installer” for 64-bit machines [Determine if a computer is 32 or 64 bits](https://support.microsoft.com/en-us/help/15056/windows-32-64-bit-faq)
     * Open the installer and choose the “Customize installation” option
     * In the Optional Features page, leave all default options unchecked and click “Next”.
-    * In the Advanced Options page, set the file path for the download to 
-    ```C:/Users/[Your User Name]/AppData/Local/Programs/Python/Python37``` and click “Install"
+    * In the Advanced Options page, set the file path for the download to  ```C:/Users/[Your User Name]/AppData/Local/Programs/Python/Python37``` and click “Install"
 
 ## Step 8: LEGO Education SPIKE app
 The SPIKE app can be downloaded for free and is traditionally used as the controlling interface for the SPIKE Prime. In this project, it is used only for connecting the computer to the SPIKE Prime Hub since the Prime will be controlled with Vuforia Spatial Toolbox.
 * [Download the LEGO Education SPIKE app](https://education.lego.com/en-us/downloads/spike-prime/software) on a computer or tablet. This app will be used for connecting the SPIKE Prime to the Vuforia Spatial Edge Server in the **Connecting LEGO SPIKE Prime to Vuforia Spatial Toolbox** section of this project.
 
-<-- Go back to [Introduction](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/README.md), or Continue to [LEGO SPIKE Prime Hardware Build](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/3-LEGO-SPIKE-Prime-Build.md) -->
+<-- Go back to [Introduction](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/README.md), or continue to [LEGO SPIKE Prime Hardware Build](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/3-LEGO-SPIKE-Prime-Build.md) -->

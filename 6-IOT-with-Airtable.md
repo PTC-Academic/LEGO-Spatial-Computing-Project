@@ -97,4 +97,4 @@ This section will instruct how to create a connection between Airtable, Vuforia 
     #### Troubleshooting:
     - If there are any issues with these steps, restart the server and close out of the app. Common issues may be: faulty server startup, failure to connect the SPIKE Prime to Vuforia Spatial Toolbox, and the computer and iPhone/iPad being on different Wi-Fi networks.
 
-<-- Go back to [Fast Fourier Transform Activity](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/5-FFT-Activity.md) or Continue to [Appendices and Additional Resources](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/7-Appendices-and-Resources.md) -->
+<-- Go back to [Fast Fourier Transform Activity](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/5-FFT-Activity.md) or continue to [Appendices and Additional Resources](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/7-Appendices-and-Resources.md) -->
