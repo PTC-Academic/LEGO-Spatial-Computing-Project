@@ -1,13 +1,11 @@
 # LEGO Spatial Computing Project
-Welcome to PTC’s LEGO Spatial Computing Project! These lessons will instruct users how to connect a LEGO Education SPIKE Prime set to Vuforia Spatial Toolbox, PTC’s latest solution for augmented reality and spatial computing.  
+Welcome to PTC’s LEGO Spatial Computing Project! These tutorials demonstrate how to connect a [LEGO Education SPIKE Prime](https://education.lego.com/en-us/meetspikeprime#science) to [Vuforia Spatial Toolbox](https://www.ptc.com/en/products/augmented-reality/vuforia-spatial-toolbox), PTC’s latest solution for augmented reality and spatial computing. Vuforia Spatial Toolbox allows users to control and connect the physical world with Augmented Reality (AR).
 
 ### Example Outcome
 This video shows an example of what the outcome of this project may look like (click image for full video and explanation on Youtube): [![Intro LEGO Spatial Computing FFT video](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/intro-video.gif)](https://youtu.be/DtDQxQUz03o "Intro LEGO Spatial Computing FFT video")
 
-This exercise demonstrates how to connect a [LEGO Education SPIKE Prime](https://education.lego.com/en-us/meetspikeprime#science) to [Vuforia Spatial Toolbox](https://www.ptc.com/en/products/augmented-reality/vuforia-spatial-toolbox), PTC’s latest solution for augmented reality and spatial computing. Vuforia Spatial Toolbox allows users to control and connect the physical world with Augmented Reality (AR).
-
 ### Educational Approach
-This project combines AR, Spatial Computing and the Internet of Things (IoT), with JavaScript and an algorithm called a [Fast Fourier Transform](https://en.wikipedia.org/wiki/Fast_Fourier_transform)(FFT) to analyze the vibrations produced by a LEGO SPIKE Prime rotating a LEGO-built [Radial Engine](https://en.wikipedia.org/wiki/Radial_engine).
+This project combines AR, Spatial Computing and the Internet of Things (IoT), with JavaScript and an algorithm called a [Fast Fourier Transform](https://en.wikipedia.org/wiki/Fast_Fourier_transform)(FFT) to analyze the vibrations produced by a LEGO SPIKE Prime rotating a LEGO-built [Radial Engine](https://en.wikipedia.org/wiki/Radial_engine). It is intended for students across engineering and computer science.
 
 These tutorials include a high level of detail, and are intended to provide a supported first experience for new users to AR and IoT. 
 
