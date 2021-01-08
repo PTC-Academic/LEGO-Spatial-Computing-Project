@@ -74,7 +74,7 @@ The following steps describe the procedure of connecting a LEGO SPIKE Prime to V
         - Repeat the steps above.
 
 8. Open the serial.js document inside of the folder ```SpatialToolbox-Windows-Interns/vuforia-spatial-edge-server/addons/Vuforia-spatial-robotic-addon/interfaces/SPIKE-Prime```    
-    - Go to line 23 of serial.js and replace the serial port with the one that was just taken note of. The part of the line that has COMX, where X is the number of the serial port that was found above. For example, the code at line 23 that was used when making this tutorial was ```const port = new SerialPort('COM 6 ', {```, where ```COM 6``` is the port that the PTC hub is connected to.
+    - Go to line 25 of serial.js and replace the serial port with the one that was just taken note of. The part of the line that has COMX, where X is the number of the serial port that was found above. For example, the code at line 25 that was used when making this tutorial was ```const port = new SerialPort('COM 6 ', {```, where ```COM 6``` is the port that the PTC hub is connected to.
     ## ![Serial Port List](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/4b-image007.png)
 9. Open a new Command Prompt and navigate to the vuforia-spatial-edge-server directory inside of SpatialToolbox-Windows-Interns by entering ```cd Documents/SpatialToolbox-Windows-Interns/vuforia-spatial-edge-server```. If the _SpatialToolbox-Windows-Interns_ folder is not saved in the _Documents_ folder, replace _Documents_ in the code above with wthe acutal path to the _SpatialToolbox-Windows-Interns_ folder.
 10. Type ```node -v``` to check which version of Node.js was installed and take note of the result.

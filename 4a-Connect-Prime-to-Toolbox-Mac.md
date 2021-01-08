@@ -70,7 +70,7 @@ The following steps describe the procedure of connecting a LEGO SPIKE Prime to V
     - Repeat steps 1-5 above.
 
 6. Open the serial.js document inside of the folder ```SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server/addons/vuforia-spatial-robotic-addon/interfaces/SPIKE-Prime```
-    - Go to line 23 of serial.js and replace the serial port with the one that was just copied that starts with tty.LEGOHub. This is the string directly after ```SerialPort(.``` For example, the code at line 23 that was used when making this tutorial was ```const port = newSerialPort(‘/dev/tty.LEGOHubPTCAcademic-Seri’, {```, where PTCAcademic is the distinct name that was given to the hub.
+    - Go to line 25 of serial.js and replace the serial port with the one that was just copied that starts with tty.LEGOHub. This is the string directly after ```SerialPort(.``` For example, the code at line 25 that was used when making this tutorial was ```const port = newSerialPort(‘/dev/tty.LEGOHubPTCAcademic-Seri’, {```, where PTCAcademic is the distinct name that was given to the hub.
     
     #### Troubleshooting: 
     - Make sure to keep ```/dev/``` at the beginning of the line, and keep the bracket on the end of the line.
