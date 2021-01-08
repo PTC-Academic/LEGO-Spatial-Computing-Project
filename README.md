@@ -20,16 +20,16 @@ Below is a list of components that are necessary to complete this project. A wi-
 
 ### Software:
 * [LEGO SPIKE App](https://education.lego.com/en-us/downloads/spike-prime/software)
-* [Vuforia Spatial Edge Server](https://github.com/tuftsceeo/PTC-Toolbox)
+* [Vuforia Spatial Edge Server](https://github.com/ptcrealitylab/vuforia-spatial-edge-server)
 * [Vuforia Spatial Toolbox mobile application](https://apps.apple.com/us/app/vuforia-spatial-toolbox/id1506071001)
 * [Git & GitHub Desktop](https://desktop.github.com/)
-* [Node.js]()https://nodejs.org/en/
+* [Node.js](https://nodejs.org/en/)
 * [Visual Studio 2019](https://visualstudio.microsoft.com/)
 * [Airtable](https://airtable.com/)
 
 ## Table of Contents:
 
-1. [Introduction](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/1-Introduction.md) – A brief introduction to project with helpful resources, project requirements, and a table of contents
+1. [Introduction](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project#lego-spatial-computing-project) – A brief introduction to project with helpful resources, project requirements, and a table of contents
 2. [Downloads](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/2-Downloads.md) – All necessary software downloads are outlined ahead of time
 3. [LEGO SPIKE Prime Hardware Build](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/3-LEGO-SPIKE-Prime-Build.md) – Building instructions for the hardware portion of the project
 4. Connecting LEGO SPIKE Prime to Vuforia Spatial Toolbox 

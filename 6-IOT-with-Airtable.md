@@ -58,7 +58,7 @@ Before using the Airtable tool, it needs to be configured with the unique data f
     open the airtable.js file
 2. Replace the ```“xxx..”``` placeholders with the API Key and Base ID that were written down in the previous steps and enter the name of the table that is being connected (Table 1 if the name of the table was not changed in step 5 of the Getting Started with Airtable section of this page)
     #### Troubleshooting:
-    - A common error that hinders connection is just incorrect spelling of API Key or Base ID – be sure that they are copied and transferred exactly as they appear.
+    - A common error that hinders connection is incorrect spelling of API Key or Base ID – be sure that they are copied and transferred exactly as they appear without any spaces.
     ## ![Airtable Base ID](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/6-image010.png)
 3. The tool is now configured for a specific base inside of Airtable. The Airtable tool inside of Vuforia Spatial Toolbox will only take in data from this specific table. To send/receive data from a different table, go back into airtable.js and repeat step 2.
 
@@ -68,7 +68,7 @@ This section will instruct how to create a connection between Airtable, Vuforia 
 1. If it is not already running, start the Vuforia Spatial Edge Server and open the
     Vuforia Spatial Toolbox app
     #### Troubleshooting:
-    - If there are issues with connecting to the Vuforia Spatial Edge Server or the Vuforia Spatial Toolbox app, please refer to the PDF for connecting SPIKE Prime to Vuforia Spatial Toolbox
+    - If there are issues with connecting to the Vuforia Spatial Edge Server or the Vuforia Spatial Toolbox app, please refer to activity 4a (Mac) or 4b (Windows) in this tutorial.
 
 2. The Vuforia Spatial Toolbox needs to be in “Beginner” node configuration for this activity.
     -  To change the complexity of the node configuration, select the “Manage Hardware Interfaces” button of the Vuforia Spatial Edge Server to view all interfaces that are connected to the server

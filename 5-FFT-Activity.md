@@ -73,7 +73,7 @@ This section introduces how to set up Vuforia Spatial Toolbox for using the FFTa
     ## ![Node-Tool Connections](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image008.png)
 
 ## Running the Fast Fourier Transform
-While the Fast Fourier Transform is just triggered by toggling on a node, there many things happening in the background. The FFT analysis is hosted on a  Heroku
+While the Fast Fourier Transform is just triggered by toggling on a node, there are many things happening in the background. The FFT analysis is hosted on a  Heroku
 server and calculations are triggered when the FFTStart node is toggled on. Heroku is a platform that enables applications to be built and run entirely in the cloud, which
 is where the FFT server is hosted for this project.
 
