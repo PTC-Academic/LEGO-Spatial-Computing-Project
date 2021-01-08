@@ -22,7 +22,7 @@ As mentioned in **Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox**, th
 2. Open Terminal/Command Prompt and go to the vuforia-spatial-edge-server directory
    - Enter ```cd Documents/SpatialToolbox-Mac-Interns/vuforia-spatial-edge-server``` on MacOS
    - Enter ```cd Documents/SpatialToolbox-Windows-Interns/vuforia-spatial-edge-server``` on Windows
-3. Start the Vuforia Spatial Edge Server using the node server (Enter ```npm start```)
+3. Start the Vuforia Spatial Edge Server using the node server (Enter ```npm start``` or ```node server```)
 4. Type “localhost:8080” in a browser to view the server
     ## ![Edge Server](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image001.png)
     #### Troubleshooting:
@@ -35,7 +35,7 @@ As mentioned in **Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox**, th
 
 6. In Terminal/Command prompt, Enter ```CTRL + C``` to stop the Vuforia Spatial Edge Server.
    - The server needs to be restarted for the node setup to change
-7. Restart the server by typing node server into the _vuforia-spatial-edge-server_ directory
+7. Restart the server by entering ```node server ```into the _vuforia-spatial-edge-server_ directory
 8. Open the Vuforia Spatial Toolbox mobile app and try connecting to the SPIKE Prime using the feedback pamphlet image target.
    - Open into Programming mode. If the new node configuration looks like the one below, then this step was completed.
     ## ![Node Configuration](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image002.png)
