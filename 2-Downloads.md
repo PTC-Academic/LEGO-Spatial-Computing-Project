@@ -87,8 +87,8 @@ See **_Appendix A_** in [Appendices and Additional Resources](https://github.com
         * Open Terminal. For instructions how to do this, follow the information on Apple’s website.
         * Navigate to the _Documents_ folder in Terminal using the command ```cd Documents```
             * [Information on how to navigate through folders in Terminal](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101)
-        * Type ```git clone https://github.com/PTC-Academic/Spatial-Toolbox-Mac-Interns.git```
-            * This step clones the GitHub repository into the _Documents_  folder
+        * Type ```git clone https://github.com/PTC-Academic/SpatialToolbox-Mac-Interns.git```
+            * This step clones the GitHub repository into the _Documents_ folder
 
 * **GitHub Desktop**
     * The “Open with GitHub Desktop” option allows a manual import of the Vuforia Spatial Edge Server folder into GitHub Desktop _if GitHub Desktop is installed_.
