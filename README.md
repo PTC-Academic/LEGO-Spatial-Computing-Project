@@ -30,7 +30,6 @@ Below is a list of components that are necessary to complete this project. A wi-
 * [Airtable](https://airtable.com/)
 
 ## Table of Contents:
-
 1. [Introduction](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project#lego-spatial-computing-project) – A brief introduction to project with helpful resources, project requirements, and a table of contents
 2. [Downloads](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/2-Downloads.md) – All necessary software downloads are outlined ahead of time
 3. [LEGO SPIKE Prime Hardware Build](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/3-LEGO-SPIKE-Prime-Build.md) – Building instructions for the hardware portion of the project
