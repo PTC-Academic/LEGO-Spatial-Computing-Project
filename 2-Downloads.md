@@ -156,7 +156,7 @@ Node.js is an open source JavaScript environment that executes JavaScript code i
 Python is an object-oriented programming language. It is used when connecting Vuforia Spatial Toolbox to the SPIKE Prime Hub. No changes will need to be made in Python, but the so
 ftware needs to be downloaded in order to run the _initialize.py_ file in the _vuforia-spatial-edge-server_ folder.
 
-1. If you don't already have Python installed [Download Python 3.7](https://www.python.org/downloads/release/python-379/)
+1. If you don't already have Python installed, [Download Python 3.7](https://www.python.org/downloads/release/python-379/).
 2. Read the instructions on the page and scroll down to the different downloads at the bottom.
 * For computers running macOS, choose the “macOS 64-bit installer”
 * For Windows computers, choose the “Windows x86 executable installer” or “Windows x86- 64 executable installer” for 64-bit machines [Determine if a computer is 32 or 64 bits](https://support.microsoft.com/en-us/help/15056/windows-32-64-bit-faq)
