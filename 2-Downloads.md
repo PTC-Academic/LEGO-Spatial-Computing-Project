@@ -132,9 +132,9 @@ See **_Appendix A_** in [Appendices and Additional Resources](https://github.com
         * If this folder is not in the correct spot, the connection will not be properly established.
 
 ### **Verify Configuration** 
-In all cases, Mac or Windows, verify that a copy of the _spatialToolbox_ folder is inside of your computer's _Documents_ folder.
+In all cases, Mac or Windows, verify that a copy of the _spatialToolbox_ folder is located inside of your computer's _Documents_ folder.
 
-## Step 5: Download Visual Studio / Visual Studio Code
+## Step 5: Download Visual Studio (Windows) / Visual Studio Code (MacOS)
 Visual Studio and Visual Studio Code are integrated development environments for editing code. Windows users should download and install Visual Studio; it comes with two add-ins that are required for the Spatial Edge Server to run correctly. Mac users don't need do this step if they already have a code editor, otherwise, it's reccomended they install the lightweight Visual Studio Code to assist with this project.
 
 ### Windows Users - Install Visual Studio:
@@ -142,7 +142,7 @@ Visual Studio and Visual Studio Code are integrated development environments for
 2. In the Visual Studio Installer, select the “Community Edition”
 3. Make sure to check the boxes for the “Desktop development with C++” and
 “Node.js development” workloads when installing, as seen in the image below
-4. In the pulldown bar at the bottom right-hand corner, select either “Install while downloading” or “Download all, then install” and then click “Install”. Download all, then install should be used if the internet connection that is being used is slow.
+4. In the dropdown menu at the bottom right-hand corner, select either “Install while downloading” or “Download all, then install” and then click “Install”. Download all, then install should be used if the internet connection that is being used is slow.
 5. Troubleshooting note: The install can take a few minutes sometimes, depending on internet speed, so do not be alarmed if it does not complete the install immediately
 6. The computer will need to restart after the install. Save all current work and restart the computer
 
