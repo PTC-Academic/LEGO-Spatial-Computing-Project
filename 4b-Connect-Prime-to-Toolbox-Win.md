@@ -5,7 +5,7 @@
 ##  Requirements
 1. LEGO SPIKE Prime Hub & LEGO build
 2. LEGO Education product feedback pamphlet
-3. LEGO Education SPIKE app
+3. LEGO Education SPIKE desktop app
 4. Computer with Bluetooth capabilities
 5. Vuforia Spatial Toolbox compatible device
 6. Vuforia Spatial Edge Server download from GitHub
@@ -20,7 +20,7 @@
 6. [Logic Blocks](https://spatialtoolbox.vuforia.com/docs/use/spatial-programming/example-programs)
 7. [Example Programs](https://spatialtoolbox.vuforia.com/docs/use/spatial-programming/example-programs)
 
-## Preparing the LEGO Education SPIKE App.
+## Preparing the LEGO Education SPIKE desktop App
 The LEGO SPIKE Prime Hub needs to be connected to the LEGO Education SPIKE App. Open the app and become familiar with the capabilities of the LEGO SPIKE Prime. Learn how to connect it to Bluetooth with the beginning tutorials within the SPIKE app.
 
 ## Getting Started
@@ -31,7 +31,7 @@ A key part of using the Vuforia Spatial Toolbox is an image target. This allows 
 
 ## ![LEGO SPIKE Prime Pamphlet](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/4a-image001.jpg)
 
-- If printing out the image is not an option, the pamphlet image will also scan ff the computer monitor
+- If printing out the image is not an option, the pamphlet image will also work on a computer monitor
 - Resources for creating new image targets are in the **Appendices and Additional Resources** PDF for this project.
 
 ## Connecting the LEGO SPIKE Prime Hub to a computer

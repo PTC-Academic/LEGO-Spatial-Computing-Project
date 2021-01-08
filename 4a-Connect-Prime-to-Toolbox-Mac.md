@@ -31,7 +31,7 @@ A key part of using the Vuforia Spatial Toolbox is an image target. This allows 
 
 ## ![LEGO SPIKE Prime Pamphlet](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/4a-image001.jpg)
 
-- If printing out the image is not an option, the pamphlet image will also scan ff the computer monitor
+- If printing out the image is not an option, the pamphlet image will also work on a computer monitor
 - Resources for creating new image targets are in the **Appendices and Additional Resources** PDF for this project.
 
 ## Connecting the LEGO SPIKE Prime Hub to a computer
