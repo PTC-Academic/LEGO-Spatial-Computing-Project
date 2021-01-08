@@ -46,14 +46,14 @@ Advanced mode combines concepts from all three modes before it. It contains thre
 
 ## Additional Resources
 
-- LEGO SPIKE Prime support/FAQ’s
-- Vuforia Spatial Toolbox Forum – this is the go-to area for any questions relating to the Vuforia Spatial Toolbox and is monitored by the Spatial Toolbox team
-- How to create an object with an AR interface – tutorial for creating a new object in the Vuforia Spatial Edge Server
-- How to create an image target – tutorial for creating personal image targets using either the Vuforia Spatial Edge Server or PTC Developer Portal
-- How to create a tool – tutorial teaching how to create additional tools for the pocket
-- How to create a new hardware interface – tutorial for adding additional hardware interfaces to connect to something other than a SPIKE Prime
-- Explaining the Vuforia Spatial Robotic Addon
-- Dive deeper – a section outlining the system architecture, data model, and local vs global tools in Vuforia Spatial Toolbox
-- Airtable Support
+- [LEGO SPIKE Prime support/FAQ’s](https://education.lego.com/en-us/support/spike-prime%23Shortcuts)
+- [Vuforia Spatial Toolbox Forum](https://forum.spatialtoolbox.vuforia.com/) – this is the go-to area for any questions relating to the Vuforia Spatial Toolbox and is monitored by the Spatial Toolbox team
+- [How to create an object with an AR interface](https://spatialtoolbox.vuforia.com/docs/use/connect-to-the-physical-world/create-object) – tutorial for creating a new object in the Vuforia Spatial Edge Server
+- [How to create an image target](https://spatialtoolbox.vuforia.com/docs/tutorials/attaching-targets-to-objects) – tutorial for creating personal image targets using either the Vuforia Spatial Edge Server or PTC Developer Portal
+- [How to create a tool](https://spatialtoolbox.vuforia.com/docs/develop/spatial-tools/tutorial) – tutorial teaching how to create additional tools for the pocket
+- [How to create a new hardware interface](https://spatialtoolbox.vuforia.com/docs/develop/hardware-interfaces/tutorial) – tutorial for adding additional hardware interfaces to connect to something other than a SPIKE Prime
+- [Explaining the Vuforia Spatial Robotic Addon](https://spatialtoolbox.vuforia.com/docs/vuforia-spatial-robotic-addon)
+- [Dive deeper](https://spatialtoolbox.vuforia.com/docs/dive-deeper) – a section outlining the system architecture, data model, and local vs global tools in Vuforia Spatial Toolbox
+- [Airtable Support](https://support.airtable.com/hc/en-us)
 
 <-- Go back to [Learn About IOT using Airtable](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/6-IOT-with-Airtable.md)
