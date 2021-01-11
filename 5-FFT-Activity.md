@@ -60,6 +60,7 @@ This section introduces how to set up Vuforia Spatial Toolbox for using the FFTa
    - The FFT Tool and the FFT logic block looks like: <br /> 
       <img src="https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image011.png" alt="FFT Tools" width="200px">
 
+## Using the 
 
 <!--
 1. The four nodes used for running the FFT are as follows:
@@ -108,4 +109,6 @@ is where the FFT server is hosted for this project.
 5. In a few seconds, the Value tool connected to the FFTOutput should display the frequency that the radial engine is vibrating at in the given direction
 6. As a bonus, try changing the design of the LEGO build and SPIKE Prime position to see how it affects the output of the FFT analysis
 -->
-<-- Go back to [Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox on MacOS](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/4a-Connect-Prime-to-Toolbox-Mac.md) or [Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox on Windows](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/4b-Connect-Prime-to-Toolbox-Win.md) or continue to [Learn About IOT using Airtable](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/6-IOT-with-Airtable.md) -->
+<!--
+Go back to [Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox on MacOS](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/4a-Connect-Prime-to-Toolbox-Mac.md) or [Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox on Windows](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/4b-Connect-Prime-to-Toolbox-Win.md) or continue to [Learn About IOT using Airtable](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/6-IOT-with-Airtable.md)
+-->
