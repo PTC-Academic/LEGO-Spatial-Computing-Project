@@ -48,12 +48,12 @@ This section introduces how to set up Vuforia Spatial Toolbox for using the FFTa
 
 1. The first step to create the FFT visualization for your Spike Prime is to make an Airtable account. The purpose of Airtable is to store the necessary values of the FFT heroku server which is then used to update the visualization in the Spatial Toolbox. 
    - To make an Airtable account, see [Learn About IoT Using Airtable](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/6-IOT-with-Airtable.md) for helpful instructions
-   - Once you have made your own Airtable account and you should configure your Table to look exactly like the one below: 
+   - Once you have made your own Airtable account, you should configure your Table to look exactly like the one below: 
    ## ![Airtable Configuration](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image010.png)
-   - **IMPORTANT:** For your table, it should be called Table1 as default. Additionally, you should only have two columns, one titled **Variables** and the other **Value**. Underneath the **Variables** column, please write **magnitudes** and below that, write **frequencies**. (See image above for reference). 
+   - **IMPORTANT:** For your table, it should be called Table1 as default. Additionally, you should only have two columns, one titled **Variables** (plural) and the other **Value** (singular). Underneath the **Variables** column, please write **magnitudes** and below that, write **frequencies**. (See image above for reference). 
 2. The next step is to find your API Key and BaseID of your Airtable. This can be found by clicking the **HELP** button at the top right of your Airtable and then selecting **API Documentation**. In this documentation, there should be a toggle to show your API key in the top right. Once you have located your information, we can transfer this to the Spatial Toolbox.
-   - Within your Spatial Toolbox folder (either SpatialToolbox-Mac-Interns or SpatialToolbox-Windows-Interns), double click the respective folders to naviate to the necessary file: vuforia-spatial-edge-server/addons/vuforia-spatial-core-addon/blocks/fft 
-   - Open the index.js file and on lines 66-68 replace the the text on the right hand side with your informated. Ex. On the right side of **BASEID**, type "Your Unique BaseID" (Note. make sure to include the quotes as these are all strings)
+   - Within your Spatial Toolbox folder (either SpatialToolbox-Mac-Interns or SpatialToolbox-Windows-Interns), double click the respective folders to naviate to the necessary file: ```vuforia-spatial-edge-server/addons/vuforia-spatial-core-addon/blocks/fft``` 
+   - Open the ```index.js``` file and on lines 66-68 replace the the text on the right hand side with your informated. **Ex.** On the right side of **BASEID**, type "Your Unique BaseID" (**Note.** make sure to include the quotes as these are all strings)
    - Once you update the file, make sure to save and then close out the file
 3. Now that you have updated the file with your credentials, we can start the server. In terminal, navigate to your vuforia-spatial-edge-server and start the Vuforia Spatial Edge Server using the node server (Enter ```npm start``` or ```node server```). This is similar to the steps mentioned above. 
    - Once you open the app and hover over your image target, you can use this video for some assistance: [Using the FFT in Vuforia Spatial Toolbox](https://youtu.be/DtDQxQUz03o)
@@ -62,23 +62,25 @@ This section introduces how to set up Vuforia Spatial Toolbox for using the FFTa
 
 ## Using the FFT in Vuforia Spatial Toolbox
 As you use the video above as reference, here are some specific steps for further clarification:
-**Resource:** [An illustrated guide to using the Vuforia Spatial Toolbox](https://spatialtoolbox.vuforia.com/docs/use/using-the-app)
+<br>**Helpful Resource:** [An illustrated guide to using the Vuforia Spatial Toolbox](https://spatialtoolbox.vuforia.com/docs/use/using-the-app)
 1. Hover over your image target so that all of the nodes appear
-2. Select the pocket on the right (this is the middle icon) and click and drag a number tools onto your screen. The number tool looks like: 
+2. Select the pocket on the right (this is the middle icon) and click and drag the Number Tool onto your screen. The Number Tool looks like: 
    ## ![Numbers tool](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image005.png)
 3. Then select the pocket once more to click and drag the FFT tool onto your screen
-4. After you have these three objects, select the programming mode on the right (this is the icon above the pocket)
-   - Once you are in the programming mode, click & hold onto the pocket and drag your finger to somewhere on your screen. This should allow you to bring a logic block into your space (use the illustrated guide for further assistance if needed)
+4. After you have these two objects, select the programming mode on the right (this is the icon above the pocket)
+   - Once you are in the programming mode, click & hold onto the pocket and drag your finger to somewhere on your screen. This should allow you to bring a logic block into your space (use the illustrated guide above for further assistance if needed)
 5. You can then slect your logic block which will open its panel. Select the green pocket on the right and click & hold on the FFT logic block. Place this logic block on the upper left on the 2x4 panel for ease of convience. 
 6. Notice how the FFT logic block takes up two spaces, this is because it expects two inputs and returns one output. 
    - For our purpose, we can make on connection from the blue input to the left side of the FFT logic block (Input 1) and another connection from the green input to the right side (Input 2). 
-   - We can then make a connection from the FFT logic block to an output. In the [Using the FFT in Vuforia Spatial Toolbox](https://youtu.be/DtDQxQUz03o), we use the yellow OUT
+   - We can then make a connection from the FFT logic block to an output. In the video, [Using the FFT in Vuforia Spatial Toolbox](https://youtu.be/DtDQxQUz03o), we use the yellow OUT
 7. Select the back arrow on the right side to exit the logic block. 
    - Still in the programming mode, make a connection going from the number tool to the logic block. As you make this connection you will notice four colors appearing on the logic block. The number tool should be our Input 1, so it should be connected to the blue color. 
    - The next step is to connect the accelerometer data from the SPIKE Prime to our Input 2, the green color. You can choose whether you want the X, Y, or Z accelerometer data
-   - After these inputs are connected, connect the output of the logic block (if you choose the yellow OUT, then it would be the yellow color) to the FFT Tool
+   - After these inputs are connected, connect the output of the logic block (if you chose the yellow OUT, then it would be the yellow color) to the FFT Tool
 8. Once you follow all of these steps, it should be ready to go! 
-   - If your motor is not already running, you can drag in a number tool and connect it to the a SPIKE Prime motor to have it move at various speeds. 
+   - The Number Tool that is connected to the FFT logic block is for the **Sample Size**, which should be a power of 2
+   - If your motor is not already running, you can drag in a number tool and connect it to the a SPIKE Prime motor to have it move at various speeds
+   - **IMPORTANT:** The default **Sample Rate** is ```50```. To change this value, navigate to: ```vuforia-spatial-edge-server/addons/vuforia-spatial-core-addon/blocks/fft```. Open the ```index.js``` and on line 227, change the number ```50``` to your desired Sample Rate 
 
 <!--
 1. The four nodes used for running the FFT are as follows:
