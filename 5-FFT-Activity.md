@@ -37,7 +37,7 @@ As mentioned in **Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox**, th
 7. Restart the server by entering ```node server ```into the _vuforia-spatial-edge-server_ directory
 8. Open the Vuforia Spatial Toolbox mobile app and try connecting to the SPIKE Prime using the feedback pamphlet image target.
    - Open into Programming mode. If the new node configuration looks like the one below, then this step was completed.  
-    ## ![Node Configuration](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image002_updated.png)
+    ## ![Node Configuration](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image002.png)
     #### Troubleshooting:
       - If the node setup does not look like this, restart this section.
       - Common errors will include not changing the node setup to “advanced” or not hitting “save” before clicking out of the “Manage Hardware Interfaces” tab or not entering “advanced” in all lowercase letters.
