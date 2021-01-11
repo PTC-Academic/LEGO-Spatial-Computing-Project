@@ -50,8 +50,14 @@ This section introduces how to set up Vuforia Spatial Toolbox for using the FFTa
    - To make an Airtable account, see [Learn About IoT Using Airtable](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/6-IOT-with-Airtable.md) for helpful instructions
    - Once you have made your own Airtable account and you should configure your Table to look exactly like the one below: 
    ## ![Airtable Configuration](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image010.png)
-   - **Important:** For your table, it should be called Table1 as default. Additionally, you should only have two columns, one titled **Variables** and the other **Value**. Underneath the **Variables** column, please write **magnitudes** and below that, write **frequencies**. (See image above for reference). 
-
+   - **IMPORTANT:** For your table, it should be called Table1 as default. Additionally, you should only have two columns, one titled **Variables** and the other **Value**. Underneath the **Variables** column, please write **magnitudes** and below that, write **frequencies**. (See image above for reference). 
+2. The next step is to find your API Key and BaseID of your Airtable. This can be found by clicking the **HELP** button at the top right of your Airtable and then selecting **API Documentation**. In this documentation, there should be a toggle to show your API key in the top right. Once you have located your information, we can transfer this to the Spatial Toolbox.
+   - Within your Spatial Toolbox folder (either SpatialToolbox-Mac-Interns or SpatialToolbox-Windows-Interns), double click the respective folders to naviate to the necessary file: vuforia-spatial-edge-server/addons/vuforia-spatial-core-addon/blocks/fft 
+   - Open the index.js file and on lines 66-68 replace the the text on the right hand side with your informated. Ex. On the right side of **BASEID**, type "Your Unique BaseID" (Note. make sure to include the quotes as these are all strings)
+   - Once you update the file, make sure to save and then close out the file
+3. Now that you have updated the file with your credentials, we can start the server. In terminal, navigate to your vuforia-spatial-edge-server and start the Vuforia Spatial Edge Server using the node server (Enter ```npm start``` or ```node server```). This is similar to the steps mentioned above. 
+   - Once you open the app and hover over your image target, you can use this video for some assistance: [Using the FFT in Vuforia Spatial Toolbox](https://youtu.be/DtDQxQUz03o)
+   - The FFT Tool and the FFT logic block looks like: ##![FFT Tools](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image011.png)
 
 
 
