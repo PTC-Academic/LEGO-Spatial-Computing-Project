@@ -61,7 +61,7 @@ This section introduces how to set up Vuforia Spatial Toolbox for using the FFTa
       <img src="https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image011.png" alt="FFT Tools" width="200px">
 
 
-
+<!--
 1. The four nodes used for running the FFT are as follows:
    - **FFTStart** works as a toggle to trigger the FFT analysis. When it is turned on, data sampling will start
    - **FFTLength** is used for deciding the number of samples that are going to be taken into the FFT analysis. It intakes sample integers between 16 and 512 samples at powers of 2 (16, 32, 64, etc). Higher sample rates lead to accurate results but will also take slightly longer due to more samples being taken.
@@ -86,23 +86,26 @@ This section introduces how to set up Vuforia Spatial Toolbox for using the FFTa
    - Connect the the FFTOutput node to the Value tool. This will display the frequency that the FFT analysis outputs
 5. The connections should look similar to the image below, with the green arrows noting the way that the connection should be made:
     ## ![Node-Tool Connections](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image008.png)
-
+-->
+<!--
 ## Running the Fast Fourier Transform
 While the Fast Fourier Transform is just triggered by toggling on a node, there are many things happening in the background. The FFT analysis is hosted on a  Heroku
 server and calculations are triggered when the FFTStart node is toggled on. Heroku is a platform that enables applications to be built and run entirely in the cloud, which
 is where the FFT server is hosted for this project.
-
+-->
+<!--
 1. Input a number between 0 and 100 in the Number tool that is connected to the _motor1_ node to start the motor. This number represents the percentage of full power that the motor will be running at.
 - The motor should start running after the number is input and “done” is Entered on the upper right-hand of the keyboard.
     #### Troubleshooting:
    - Ensure that the SPIKE Prime is connected to the Vuforia Spatial Edge Server. There will be an array similar to the one below that is printed in the console when it is connected. There should be at least one motor that shows up and the corresponding port that it is connected to.
 ## ![Console output](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image009.png)
    - If the motor does not start, try deleting the Numbers tool that is connected to the motor1 node and close out of the app. Reopen the app, add in a new Numbers tool, connect it to the motor node, and repeat this step. If this does not work, restart the server and check that the Vuforia Spatial Toolbox app was able to connect to the Vuforia Spatial Edge Server
-
+-->
+<!--
 2. Input a 0, 1, or 2, for the X, Y, or Z axis, into the Numbers tool that is connected to the FFTAxis node to decide which axis will be sampled
 3. Input an integer between 16 and 512 and a power of 2 into the Numbers tool that is connected to FFTLength to set the number of samples that will be taken.
 4. Toggle the Switch to ON to start the FFTStart node to run the FFT analysis
 5. In a few seconds, the Value tool connected to the FFTOutput should display the frequency that the radial engine is vibrating at in the given direction
 6. As a bonus, try changing the design of the LEGO build and SPIKE Prime position to see how it affects the output of the FFT analysis
-
+-->
 <-- Go back to [Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox on MacOS](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/4a-Connect-Prime-to-Toolbox-Mac.md) or [Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox on Windows](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/4b-Connect-Prime-to-Toolbox-Win.md) or continue to [Learn About IOT using Airtable](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/6-IOT-with-Airtable.md) -->
