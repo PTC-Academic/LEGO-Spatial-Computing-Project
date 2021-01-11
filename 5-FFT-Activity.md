@@ -32,13 +32,12 @@ As mentioned in **Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox**, th
    - Ensure that the “Spike-Prime” node is turned ON
       - In the text box to the right of where it says “spikeComplexity,” change the node setting from its current state to “advanced” to ensure that all necessary nodes are made visible
       - Click the “Save” button to save the changes
-
 6. In Terminal/Command prompt, Enter ```CTRL + C``` to stop the Vuforia Spatial Edge Server.
    - The server needs to be restarted for the node setup to change
 7. Restart the server by entering ```node server ```into the _vuforia-spatial-edge-server_ directory
 8. Open the Vuforia Spatial Toolbox mobile app and try connecting to the SPIKE Prime using the feedback pamphlet image target.
-   - Open into Programming mode. If the new node configuration looks like the one below, then this step was completed.
-    ## ![Node Configuration](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image002.png)
+   - Open into Programming mode. If the new node configuration looks like the one below, then this step was completed.  
+    ## ![Node Configuration](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image002_updated.png)
     #### Troubleshooting:
       - If the node setup does not look like this, restart this section.
       - Common errors will include not changing the node setup to “advanced” or not hitting “save” before clicking out of the “Manage Hardware Interfaces” tab or not entering “advanced” in all lowercase letters.
@@ -46,6 +45,15 @@ As mentioned in **Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox**, th
 
 ## Setting up Vuforia Spatial Toolbox for a Fast Fourier Transform
 This section introduces how to set up Vuforia Spatial Toolbox for using the FFTanalysis on the SPIKE Prime radial engine
+
+1. The first step to create the FFT visualization for your Spike Prime is to make an Airtable account. The purpose of Airtable is to store the necessary values of the FFT heroku server which is then used to update the visualization in the Spatial Toolbox. 
+   - To make an Airtable account, see [Learn About IoT Using Airtable](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/6-IOT-with-Airtable.md) for helpful instructions
+   - Once you have made your own Airtable account and you should configure your Table to look exactly like the one below: 
+   ## ![Airtable Configuration](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image010.png)
+   - **Important:** For your table, it should be called Table1 as default. Additionally, you should only have two columns, one titled **Variables** and the other **Value**. Underneath the **Variables** column, please write **magnitudes** and below that, write **frequencies**. (See image above for reference). 
+
+
+
 
 1. The four nodes used for running the FFT are as follows:
    - **FFTStart** works as a toggle to trigger the FFT analysis. When it is turned on, data sampling will start
