@@ -5,9 +5,9 @@ These tutorials demonstrate how to connect a [LEGO Education SPIKE Prime](https:
 This video shows an example of what the outcome of this project may look like (click image for full video and explanation on Youtube): [![Intro LEGO Spatial Computing FFT video](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/intro-video.gif)](https://youtu.be/DtDQxQUz03o "Intro LEGO Spatial Computing FFT video")
 
 ### Educational Approach
-This project combines AR, Spatial Computing and the Internet of Things (IoT), with JavaScript and an algorithm called a [Fast Fourier Transform](https://en.wikipedia.org/wiki/Fast_Fourier_transform)(FFT) to analyze the vibrations produced by a LEGO SPIKE Prime rotating a LEGO-built [Radial Engine](https://en.wikipedia.org/wiki/Radial_engine). It is intended for students across engineering and computer science. All of the software tools utilized in this project are free and open source.
+This project combines AR, Spatial Computing and the Internet of Things (IoT), with JavaScript and an algorithm called a [Fast Fourier Transform](https://en.wikipedia.org/wiki/Fast_Fourier_transform)(FFT) to analyze the vibrations produced by a LEGO SPIKE Prime rotating a LEGO-built [Radial Engine](https://en.wikipedia.org/wiki/Radial_engine). It is intended for students across engineering and computer science. All of the software tools utilized in this project are **free and open source**.
 
-These tutorials include a high level of detail, and are intended to provide a supported first experience for new users to AR and IoT. 
+These tutorials include a high level of detail, and are intended to provide a supported first experience for students new to AR, IoT and Spatial Computing. 
 
 ## Requirements
 Below is a list of components that are necessary to complete this project. A wi-fi network is also required.
