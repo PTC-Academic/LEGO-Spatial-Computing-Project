@@ -60,7 +60,20 @@ This section introduces how to set up Vuforia Spatial Toolbox for using the FFTa
    - The FFT Tool and the FFT logic block looks like: <br /> 
       <img src="https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image011.png" alt="FFT Tools" width="200px">
 
-## Using the 
+## Using the FFT in Vuforia Spatial Toolbox
+As you use the video above as reference, here are some specific steps for further clarification:
+**Resource:** [An illustrated guide to using the Vuforia Spatial Toolbox](https://spatialtoolbox.vuforia.com/docs/use/using-the-app)
+1. Hover over your image target so that all of the nodes appear
+2. Select the pocket on the right (this is the middle icon) and click and drag two number tools onto your screen. The number tool looks like: 
+   ## ![Numbers tool](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image005.png)
+3. Then select the pocket once more to click and drag the FFT tool onto your screen
+4. After you have these three objects, select the programming mode on the right (this is the icon above the pocket)
+   - Once you are in the programming mode, click & hold onto the pocket and drag your finger to somewhere on your screen. This should allow you to bring a logic block into your space (use the illustrated guide for further assistance if needed)
+5. You can then slect your logic block which will open its panel. Select the green pocket on the right and click & hold on the FFT logic block. Place this logic block on the upper left on the 2x4 panel for ease of convience. 
+6. Notice how the FFT logic block takes up two spaces, this is because it expects two inputs and returns one output. 
+   - For our purpose, we can make on connection from the blue input to the left side of the FFT logic block (Input 1) and another connection from the green input to the right side (Input 2). 
+   - We can then make a connection from the FFT logic block to an output. In the [Using the FFT in Vuforia Spatial Toolbox](https://youtu.be/DtDQxQUz03o), we use the yellow OUT
+7. Select the back arrow on the right side to exit the logic block. 
 
 <!--
 1. The four nodes used for running the FFT are as follows:

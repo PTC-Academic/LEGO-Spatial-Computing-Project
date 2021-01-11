@@ -35,8 +35,7 @@ Below is a list of components that are necessary to complete this project. A wi-
     - [Connecting LEGO SPIKE Prime to Vuforia Spatial Toolbox on Mac](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/4a-Connect-Prime-to-Toolbox-Mac.md) – Step by step process of how to connect SPIKE Prime to Vuforia Spatial Toolbox on MacOS with additional resources for further explanation
     - [Connecting LEGO SPIKE Prime to Vuforia Spatial Toolbox on Windows](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/4b-Connect-Prime-to-Toolbox-Win.md) - Step by step process of how to connect SPIKE Prime to Vuforia Spatial Toolbox on Windows with additional resources for further explanation
 5. [Fast Fourier Transform Activity](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/5-FFT-Activity.md) – Activity for performing a Fast Fourier Transform analysis on the LEGO SPIKE Prime hardware build
-6. [Learn About IOT Using Airtable](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/6-IOT-with-Airtable.md) – Activity using opensource Airtable database service to connect to Vuforia Spatial Toolbox to a LEGO SPIKE Prime via a custom API to teach basic IOT concepts
-7. [Appendices and Additional Resources](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/7-Appendices-and-Resources.md) – Appendices and references for additional Vuforia Spatial Toolbox exploration
+6. [Appendices and Additional Resources](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/6-Appendices-and-Resources.md) – Appendices and references for additional Vuforia Spatial Toolbox exploration
 
 **Time to complete all sections:  2-3 hours**
 
