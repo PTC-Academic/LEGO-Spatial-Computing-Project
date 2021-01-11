@@ -57,7 +57,7 @@ This section introduces how to set up Vuforia Spatial Toolbox for using the FFTa
    - Once you update the file, make sure to save and then close out the file
 3. Now that you have updated the file with your credentials, we can start the server. In terminal, navigate to your vuforia-spatial-edge-server and start the Vuforia Spatial Edge Server using the node server (Enter ```npm start``` or ```node server```). This is similar to the steps mentioned above. 
    - Once you open the app and hover over your image target, you can use this video for some assistance: [Using the FFT in Vuforia Spatial Toolbox](https://youtu.be/DtDQxQUz03o)
-   - The FFT Tool and the FFT logic block looks like: ##![FFT Tools](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image011.png =100x200)
+   - The FFT Tool and the FFT logic block looks like: ##![FFT Tools](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image011.png | width=100)
 
 
 
