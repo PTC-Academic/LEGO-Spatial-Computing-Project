@@ -47,7 +47,8 @@ As mentioned in **Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox**, th
 This section introduces how to set up Vuforia Spatial Toolbox for using the FFTanalysis on the SPIKE Prime radial engine
 
 1. The first step to create the FFT visualization for your Spike Prime is to make an Airtable account. The purpose of Airtable is to store the necessary values of the FFT heroku server which is then used to update the visualization in the Spatial Toolbox. 
-   - To make an Airtable account, see [Learn About IoT Using Airtable](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/6-IOT-with-Airtable.md) for helpful instructions
+   - To make an Airtable account, visit [Airtable](https://airtable.com/)
+      - do
    - Once you have made your own Airtable account, you should configure your Table to look exactly like the one below: 
    ## ![Airtable Configuration](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image010.png)
    - **IMPORTANT:** For your table, it should be called Table1 as default. Additionally, you should only have two columns, one titled **Variables** (plural) and the other **Value** (singular). Underneath the **Variables** column, please write **magnitudes** and below that, write **frequencies**. (See image above for reference). 
