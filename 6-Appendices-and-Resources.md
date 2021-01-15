@@ -56,4 +56,4 @@ Advanced mode combines concepts from all three modes before it. It contains thre
 - [Dive deeper](https://spatialtoolbox.vuforia.com/docs/dive-deeper) – a section outlining the system architecture, data model, and local vs global tools in Vuforia Spatial Toolbox
 - [Airtable Support](https://support.airtable.com/hc/en-us)
 
-<-- Go back to [Learn About IOT using Airtable](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/6-IOT-with-Airtable.md)
+<-- Go back to [Fast Fourier Transform Activity](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/5-FFT-Activity.md)
