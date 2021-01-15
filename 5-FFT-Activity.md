@@ -25,16 +25,14 @@ As mentioned in **Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox**, th
 3. Start the Vuforia Spatial Edge Server using the node server (Enter ```npm start``` or ```node server```)
 4. Type “localhost:8080” in a browser to view the server
     ## ![Edge Server](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image001.png)
-    #### Troubleshooting:
-   - For any troubleshooting issues, view the troubleshooting notes in the Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox for [MacOS](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/4a-Connect-Prime-to-Toolbox-Mac.md) or [Windows](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/4b-Connect-Prime-to-Toolbox-Win.md)
 5. The Vuforia Spatial Toolbox needs to be in “advanced” node configuration for this activity.
    - To change the complexity of the node configuration, select the “Manage Hardware Interfaces” button of the Vuforia Spatial Edge Server to view all interfaces that are connected to the server
    - Ensure that the “Spike-Prime” node is turned ON
       - In the text box to the right of where it says “spikeComplexity,” change the node setting from its current state to “advanced” to ensure that all necessary nodes are made visible
       - Click the “Save” button to save the changes
-6. In Terminal/Command prompt, Enter ```CTRL + C``` to stop the Vuforia Spatial Edge Server.
-   - The server needs to be restarted for the node setup to change
-7. Restart the server by entering ```node server ```into the _vuforia-spatial-edge-server_ directory
+6. The server needs to be restarted for the node setup to change
+   - In Terminal/Command prompt, Enter ```CTRL + C``` to stop the Vuforia Spatial Edge Server.
+   - Restart the server by entering ```node server ```into the _vuforia-spatial-edge-server_ directory
 8. Open the Vuforia Spatial Toolbox mobile app and try connecting to the SPIKE Prime using the feedback pamphlet image target.
    - Open into Programming mode. If the new node configuration looks like the one below, then this step was completed.  
     ## ![Node Configuration](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image002.png)
