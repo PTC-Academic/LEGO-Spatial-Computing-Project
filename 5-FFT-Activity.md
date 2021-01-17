@@ -54,10 +54,14 @@ This section introduces how to use Airtalble with Vuforia Spatial Toolbox and th
    ## ![Airtable Configuration](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image010.png)
    - **IMPORTANT:** The table must be named **Table1** (if there is a space, edit the name to remove the space so that it reads "Table1"). 
    - Additionally, you should only have two columns, one titled **Variables** (plural) and the other **Value** (singular). Underneath the **Variables** column,  write **magnitudes** and below that, write **frequencies**. (See image above for reference). 
-2. The next step is to find the API Key and BaseID of the Airtable database. This can be found by clicking the **HELP** button at the top right of Airtable and then selecting **API Documentation**. In this documentation, there should be a toggle to show your API key in the top right. Once you have located your information, we can transfer this to the Spatial Toolbox.
-   - Within your Spatial Toolbox folder (either SpatialToolbox-Mac-Interns or SpatialToolbox-Windows-Interns), double click the respective folders to naviate to the necessary file: ```vuforia-spatial-edge-server/addons/vuforia-spatial-core-addon/blocks/fft``` 
-   - Open the ```index.js``` file and on lines 66-68 replace the the text on the right hand side with your informated. **Ex.** On the right side of **BASEID**, type "Your Unique BaseID" (**Note.** make sure to include the quotes as these are all strings)
-   - Once you update the file, make sure to save and then close out the file
+2. The next step is to find the API Key and BaseID of the Airtable database. 
+   - The BaseID can be found by clicking the **HELP** button at the top right of Airtable and then selecting **API Documentation**. 
+   - In the **Introduction** section, you will see "The ID of this base is" followed by the BaseID. Copy this ID into a text editor for later use.
+   - In the **Authentication** section, theres is a link to the **Account** page, and there is a button on that page to "Generate an API Key". 
+      - **NOTE:** keep this key private, and for now, copy it to a text editor for later use. 
+   - Within the Spatial Toolbox folder (either SpatialToolbox-Mac-Interns or SpatialToolbox-Windows-Interns), naviate to the fft folder: ```vuforia-spatial-edge-server/addons/vuforia-spatial-core-addon/blocks/fft``` 
+   - Open the ```index.js``` file and on lines 66-68 (MacOS version 154 and 156) replace the the values in the quote on the right hand side with your BaseID and API Key. 
+   - Once you update the file, save and then close  the file
 3. Now that you have updated the file with your credentials, we can start the server. In terminal, navigate to your vuforia-spatial-edge-server and start the Vuforia Spatial Edge Server using the node server (Enter ```npm start``` or ```node server```). This is similar to the steps mentioned above. 
    - Once you open the app and hover over your image target, you can use this video for some assistance: [Using the FFT in Vuforia Spatial Toolbox](https://youtu.be/DtDQxQUz03o)
    - The FFT Tool and the FFT logic block looks like: <br /> 
