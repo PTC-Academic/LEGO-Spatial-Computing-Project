@@ -12,11 +12,11 @@
 
 
 ## Getting Started
-A Fast Fourier Transform (FFT) is a method of frequency analysis that takes a discrete signal in the time domain and transforms that signal into its  frequency domain components -- the fundamental frequencies at which an an object is vibrating. These frequencies is important to know to avoid having an object vibrate at its natural frequency, as that could cause potential failure in the object. In this activity, an FFT analysis will be made on a LEGO-based radial engine. 
+A Fast Fourier Transform (FFT) is a method of frequency analysis that takes a discrete signal in the time domain and transforms that signal into its frequency domain components -- the fundamental frequencies at which an an object is vibrating. These frequencies is important to know to avoid having an object vibrate at its natural frequency, as that could cause potential failure in the object. In this activity, an FFT analysis will be made on a LEGO-based radial engine. 
 
 ## Changing the Hardware Interface
 
-As mentioned in **Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox**, the setup of the nodes can be changed depending on need. In the case of this FFT activity, the node setup needs to be in Advanced mode in order to do the necessary analysis.
+As mentioned in **Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox**, the setup of the nodes can be changed depending on need. In the case of this FFT activity, the Spike Prime Hardware Interface setup needs the **complexity** set to "advanced" and the **activity** set to "fft" in order to  ensure that all necessary nodes are made visible for the necessary analysis.
 
 1. Connect the SPIKE Prime to a computer via Bluetooth if not already connected
 2. Open Terminal/Command Prompt and go to the vuforia-spatial-edge-server directory
@@ -25,12 +25,13 @@ As mentioned in **Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox**, th
 3. Start the Vuforia Spatial Edge Server using the node server (Enter ```npm start``` or ```node server```)
 4. Type “localhost:8080” in a browser to view the server
     ## ![Edge Server](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image001.png)
-5. The Vuforia Spatial Toolbox needs to be in “advanced” node configuration for this activity.
+5. Set the Spike Prime Hardware Interface **complexity** to "advanced" and **activity** to "fft"
    - To change the complexity of the node configuration, select the “Manage Hardware Interfaces” button of the Vuforia Spatial Edge Server to view all interfaces that are connected to the server
    - Ensure that the “Spike-Prime” node is turned ON
-      - In the text box to the right of where it says “spikeComplexity,” change the node setting from its current state to “advanced” to ensure that all necessary nodes are made visible
+      - In the text box to the right of where it says **spikeComplexity**, change the node setting from its current state to “advanced” 
+      - In the text box to the right of where it says **activity**, change the node setting from its current state to fft 
       - Click the “Save” button to save the changes
-6. The server needs to be restarted for the node setup to change
+6. The server must be restarted for the node setup to change
    - In Terminal/Command prompt, Enter ```CTRL + C``` to stop the Vuforia Spatial Edge Server.
    - Restart the server by entering ```node server ```into the _vuforia-spatial-edge-server_ directory
 8. Open the Vuforia Spatial Toolbox mobile app and try connecting to the SPIKE Prime using the feedback pamphlet image target.
