@@ -30,11 +30,12 @@ As mentioned in **Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox**, th
    - Ensure that the “Spike-Prime” node is turned ON
       - In the text box to the right of where it says **spikeComplexity**, change the node setting from its current state to “advanced” 
       - In the text box to the right of where it says **activity**, change the node setting from its current state to fft 
+    ## ![Edge Server Directory](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/4a-image020.png)
       - Click the “Save” button to save the changes
 6. The server must be restarted for the node setup to change
    - In Terminal/Command prompt, Enter ```CTRL + C``` to stop the Vuforia Spatial Edge Server.
    - Restart the server by entering ```node server ```into the _vuforia-spatial-edge-server_ directory
-8. Open the Vuforia Spatial Toolbox mobile app and try connecting to the SPIKE Prime using the feedback pamphlet image target.
+7. Open the Vuforia Spatial Toolbox mobile app and try connecting to the SPIKE Prime using the feedback pamphlet image target.
    - Open into Programming mode. If the new node configuration looks like the one below, then this step was completed.  
     ## ![Node Configuration](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image002.png)
     #### Troubleshooting:
