@@ -62,14 +62,11 @@ This section introduces how to use Airtalble with Vuforia Spatial Toolbox and th
    - Within the Spatial Toolbox folder (either SpatialToolbox-Mac-Interns or SpatialToolbox-Windows-Interns), naviate to the fft folder: ```vuforia-spatial-edge-server/addons/vuforia-spatial-core-addon/blocks/fft``` 
    - Open the ```index.js``` file and on lines 66-68 (MacOS version lines 154 and 156) replace the the values in the quote on the right hand side with your BaseID and API Key. 
    - Once you update the file, save and then close the file
-3. Now that you have updated the file with your credentials, we can start the server. As before, start (or if it's running, restart) the node server
-   - Once you open the app and hover over your image target, the FFT Tool and the FFT logic block looks like: <br /> 
-      <img src="https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image011.png" alt="FFT Tools" width="200px">
-   - Watch this video for some assistance: [Using the FFT in Vuforia Spatial Toolbox](https://youtu.be/DtDQxQUz03o)
+3. Now that you have updated the file with your credentials, we can start the server. As before, start (or if it's running, restart) the node server.
+   - The next seciton will help you connect the nodes to tools to analyze your LEGO engine (or other vibrating LEGO system). This video shows the expected outcome: [Using the FFT in Vuforia Spatial Toolbox](https://youtu.be/DtDQxQUz03o)
 
 ## Using the FFT in Vuforia Spatial Toolbox
-As you use the video above as reference, here are some specific steps for further clarification:
-<br>**Helpful Resource:** [An illustrated guide to using the Vuforia Spatial Toolbox](https://spatialtoolbox.vuforia.com/docs/use/using-the-app)
+As you use the video above as reference, here are some specific steps to take to send vibration data from the PRIME through Vuforia Spatial Toolbox to Airtable. If you haven't yet worked with Spatial Toolbox much, please read through this helpful resource: [An illustrated guide to using the Vuforia Spatial Toolbox](https://spatialtoolbox.vuforia.com/docs/use/using-the-app). For this project, here are specfic steps to set up the inputs and output graph.
 1. Hover over your image target so that all of the nodes appear
 2. Select the pocket on the right (this is the middle icon) and click and drag the Number Tool onto your screen. The Number Tool looks like: 
    ## ![Numbers tool](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image005.png)
@@ -81,7 +78,7 @@ As you use the video above as reference, here are some specific steps for furthe
    - For our purpose, we can make on connection from the blue input to the left side of the FFT logic block (Input 1) and another connection from the green input to the right side (Input 2). 
    - We can then make a connection from the FFT logic block to an output. In the video, [Using the FFT in Vuforia Spatial Toolbox](https://youtu.be/DtDQxQUz03o), we use the yellow OUT
 7. Select the back arrow on the right side to exit the logic block. 
-   - Still in the programming mode, make a connection going from the number tool to the logic block. As you make this connection you will notice four colors appearing on the logic block. The number tool should be our Input 1, so it should be connected to the blue color. 
+   - Still in the programming mode, make a connection going from the number tool to the logic block. As you make this connection you will notice four colors appearing on the logic block. The number tool should be our Input 1, so it should be connected to the blue color. x
    - The next step is to connect the accelerometer data from the SPIKE Prime to our Input 2, the green color. You can choose whether you want the X, Y, or Z accelerometer data
    - After these inputs are connected, connect the output of the logic block (if you chose the yellow OUT, then it would be the yellow color) to the FFT Tool
 8. Once you follow all of these steps, it should be ready to go! 
