@@ -60,12 +60,12 @@ This section introduces how to use Airtalble with Vuforia Spatial Toolbox and th
    - In the **Authentication** section, theres is a link to the **Account** page, and there is a button on that page to "Generate an API Key". 
       - **NOTE:** keep this key private, and for now, copy it to a text editor for later use. 
    - Within the Spatial Toolbox folder (either SpatialToolbox-Mac-Interns or SpatialToolbox-Windows-Interns), naviate to the fft folder: ```vuforia-spatial-edge-server/addons/vuforia-spatial-core-addon/blocks/fft``` 
-   - Open the ```index.js``` file and on lines 66-68 (MacOS version 154 and 156) replace the the values in the quote on the right hand side with your BaseID and API Key. 
-   - Once you update the file, save and then close  the file
-3. Now that you have updated the file with your credentials, we can start the server. In terminal, navigate to your vuforia-spatial-edge-server and start the Vuforia Spatial Edge Server using the node server (Enter ```npm start``` or ```node server```). This is similar to the steps mentioned above. 
-   - Once you open the app and hover over your image target, you can use this video for some assistance: [Using the FFT in Vuforia Spatial Toolbox](https://youtu.be/DtDQxQUz03o)
-   - The FFT Tool and the FFT logic block looks like: <br /> 
+   - Open the ```index.js``` file and on lines 66-68 (MacOS version lines 154 and 156) replace the the values in the quote on the right hand side with your BaseID and API Key. 
+   - Once you update the file, save and then close the file
+3. Now that you have updated the file with your credentials, we can start the server. As before, start (or if it's running, restart) the node server
+   - Once you open the app and hover over your image target, the FFT Tool and the FFT logic block looks like: <br /> 
       <img src="https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image011.png" alt="FFT Tools" width="200px">
+   - Watch this video for some assistance: [Using the FFT in Vuforia Spatial Toolbox](https://youtu.be/DtDQxQUz03o)
 
 ## Using the FFT in Vuforia Spatial Toolbox
 As you use the video above as reference, here are some specific steps for further clarification:
