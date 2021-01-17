@@ -39,12 +39,11 @@ As mentioned in **Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox**, th
    - Open into Programming mode. If the new node configuration looks like the one below, then this step was completed.  
     ## ![Node Configuration](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image002.png)
     #### Troubleshooting:
-      - If the node setup does not look like this, restart this section.
-      - Common errors will include not changing the node setup to “advanced” or not hitting “save” before clicking out of the “Manage Hardware Interfaces” tab or not entering “advanced” in all lowercase letters.
-      - If all steps for this section are followed properly but there are still issues with connecting, refer to Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox for [MacOS](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/4a-Connect-Prime-to-Toolbox-Mac.md) or [Windows](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/4b-Connect-Prime-to-Toolbox-Win.md)
+      - If you do not see the advanced and FFT notes, restart this section.
+      - Common errors will include not changing the setup to “advanced”, "fft" or not clicking “save” before exiting the “Manage Hardware Interfaces” tab or not entering “advanced” in all lowercase letters.
 
 ## Setting up Vuforia Spatial Toolbox for a Fast Fourier Transform
-This section introduces how to set up Vuforia Spatial Toolbox for using the FFTanalysis on the SPIKE Prime radial engine
+This section introduces how to set up Vuforia Spatial Toolbox for using the FFTanalysis function with the SPIKE Prime radial engine
 
 1. The first step to create the FFT visualization for your Spike Prime is to make an Airtable account. The purpose of Airtable is to store the necessary values of the FFT heroku server which is then used to update the visualization in the Spatial Toolbox. 
    - To make an Airtable account, visit [Airtable](https://airtable.com/)
