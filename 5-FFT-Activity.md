@@ -43,7 +43,7 @@ As mentioned in **Connecting a LEGO SPIKE Prime to Vuforia Spatial Toolbox**, th
       - Common errors will include not changing the setup to “advanced”, "fft" or not clicking “save” before exiting the “Manage Hardware Interfaces” tab or not entering “advanced” in all lowercase letters.
 
 ## Setting up Vuforia Spatial Toolbox for a Fast Fourier Transform
-This section introduces how to set up Vuforia Spatial Toolbox for using the FFTanalysis function with the SPIKE Prime radial engine
+This section introduces how to use Airtalble with Vuforia Spatial Toolbox and the FFTanalysis function together with the SPIKE Prime radial engine
 
 1. The first step to create the FFT visualization for your Spike Prime is to make an Airtable account. The purpose of Airtable is to store the necessary values of the FFT heroku server which is then used to update the visualization in the Spatial Toolbox. 
    - To make an Airtable account, visit [Airtable](https://airtable.com/)
@@ -52,8 +52,9 @@ This section introduces how to set up Vuforia Spatial Toolbox for using the FFTa
       - Click “Add a base” to start creating a database. Choose the “Start from scratch” option and give the base a name
    - Once you have made your own Airtable account, you should configure your Table to look exactly like the one below: 
    ## ![Airtable Configuration](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image010.png)
-   - **IMPORTANT:** For your table, it should be called Table1 as default (if there is a space, right click and edit the name to say "Table1"). Additionally, you should only have two columns, one titled **Variables** (plural) and the other **Value** (singular). Underneath the **Variables** column, please write **magnitudes** and below that, write **frequencies**. (See image above for reference). 
-2. The next step is to find your API Key and BaseID of your Airtable. This can be found by clicking the **HELP** button at the top right of your Airtable and then selecting **API Documentation**. In this documentation, there should be a toggle to show your API key in the top right. Once you have located your information, we can transfer this to the Spatial Toolbox.
+   - **IMPORTANT:** The table must be named **Table1** (if there is a space, edit the name to remove the space so that it reads "Table1"). 
+   - Additionally, you should only have two columns, one titled **Variables** (plural) and the other **Value** (singular). Underneath the **Variables** column,  write **magnitudes** and below that, write **frequencies**. (See image above for reference). 
+2. The next step is to find the API Key and BaseID of the Airtable database. This can be found by clicking the **HELP** button at the top right of Airtable and then selecting **API Documentation**. In this documentation, there should be a toggle to show your API key in the top right. Once you have located your information, we can transfer this to the Spatial Toolbox.
    - Within your Spatial Toolbox folder (either SpatialToolbox-Mac-Interns or SpatialToolbox-Windows-Interns), double click the respective folders to naviate to the necessary file: ```vuforia-spatial-edge-server/addons/vuforia-spatial-core-addon/blocks/fft``` 
    - Open the ```index.js``` file and on lines 66-68 replace the the text on the right hand side with your informated. **Ex.** On the right side of **BASEID**, type "Your Unique BaseID" (**Note.** make sure to include the quotes as these are all strings)
    - Once you update the file, make sure to save and then close out the file
