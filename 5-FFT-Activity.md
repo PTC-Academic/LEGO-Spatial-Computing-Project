@@ -81,7 +81,6 @@ As you use the video above as reference, here are some specific steps to take to
    - When done, your FFT logic block should look like this:
       ## ![Numbers tool](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image006.png)
 
-
 7. Select the back arrow on the right side to exit the logic block. 
    - Still in the programming mode, make a connection going from the number tool to the logic block. As you make this connection you will notice four colors appearing on the logic block. The number tool should be our Input 1, so it should be connected to the blue color. 
    - The next step is to connect the accelerometer data from the SPIKE Prime to our Input 2, the green color. You can choose whether you want the X, Y, or Z accelerometer data
