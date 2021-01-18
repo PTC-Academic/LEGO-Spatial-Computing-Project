@@ -79,12 +79,12 @@ As you use the video above as reference, here are some specific steps to take to
    - We can then make a wired connection from the FFT logic block to an output. In the video, [Using the FFT in Vuforia Spatial Toolbox](https://youtu.be/DtDQxQUz03o), we use the yellow OUT.
    - To do this, click and drag your finger from the FFT block to the yellow out. 
    - When done, your FFT logic block should look like this:
-      ## ![Numbers tool](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image006.png)
+      ## ![Numbers tool](https://github.com/PTC-Academic/LEGO-Spatial-Computing-Project/blob/master/images/5-image012.png)
 
 7. Select the back arrow on the right side to exit the logic block. 
    - Still in the programming mode, make a connection going from the number tool to the logic block. As you make this connection you will notice four colors appearing on the logic block. The number tool should be our Input 1, so it should be connected to the blue color. 
    - The next step is to connect the accelerometer data from the SPIKE Prime to our Input 2, the green color. You can choose whether you want the X, Y, or Z accelerometer data
-   - After these inputs are connected, connect the output of the logic block (if you chose the yellow OUT, then it would be the yellow color) to the FFT Tool
+   - After these inputs are connected, connect the output of the logic block (if you chose the yellow OUT, then it would be the yellow color) to the FFT Tool. 
 8. Once you follow all of these steps, it should be ready to go! 
    - The Number Tool that is connected to the FFT logic block is for the **Sample Size**, which should be a power of 2
    - If your motor is not already running, you can drag in a number tool and connect it to the a SPIKE Prime motor to have it move at various speeds
